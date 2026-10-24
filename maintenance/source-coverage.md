@@ -11,7 +11,7 @@ Every source file below is fully transcribed. The last column describes the sepa
 | [Front matter, metadata, status, abstract, and original contents](../AAF.pdf#page=1) (pages 1–2) | [00-front-matter.md](../source/00-front-matter.md) | No separate framework front-matter page. |
 | [Section 1: Purpose](../AAF.pdf#page=2) (pages 2–3) | [01-purpose.md](../source/01-purpose.md) | [Framework page](../framework/01-purpose.md): empty placeholder. |
 | [Section 2: Scope and boundary of management](../AAF.pdf#page=3) (pages 3–4) | [02-scope.md](../source/02-scope.md) | [Framework page](../framework/02-scope.md): empty placeholder. |
-| [Section 3: Terminology conventions](../AAF.pdf#page=4) (page 4) | [03-terminology.md](../source/03-terminology.md) | [Framework page](../framework/03-terminology.md): empty placeholder. |
+| [Section 3: Terminology conventions](../AAF.pdf#page=4) (page 4) | [03-terminology.md](../source/03-terminology.md) | [Terminology](../framework/03-terminology.md): conventions summarized; six selected concepts and terms defined with source citations (see term coverage below). |
 | [Section 4: Framework Core introduction](../AAF.pdf#page=4) (pages 4–5) | [04-framework-core.md](../source/04-framework-core.md) | [Framework page](../framework/04-framework-core.md): empty placeholder. |
 | [Assign domain; Principle 1: Identity; controls 1.1–1.5](../AAF.pdf#page=6) (pages 6–9) | [principles/01-identity.md](../source/principles/01-identity.md) | [Identity](../framework/principles/01-identity.md): introduction transcribed; control bodies remain placeholders. |
 | [Assign; Principle 2: Sponsor; controls 2.1–2.5](../AAF.pdf#page=9) (pages 9–12) | [principles/02-sponsor.md](../source/principles/02-sponsor.md) | [Framework page](../framework/principles/02-sponsor.md): empty placeholder. |
@@ -25,6 +25,19 @@ Every source file below is fully transcribed. The last column describes the sepa
 | [Section 8: Framework Governance [to be developed]](../AAF.pdf#page=34) (pages 34–35) | [08-framework-governance.md](../source/08-framework-governance.md) | [Framework page](../framework/08-framework-governance.md): empty placeholder. |
 | [Appendix A: Normative terminology definitions](../AAF.pdf#page=36) (pages 36–42) | [appendices/a-terminology.md](../source/appendices/a-terminology.md) | [Framework page](../framework/appendices/a-terminology.md): empty placeholder. |
 | [Appendix B: Acknowledgments [to be developed]](../AAF.pdf#page=42) (page 42) | [appendices/b-acknowledgments.md](../source/appendices/b-acknowledgments.md) | [Framework page](../framework/appendices/b-acknowledgments.md): empty placeholder. |
+
+## Term coverage
+
+The [Terminology page](../framework/03-terminology.md) expands the Section 3 reading aid with six requested definitions. The first two are summaries of source descriptions, not new normative glossary entries. The remaining terms follow Appendix A, with additional context cited where used. The full derived Appendix A page remains empty.
+
+| Markdown source | Derived definition |
+| --- | --- |
+| [Abstract](../source/00-front-matter.md#abstract), [Section 1](../source/01-purpose.md), and [Section 5](../source/05-conformance-and-assessment.md) | [Agent Accountability](../framework/03-terminology.md#agent-accountability) |
+| [Section 1](../source/01-purpose.md), [Section 4](../source/04-framework-core.md), and [Section 6](../source/06-implementation-neutrality.md) | [Agent Accountability Framework](../framework/03-terminology.md#agent-accountability-framework) |
+| [Appendix A: Principle](../source/appendices/a-terminology.md#principle) and [Section 4](../source/04-framework-core.md) | [Principle](../framework/03-terminology.md#principle) |
+| [Appendix A: Registry](../source/appendices/a-terminology.md#registry) and [Section 6](../source/06-implementation-neutrality.md) | [Registry](../framework/03-terminology.md#registry) |
+| [Appendix A: Credential](../source/appendices/a-terminology.md#credential) and [controls 1.3](../source/principles/01-identity.md#control-1-3) and [1.4](../source/principles/01-identity.md#control-1-4) | [Credentials](../framework/03-terminology.md#credentials) |
+| [Appendix A: Agent identity](../source/appendices/a-terminology.md#agent-identity) | [Identity](../framework/03-terminology.md#identity) |
 
 ## Control coverage
 
@@ -84,6 +97,6 @@ No substantive departures from the PDF were made. The source preserves all secti
 
 Presentation changes are limited to Markdown headings and tables, joined wrapped lines, navigation, stable control anchors, linked cross-references, and provenance metadata. Appendix A's table becomes one heading per definition. The original duplicated period in [Section 3](../source/03-terminology.md) is retained. The original editor and steward attribution, internal-review status, and proposed license are preserved in the [front matter](../source/00-front-matter.md).
 
-The existing [Identity](../framework/principles/01-identity.md) introduction and scaffold metadata were checked against the complete source; its source links and transcription instructions now point to Markdown. Other derived framework pages remain empty. Proposed future departures must be recorded separately from transcription corrections.
+The existing [Identity](../framework/principles/01-identity.md) introduction and scaffold metadata were checked against the complete source; its source links and transcription instructions now point to Markdown. The [Terminology page](../framework/03-terminology.md) now defines the six selected terms mapped above. Other derived framework pages remain empty. Proposed future departures must be recorded separately from transcription corrections.
 
 Validation: the rendered source text matches all 17,756 whitespace-separated tokens of the PDF extraction in order, including punctuation, after removing editorial aids and restoring field-label punctuation. All 45 controls retain their three fields in order and their scope tags. Local links, Markdown anchors, and PDF page fragments were checked across all changed and added files. The existing `scripts/check-docs.py` is empty; it provides no automated validation. The transcription and link checks were run directly for this conversion.

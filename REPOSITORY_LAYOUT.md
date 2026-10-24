@@ -49,7 +49,7 @@ These pages are authored from [source/](source/README.md); their existence does 
 | [README.md](framework/README.md) | Contents and reading order, grouped by domain. |
 | [01-purpose.md](framework/01-purpose.md) | Purpose, audience, and intended outcomes. |
 | [02-scope.md](framework/02-scope.md) | Included and excluded subjects, plus the boundary of management. |
-| [03-terminology.md](framework/03-terminology.md) | Conventions for defined terms and conformance language; points to Appendix A for definitions. |
+| [03-terminology.md](framework/03-terminology.md) | Definitions of selected concepts and terms, with source links to Appendix A and relevant sections; explains defined terms and draft conformance language. |
 | [04-framework-core.md](framework/04-framework-core.md) | Domains, principle sequence, control structure, scope tags, and links to the principle pages. |
 | [principles/01-identity.md](framework/principles/01-identity.md) | Identity principle and its controls. |
 | [principles/02-sponsor.md](framework/principles/02-sponsor.md) | Sponsor principle and its controls. |
