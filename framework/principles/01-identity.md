@@ -4,102 +4,102 @@
 
 **Domain:** Assign — “Who is this, and who answers for it?”
 
-**Source:** [AAF.pdf, Section 4, Principle 1, pages 6–9](../../AAF.pdf#page=6), version 0.9.4 — Working Draft.
+**Source:** [Markdown source, Section 4, Principle 1](../../source/principles/01-identity.md), version 0.9.4 — Working Draft.
 
-**Status:** Scaffold. The introduction is transcribed from the PDF; control text remains to be transcribed.
+**Status:** Scaffold. The introduction is transcribed; control text remains to be copied from the complete Markdown source.
 
 *Who are you?*
 
 Every agent is a known, distinguishable actor in the organization, with a unique identity, one or more verifiable credentials bound to it, and a place in the registry. Identity is the foundation of the framework: none of the other principles can be evaluated for an agent that cannot be individually identified. Identity extends to agents created by agents and to agents operated by third parties: each is a distinguishable actor, or it is not permitted to act.
 
-Requirements are normative; Rationale and Assessment are informative in this draft ([AAF.pdf, Section 4, pages 4–5](../../AAF.pdf#page=4)). Apply the [Section 2 boundary rule](../../AAF.pdf#page=3) and [Appendix A definitions](../../AAF.pdf#page=36).
+Requirements are normative; Rationale and Assessment are informative in this draft ([source, Section 4](../../source/04-framework-core.md)). Apply the [Section 2 boundary rule](../../source/02-scope.md#boundary-of-management) and [Appendix A definitions](../../source/appendices/a-terminology.md).
 
 ## Control 1.1 — Unique, verifiable identity
 
 **Scope:** Generic
 
-**Source:** [AAF.pdf, Control 1.1, pages 6–7](../../AAF.pdf#page=6).
+**Source:** [Markdown source, Control 1.1](../../source/principles/01-identity.md#control-1-1).
 
 ### Requirement
 
-<!-- TODO: Transcribe the Requirement from PDF page 6, preserving control cross-references. -->
+<!-- TODO: Transcribe the Requirement from the corresponding Markdown source control, preserving control cross-references. -->
 
 ### Rationale
 
-<!-- TODO: Transcribe the Rationale from PDF page 6. -->
+<!-- TODO: Transcribe the Rationale from the corresponding Markdown source control. -->
 
 ### Assessment
 
-<!-- TODO: Transcribe the Assessment from PDF pages 6–7. -->
+<!-- TODO: Transcribe the Assessment from the corresponding Markdown source control. -->
 
 ## Control 1.2 — Complete registry
 
 **Scope:** Generic
 
-**Source:** [AAF.pdf, Control 1.2, page 7](../../AAF.pdf#page=7).
+**Source:** [Markdown source, Control 1.2](../../source/principles/01-identity.md#control-1-2).
 
 ### Requirement
 
-<!-- TODO: Transcribe the Requirement from PDF page 7, preserving control cross-references. -->
+<!-- TODO: Transcribe the Requirement from the corresponding Markdown source control, preserving control cross-references. -->
 
 ### Rationale
 
-<!-- TODO: Transcribe the Rationale from PDF page 7. -->
+<!-- TODO: Transcribe the Rationale from the corresponding Markdown source control. -->
 
 ### Assessment
 
-<!-- TODO: Transcribe the Assessment from PDF page 7. -->
+<!-- TODO: Transcribe the Assessment from the corresponding Markdown source control. -->
 
 ## Control 1.3 — Credential lifecycle
 
 **Scope:** Generic
 
-**Source:** [AAF.pdf, Control 1.3, pages 7–8](../../AAF.pdf#page=7).
+**Source:** [Markdown source, Control 1.3](../../source/principles/01-identity.md#control-1-3).
 
 ### Requirement
 
-<!-- TODO: Transcribe the Requirement from PDF pages 7–8, preserving control cross-references. -->
+<!-- TODO: Transcribe the Requirement from the corresponding Markdown source control, preserving control cross-references. -->
 
 ### Rationale
 
-<!-- TODO: Transcribe the Rationale from PDF page 8. -->
+<!-- TODO: Transcribe the Rationale from the corresponding Markdown source control. -->
 
 ### Assessment
 
-<!-- TODO: Transcribe the Assessment from PDF page 8. -->
+<!-- TODO: Transcribe the Assessment from the corresponding Markdown source control. -->
 
 ## Control 1.4 — Credential custody and mediation
 
 **Scope:** Generic
 
-**Source:** [AAF.pdf, Control 1.4, page 8](../../AAF.pdf#page=8).
+**Source:** [Markdown source, Control 1.4](../../source/principles/01-identity.md#control-1-4).
 
 ### Requirement
 
-<!-- TODO: Transcribe the Requirement from PDF page 8, preserving control cross-references. -->
+<!-- TODO: Transcribe the Requirement from the corresponding Markdown source control, preserving control cross-references. -->
 
 ### Rationale
 
-<!-- TODO: Transcribe the Rationale from PDF page 8. -->
+<!-- TODO: Transcribe the Rationale from the corresponding Markdown source control. -->
 
 ### Assessment
 
-<!-- TODO: Transcribe the Assessment from PDF page 8. -->
+<!-- TODO: Transcribe the Assessment from the corresponding Markdown source control. -->
 
 ## Control 1.5 — Verifiable action provenance
 
 **Scope:** Generic
 
-**Source:** [AAF.pdf, Control 1.5, page 9](../../AAF.pdf#page=9).
+**Source:** [Markdown source, Control 1.5](../../source/principles/01-identity.md#control-1-5).
 
 ### Requirement
 
-<!-- TODO: Transcribe the Requirement from PDF page 9, preserving control cross-references. -->
+<!-- TODO: Transcribe the Requirement from the corresponding Markdown source control, preserving control cross-references. -->
 
 ### Rationale
 
-<!-- TODO: Transcribe the Rationale from PDF page 9. -->
+<!-- TODO: Transcribe the Rationale from the corresponding Markdown source control. -->
 
 ### Assessment
 
-<!-- TODO: Transcribe the Assessment from PDF page 9. -->
+<!-- TODO: Transcribe the Assessment from the corresponding Markdown source control. -->

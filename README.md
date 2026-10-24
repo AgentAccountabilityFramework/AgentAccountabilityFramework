@@ -1,7 +1,7 @@
 # Agent Accountability Framework
 The Agent Accountability Framework (AAF) is an open framework for the accountability of AI agents acting with delegated authority.
 
-[Framework contents](framework/README.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
+[Framework contents](framework/README.md) · [Markdown source](source/README.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
 ## Why do we need an accountability framework?
 
@@ -15,7 +15,7 @@ The challenge is no longer simply getting agents to perform useful work. It's en
 
 The AAF is an open, vendor-neutral specification for governing AI agents through structures of accountability that an organization can define, enforce, and assess. It is here to give your organization a common, testable definition of what it means for an AI agent to be held accountable. It is written for the people who must answer for AI agents in production.
 
-The AAF defines six principles organized into three domains ([AAF.pdf, Section 4](AAF.pdf)):
+The AAF defines six principles organized into three domains ([source, Section 4](source/04-framework-core.md)):
 
 ### Assign
 
@@ -68,7 +68,7 @@ The AAF defines six principles organized into three domains ([AAF.pdf, Section 4
 
 ## Read the framework
 
-Some linked pages are placeholders awaiting content. The source is [AAF.pdf](AAF.pdf), available locally and excluded from version control.
+Some linked framework pages are placeholders awaiting content. The complete [Markdown source](source/README.md) is available for reading and repository authoring. It transcribes AAF version 0.9.4 — Working Draft; [AAF.pdf](AAF.pdf) is retained locally for provenance and excluded from version control.
 
 - [Purpose](framework/01-purpose.md)
 - [Scope](framework/02-scope.md)
