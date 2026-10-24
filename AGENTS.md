@@ -3,15 +3,15 @@
 ## Source of truth
 
 - Always review the [Markdown source index](source/README.md) and relevant files in [source/](source/) before writing, editing, or answering anything about the AAF. Read the relevant sections, complete controls, definitions, and linked cross-references; do not rely on memory or repository summaries.
-- The Markdown source is authoritative for repository authoring. It transcribes AAF version 0.9.4 — Working Draft; [framework/](framework/) contains derived pages that may be incomplete. If repository text conflicts with the source, identify the discrepancy and align it with the source. Label proposed departures explicitly; never present them as existing requirements or silently rewrite the source baseline.
+- The Markdown source is authoritative for repository authoring. It transcribes AAF version 0.9.4; [framework/](framework/) contains derived pages that may be incomplete. If repository text conflicts with the source, identify the discrepancy and align it with the source. Label proposed departures explicitly; never present them as existing requirements or silently rewrite the source baseline.
 - Use the Markdown source instead of the PDF for routine work. [AAF.pdf](AAF.pdf) is retained only for provenance, source-baseline updates, and suspected transcription errors; it remains excluded by [.gitignore](.gitignore). Request it only when such an audit requires it and it is unavailable or unreadable. Do not add it to version control without explicit authorization. Record source corrections in [source coverage](maintenance/source-coverage.md) and the changelog.
-- Preserve the [source draft status](source/00-front-matter.md#status-of-this-document) and unresolved sections. Do not invent requirements, assessment methods, governance decisions, release status, or licensing terms.
+- Treat the current AAF as final for authoring until explicitly superseded. Use direct, present-tense language in repository content and responses; omit provisional-status labels and pending-finalization caveats, even when the source uses them. This authoring convention overrides source-status wording for derived content. Preserve the original source transcription for provenance, and do not invent missing requirements, assessment methods, governance decisions, release events, or licensing terms.
 
 ## Framework fidelity
 
 - Preserve the domain grouping and principle order from [Section 4](source/04-framework-core.md): **Assign** — Identity, Sponsor; **Align** — Role, Authority; **Account** — Oversight, Recourse.
 - Preserve control IDs, titles, scope tags (`Generic`, `Internal`, `External`), and the separate Requirement, Rationale, and Assessment fields.
-- Requirements are normative; Rationale and Assessment are informative in the current draft ([Section 4](source/04-framework-core.md)). Preserve the normative effect of [Appendix A definitions](source/appendices/a-terminology.md) and the [Section 2 boundary rule](source/02-scope.md#boundary-of-management).
+- Requirements are normative; Rationale and Assessment are informative ([Section 4](source/04-framework-core.md)). Preserve the normative effect of [Appendix A definitions](source/appendices/a-terminology.md) and the [Section 2 boundary rule](source/02-scope.md#boundary-of-management).
 - Use the source's defined terminology. Preserve its scope exclusions and the rule that controls are satisfied within the organization's own boundary. Do not equate accountability with model safety or general security ([Section 2](source/02-scope.md), [Section 5](source/05-conformance-and-assessment.md), and [Appendix A](source/appendices/a-terminology.md)).
 
 ## Writing and linkbacks

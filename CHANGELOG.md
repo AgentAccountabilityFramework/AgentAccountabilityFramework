@@ -11,6 +11,7 @@
 
 ### Changed
 
+- Updated [authoring instructions](AGENTS.md#source-of-truth) to treat the current AAF as final until superseded and omit provisional-status qualifiers from future repository content and responses, regardless of [source-status wording](source/00-front-matter.md#status-of-this-document). This is an authoring convention; source text and control requirements are unchanged.
 - Shortened [Terminology](framework/03-terminology.md) to six one-sentence definitions with source links to the [Abstract](source/00-front-matter.md#abstract) and [Appendix A](source/appendices/a-terminology.md). Removed explanatory prose; no control requirements changed.
 
 - Switched [AGENTS.md](AGENTS.md) to use the Markdown source for routine authoring, reserving the PDF for provenance audits and source corrections. Documented the source directory in [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md), updated source links in [README.md](README.md) and the [Identity scaffold](framework/principles/01-identity.md), and expanded [source coverage](maintenance/source-coverage.md) to distinguish the complete source transcription from incomplete derived pages. Source basis: [Sections 2–4](source/04-framework-core.md), [Section 6](source/06-implementation-neutrality.md), and [Appendix A](source/appendices/a-terminology.md).
