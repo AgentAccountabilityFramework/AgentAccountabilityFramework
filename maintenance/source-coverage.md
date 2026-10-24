@@ -1,6 +1,6 @@
 # Source coverage
 
-Authoring source: [AAF version 0.9.4](../source/README.md). All 42 original pages are transcribed; the [provenance record](../source/README.md#transcription-and-provenance) identifies the original document and conversion conventions. Page numbers below refer to the original document.
+Authoring source: [AAF Markdown source](../source/README.md). All 42 original pages are transcribed; the [provenance record](../source/README.md#transcription-and-provenance) identifies the original document and conversion conventions. Page numbers below refer to the original document.
 
 ## Section coverage
 

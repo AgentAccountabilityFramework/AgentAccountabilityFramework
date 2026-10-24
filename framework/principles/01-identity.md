@@ -4,11 +4,19 @@
 
 **Domain:** Assign — “Who is this, and who answers for it?”
 
-**Source:** [Section 4, Principle 1](../../source/principles/01-identity.md#principle-1-identity), version 0.9.4.
+**Source:** [Section 4, Principle 1](../../source/principles/01-identity.md#principle-1-identity).
 
 *Who are you?*
 
-Every agent is a known, distinguishable actor in the organization, with a unique identity, one or more verifiable credentials bound to it, and a place in the registry. Identity is the foundation of the framework: none of the other principles can be evaluated for an agent that cannot be individually identified. Identity extends to agents created by agents and to agents operated by third parties: each is a distinguishable actor, or it is not permitted to act.
+Every agent is:
+- a known, distinguishable actor in the organization
+- has a unique identity
+- one or more verifiable credentials bound to it
+- a place in the registry
+
+Identity is the foundation of the framework: none of the other principles can be evaluated for an agent that cannot be individually identified.
+
+It applies to both agents you own and agents you use that are controled by third parties.
 
 Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Apply the [Section 2 boundary rule](../../source/02-scope.md#boundary-of-management) and [Appendix A definitions](../../source/appendices/a-terminology.md).
 

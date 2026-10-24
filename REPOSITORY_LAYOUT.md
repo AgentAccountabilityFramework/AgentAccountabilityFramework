@@ -17,7 +17,7 @@ The [source/](source/README.md) directory holds the complete Markdown source use
 
 ## Source
 
-Use the [AAF version 0.9.4 Markdown source](source/README.md) for routine authoring. The [provenance record](source/README.md#transcription-and-provenance) documents the original document and transcription conventions. Source changes and derived-page coverage are tracked separately in [source coverage](maintenance/source-coverage.md).
+Use the [AAF Markdown source](source/README.md) for routine authoring. The [provenance record](source/README.md#transcription-and-provenance) documents the original document and transcription conventions. Source changes and derived-page coverage are tracked separately in [source coverage](maintenance/source-coverage.md).
 
 | Path | Purpose |
 | --- | --- |
