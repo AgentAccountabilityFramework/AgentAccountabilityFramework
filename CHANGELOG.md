@@ -4,6 +4,7 @@
 
 ### Added
 
+- Scaffolded [Identity](framework/principles/01-identity.md) from [AAF.pdf, Principle 1, pages 6–9](AAF.pdf#page=6): transcribed the introduction and added controls 1.1–1.5 with scope tags, source links, and Requirement, Rationale, and Assessment placeholders. Added a [source coverage record](maintenance/source-coverage.md); full control text remains pending.
 - Added [repository instructions](AGENTS.md) requiring PDF review, source linkbacks, framework fidelity, vendor-neutral writing, changelog maintenance, detailed commits, and human-only development attribution. Grounded in [AAF.pdf, Sections 2–6 and Appendix A](AAF.pdf); no framework requirements changed.
 
 ### Changed
