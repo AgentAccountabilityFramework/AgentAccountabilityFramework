@@ -13,7 +13,11 @@ The challenge is no longer simply getting agents to perform useful work. It's en
 
 The AAF is an open, vendor-neutral specification for governing AI agents through structures of accountability that an organization can define, enforce, and assess. It is here to give your organization a common, testable definition of what it means for an AI agent to be held accountable. It is written for the people who must answer for AI agents in production.
 
-The AAF defines six principles:
+The AAF defines six principles organized into three domains ([AAF.pdf, Section 4](AAF.pdf)):
+
+### Assign
+
+*Who is this, and who answers for it?*
 
 **Identity** (*Who are you?*)
 
@@ -26,6 +30,10 @@ The AAF defines six principles:
 - Every agent must have a named human sponsor who is accountable for its existence, purpose, authority, and actions.
 - Accountability must remain continuous throughout the agent's lifecycle (again, including agents of other agents or third-party agents).
 
+### Align
+
+*What is it for, and what may it do?*
+
 **Role** (*What are you here for?*)
 
 - Every agent must have a documented role defining its purpose, expected outcomes, measurable success criteria, budget, autonomy level, and operational boundaries.
@@ -36,6 +44,10 @@ The AAF defines six principles:
 - Authority derives from its assigned role and is granted through verifiable delegation.
 - Authority is time-limited and revocable.
 - Agents can not expand their own authority or obtain additional permissions.
+
+### Account
+
+*Is it doing what we expect, and what happens when it isn’t?*
 
 **Oversight** (*Are you doing what we expect?*)
 
