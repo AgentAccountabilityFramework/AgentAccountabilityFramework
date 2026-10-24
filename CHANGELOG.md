@@ -11,6 +11,8 @@
 
 ### Changed
 
+- Shortened [Terminology](framework/03-terminology.md) to six one-sentence definitions with source links to the [Abstract](source/00-front-matter.md#abstract) and [Appendix A](source/appendices/a-terminology.md). Removed explanatory prose; no control requirements changed.
+
 - Switched [AGENTS.md](AGENTS.md) to use the Markdown source for routine authoring, reserving the PDF for provenance audits and source corrections. Documented the source directory in [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md), updated source links in [README.md](README.md) and the [Identity scaffold](framework/principles/01-identity.md), and expanded [source coverage](maintenance/source-coverage.md) to distinguish the complete source transcription from incomplete derived pages. Source basis: [Sections 2–4](source/04-framework-core.md), [Section 6](source/06-implementation-neutrality.md), and [Appendix A](source/appendices/a-terminology.md).
 - Added links in [README.md](README.md) to existing principle pages, framework sections, contribution guides, and repository and maintenance documents, including placeholders. Navigation follows [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) and [AAF.pdf, Contents and Section 4](AAF.pdf); framework content is unchanged.
 - Grouped the six principles in [README.md](README.md#the-aaf-summarized) under Assign, Align, and Account, with each domain's guiding question, following [AAF.pdf, Section 4](AAF.pdf). Principle summaries are unchanged.

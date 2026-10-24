@@ -11,7 +11,7 @@ Every source file below is fully transcribed. The last column describes the sepa
 | [Front matter, metadata, status, abstract, and original contents](../AAF.pdf#page=1) (pages 1–2) | [00-front-matter.md](../source/00-front-matter.md) | No separate framework front-matter page. |
 | [Section 1: Purpose](../AAF.pdf#page=2) (pages 2–3) | [01-purpose.md](../source/01-purpose.md) | [Framework page](../framework/01-purpose.md): empty placeholder. |
 | [Section 2: Scope and boundary of management](../AAF.pdf#page=3) (pages 3–4) | [02-scope.md](../source/02-scope.md) | [Framework page](../framework/02-scope.md): empty placeholder. |
-| [Section 3: Terminology conventions](../AAF.pdf#page=4) (page 4) | [03-terminology.md](../source/03-terminology.md) | [Terminology](../framework/03-terminology.md): conventions summarized; six selected concepts and terms defined with source citations (see term coverage below). |
+| [Section 3: Terminology conventions](../AAF.pdf#page=4) (page 4) | [03-terminology.md](../source/03-terminology.md) | [Terminology](../framework/03-terminology.md): six concise definitions with source citations (see term coverage below). |
 | [Section 4: Framework Core introduction](../AAF.pdf#page=4) (pages 4–5) | [04-framework-core.md](../source/04-framework-core.md) | [Framework page](../framework/04-framework-core.md): empty placeholder. |
 | [Assign domain; Principle 1: Identity; controls 1.1–1.5](../AAF.pdf#page=6) (pages 6–9) | [principles/01-identity.md](../source/principles/01-identity.md) | [Identity](../framework/principles/01-identity.md): introduction transcribed; control bodies remain placeholders. |
 | [Assign; Principle 2: Sponsor; controls 2.1–2.5](../AAF.pdf#page=9) (pages 9–12) | [principles/02-sponsor.md](../source/principles/02-sponsor.md) | [Framework page](../framework/principles/02-sponsor.md): empty placeholder. |
@@ -28,15 +28,15 @@ Every source file below is fully transcribed. The last column describes the sepa
 
 ## Term coverage
 
-The [Terminology page](../framework/03-terminology.md) expands the Section 3 reading aid with six requested definitions. The first two are summaries of source descriptions, not new normative glossary entries. The remaining terms follow Appendix A, with additional context cited where used. The full derived Appendix A page remains empty.
+The [Terminology page](../framework/03-terminology.md) provides six one-sentence summaries with source links; these do not replace the full source definitions. The full derived Appendix A page remains empty.
 
 | Markdown source | Derived definition |
 | --- | --- |
-| [Abstract](../source/00-front-matter.md#abstract), [Section 1](../source/01-purpose.md), and [Section 5](../source/05-conformance-and-assessment.md) | [Agent Accountability](../framework/03-terminology.md#agent-accountability) |
-| [Section 1](../source/01-purpose.md), [Section 4](../source/04-framework-core.md), and [Section 6](../source/06-implementation-neutrality.md) | [Agent Accountability Framework](../framework/03-terminology.md#agent-accountability-framework) |
-| [Appendix A: Principle](../source/appendices/a-terminology.md#principle) and [Section 4](../source/04-framework-core.md) | [Principle](../framework/03-terminology.md#principle) |
-| [Appendix A: Registry](../source/appendices/a-terminology.md#registry) and [Section 6](../source/06-implementation-neutrality.md) | [Registry](../framework/03-terminology.md#registry) |
-| [Appendix A: Credential](../source/appendices/a-terminology.md#credential) and [controls 1.3](../source/principles/01-identity.md#control-1-3) and [1.4](../source/principles/01-identity.md#control-1-4) | [Credentials](../framework/03-terminology.md#credentials) |
+| [Abstract](../source/00-front-matter.md#abstract) | [Agent Accountability](../framework/03-terminology.md#agent-accountability) |
+| [Abstract](../source/00-front-matter.md#abstract) | [Agent Accountability Framework](../framework/03-terminology.md#agent-accountability-framework) |
+| [Appendix A: Principle](../source/appendices/a-terminology.md#principle) | [Principle](../framework/03-terminology.md#principle) |
+| [Appendix A: Registry](../source/appendices/a-terminology.md#registry) | [Registry](../framework/03-terminology.md#registry) |
+| [Appendix A: Credential](../source/appendices/a-terminology.md#credential) | [Credentials](../framework/03-terminology.md#credentials) |
 | [Appendix A: Agent identity](../source/appendices/a-terminology.md#agent-identity) | [Identity](../framework/03-terminology.md#identity) |
 
 ## Control coverage
