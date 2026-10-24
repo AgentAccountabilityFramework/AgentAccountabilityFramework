@@ -17,7 +17,7 @@ The [source/](source/README.md) directory holds the complete Markdown source use
 
 ## Source
 
-Use these files instead of the PDF for routine authoring. They transcribe [AAF.pdf](AAF.pdf), version 0.9.4 — Working Draft, including its front matter and unfinished sections. The PDF remains a local, ignored provenance artifact; [source/README.md](source/README.md#transcription-and-provenance) records its fingerprint and the transcription conventions. Source changes and derived-page coverage are tracked separately in [source coverage](maintenance/source-coverage.md).
+Use the [AAF version 0.9.4 Markdown source](source/README.md) for routine authoring. The [provenance record](source/README.md#transcription-and-provenance) documents the original document and transcription conventions. Source changes and derived-page coverage are tracked separately in [source coverage](maintenance/source-coverage.md).
 
 | Path | Purpose |
 | --- | --- |
@@ -33,12 +33,12 @@ Use these files instead of the PDF for routine authoring. They transcribe [AAF.p
 | [source/principles/04-authority.md](source/principles/04-authority.md) | Principle 4 and controls 4.1–4.14 (Align). |
 | [source/principles/05-oversight.md](source/principles/05-oversight.md) | Account domain introduction; Principle 5 and controls 5.1–5.8. |
 | [source/principles/06-recourse.md](source/principles/06-recourse.md) | Principle 6 and controls 6.1–6.5 (Account). |
-| [source/05-conformance-and-assessment.md](source/05-conformance-and-assessment.md) | Section 5: draft positions and unfinished assessment methodology. |
+| [source/05-conformance-and-assessment.md](source/05-conformance-and-assessment.md) | Section 5: Conformance and Assessment. |
 | [source/06-implementation-neutrality.md](source/06-implementation-neutrality.md) | Section 6: Implementation Neutrality. |
 | [source/07-relationship-to-standards.md](source/07-relationship-to-standards.md) | Section 7: Relationship to Existing Standards. |
-| [source/08-framework-governance.md](source/08-framework-governance.md) | Section 8: unfinished governance text. |
+| [source/08-framework-governance.md](source/08-framework-governance.md) | Section 8: Framework Governance. |
 | [source/appendices/a-terminology.md](source/appendices/a-terminology.md) | Appendix A: definitions, each with a heading anchor. |
-| [source/appendices/b-acknowledgments.md](source/appendices/b-acknowledgments.md) | Appendix B: original acknowledgment placeholder. |
+| [source/appendices/b-acknowledgments.md](source/appendices/b-acknowledgments.md) | Appendix B: Acknowledgments. |
 
 ## Framework
 

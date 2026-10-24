@@ -4,21 +4,19 @@
 
 **Domain:** Assign — “Who is this, and who answers for it?”
 
-**Source:** [Markdown source, Section 4, Principle 1](../../source/principles/01-identity.md), version 0.9.4 — Working Draft.
-
-**Status:** Scaffold. The introduction is transcribed; control text remains to be copied from the complete Markdown source.
+**Source:** [Section 4, Principle 1](../../source/principles/01-identity.md#principle-1-identity), version 0.9.4.
 
 *Who are you?*
 
 Every agent is a known, distinguishable actor in the organization, with a unique identity, one or more verifiable credentials bound to it, and a place in the registry. Identity is the foundation of the framework: none of the other principles can be evaluated for an agent that cannot be individually identified. Identity extends to agents created by agents and to agents operated by third parties: each is a distinguishable actor, or it is not permitted to act.
 
-Requirements are normative; Rationale and Assessment are informative in this draft ([source, Section 4](../../source/04-framework-core.md)). Apply the [Section 2 boundary rule](../../source/02-scope.md#boundary-of-management) and [Appendix A definitions](../../source/appendices/a-terminology.md).
+Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Apply the [Section 2 boundary rule](../../source/02-scope.md#boundary-of-management) and [Appendix A definitions](../../source/appendices/a-terminology.md).
 
 ## Control 1.1 — Unique, verifiable identity
 
 **Scope:** Generic
 
-**Source:** [Markdown source, Control 1.1](../../source/principles/01-identity.md#control-1-1).
+**Source:** [Control 1.1](../../source/principles/01-identity.md#control-1-1).
 
 ### Requirement
 
@@ -36,7 +34,7 @@ Requirements are normative; Rationale and Assessment are informative in this dra
 
 **Scope:** Generic
 
-**Source:** [Markdown source, Control 1.2](../../source/principles/01-identity.md#control-1-2).
+**Source:** [Control 1.2](../../source/principles/01-identity.md#control-1-2).
 
 ### Requirement
 
@@ -54,7 +52,7 @@ Requirements are normative; Rationale and Assessment are informative in this dra
 
 **Scope:** Generic
 
-**Source:** [Markdown source, Control 1.3](../../source/principles/01-identity.md#control-1-3).
+**Source:** [Control 1.3](../../source/principles/01-identity.md#control-1-3).
 
 ### Requirement
 
@@ -72,7 +70,7 @@ Requirements are normative; Rationale and Assessment are informative in this dra
 
 **Scope:** Generic
 
-**Source:** [Markdown source, Control 1.4](../../source/principles/01-identity.md#control-1-4).
+**Source:** [Control 1.4](../../source/principles/01-identity.md#control-1-4).
 
 ### Requirement
 
@@ -90,7 +88,7 @@ Requirements are normative; Rationale and Assessment are informative in this dra
 
 **Scope:** Generic
 
-**Source:** [Markdown source, Control 1.5](../../source/principles/01-identity.md#control-1-5).
+**Source:** [Control 1.5](../../source/principles/01-identity.md#control-1-5).
 
 ### Requirement
 

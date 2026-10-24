@@ -68,7 +68,7 @@ The AAF defines six principles organized into three domains ([source, Section 4]
 
 ## Read the framework
 
-Some linked framework pages are placeholders awaiting content. The complete [Markdown source](source/README.md) is available for reading and repository authoring. It transcribes AAF version 0.9.4 — Working Draft; [AAF.pdf](AAF.pdf) is retained locally for provenance and excluded from version control.
+Read the complete [AAF version 0.9.4 source](source/README.md). The [source coverage map](maintenance/source-coverage.md) records the content available in each repository page.
 
 - [Purpose](framework/01-purpose.md)
 - [Scope](framework/02-scope.md)
