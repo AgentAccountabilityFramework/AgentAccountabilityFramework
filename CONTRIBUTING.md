@@ -1,54 +1,24 @@
----
-title: Contributing to the Agent Accountability Framework
----
+# Contributing to the Agent Accountability Framework
 
-First and foremost, thank you for taking the time to contribute to the AAF. The purpose of this framework has always been to provide a resource to the community, and your efforts in strengthening that are appreciated.
+Thank you for helping improve the AAF. Questions, corrections, examples of ambiguity, and proposals are welcome; you do not need to write a complete solution to participate. Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) in project spaces.
 
-All types of contributions are encouraged. Please make sure you have a clear understanding of the framework before providing your own contributions to ensure accuracy and continuity throughout; and if something isn't clear to you, feel free to open an issue so we can review.
+## Find a starting point
 
-> If you want to contribute but don't have the time to write, there are other ways to support the effort:
-> - Star the project
-> - Let your network know about it and how it has helped you
-> - Reference this project in the accompanying documentation of your own agents
+Read the [framework source](source/README.md) and the relevant sections and controls before proposing a change. The [repository layout](REPOSITORY_LAYOUT.md) explains where content belongs. If something is confusing, an issue describing what you tried to understand is useful on its own.
 
-## Table of Contents
+- **Correct an error:** identify the passage and explain the correction. For factual claims, provide a reliable source.
+- **Suggest a change or addition:** describe the problem, who it affects, and the outcome you propose. See [proposing changes](contributing/proposing-changes.md).
+- **Ask a question:** open an issue with the relevant passage and your question.
+- **Contribute an edit:** open a pull request with a focused change and enough context for reviewers to evaluate it.
 
-- [Code of Conduct](#code-of-conduct)
-- [I'd like to correct an error](#error-correction)
-- [I'd like to revise a part of the framework](#revisions)
-- [I'd like to expand the framework](#expansion)
-- [I just want to report an issue](#reporting)
-- [AI Usage Guidelines](#ai)
+For a substantial change, consider opening an issue first so others can discuss the approach before you invest in a full edit. Issues and pull requests are public: do not include confidential information, personal data, or sensitive incident details.
 
-## Code of Conduct
+## Prepare a pull request
 
-By participating, you agree to:
+1. Create a branch or fork and make your changes. Keep unrelated changes separate.
+2. Follow the [editorial guide](contributing/editorial-guide.md), and review the [AI-assisted contributions guide](contributing/ai-assisted-contributions.md) if applicable.
+3. Explain what changed and why, link any related issue, and identify affected source sections and controls. Distinguish a proposed change to the framework from a correction to its transcription or a clarification of a derived page.
+4. Update [CHANGELOG.md](CHANGELOG.md) under Unreleased. Check links and formatting, run `git diff --check`, and run any applicable, implemented repository checks. Describe what you checked and any limitations in the pull request.
+5. Respond to review comments and update the proposal as needed. Maintainers may ask for revisions or decline a change; discussion of the reasons helps everyone understand the decision.
 
-- **Be mindful of your language.** The following are prohibited:
-    - Offensive comments related to protected status and identity
-    - Threats and intimidation
-    - Scams and spam
-    - Unsolicited private messaging
-    - Sexually explicit or violent material
-
-- **Be respectful and considerate.**
-    - Disagreement is not a reason to attack someone else.
-    - The framework and its community only work if we all work together.
-    - Approach each situation with patience and care.
-    - Think about how your contribution will impact others.
-
-If you believe someone has violated our code of conduct, we ask that you report it by emailing TODO. Please include your name, a description of the incident, and any relevant links or screenshots. While we may not follow up directly with you, we review and action on every request received as deemed appropriate.
-
-## Error Correction
-
-- **Factual incorrectness**
-    - Please ensure you cite your sources when submitting a correction.
-- **Typos and grammatical errors**
-
-## Revisions
-
-## Expansions
-
-## Reporting
-
-## AI
+See [repository governance](GOVERNANCE.md) for the distinction between repository review and governance of the framework itself. The repository's [LICENSE](LICENSE) file does not yet contain licensing terms. Do not submit material you do not have permission to contribute.
