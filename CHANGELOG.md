@@ -4,6 +4,8 @@
 
 ### Added
 
+- Completed the [Scope page](framework/02-scope.md) from [Section 2: Scope](source/02-scope.md#2-scope), covering included agents, exclusions, and the distinction between agent accountability and general security. Preserved the complete [boundary rule](source/02-scope.md#boundary-of-management), including its control references and its normative effect under [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls). Updated [source coverage](maintenance/source-coverage.md). No control requirements changed.
+
 - Completed the [Purpose page](framework/01-purpose.md) from [Section 1: Purpose](source/01-purpose.md#1-purpose), covering the framework's purpose, audience, intended outcomes, and freedom of implementation. Updated [source coverage](maintenance/source-coverage.md). No control requirements changed.
 
 - Completed the six [principle pages](framework/README.md) and controls 1.1–6.5 from the [source principles](source/README.md#control-index), preserving scope tags and all Requirement, Rationale, and Assessment text. Added concise introductions and source links, and updated [source coverage](maintenance/source-coverage.md). No control requirements changed.
