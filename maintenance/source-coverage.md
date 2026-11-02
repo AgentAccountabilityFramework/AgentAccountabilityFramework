@@ -9,7 +9,7 @@ Every source file below is fully transcribed. The last column describes the sepa
 | Source section and original pages | Markdown source | Derived destination and status |
 | --- | --- | --- |
 | [Front matter, metadata, status, abstract, and original contents](../source/00-front-matter.md) (pages 1–2) | [00-front-matter.md](../source/00-front-matter.md) | No separate framework front-matter page. |
-| [Section 1: Purpose](../source/01-purpose.md) (pages 2–3) | [01-purpose.md](../source/01-purpose.md) | [Framework page](../framework/01-purpose.md): empty. |
+| [Section 1: Purpose](../source/01-purpose.md) (pages 2–3) | [01-purpose.md](../source/01-purpose.md) | [Purpose](../framework/01-purpose.md): purpose, audience, and intended outcomes, with a source link. |
 | [Section 2: Scope and boundary of management](../source/02-scope.md) (pages 3–4) | [02-scope.md](../source/02-scope.md) | [Framework page](../framework/02-scope.md): empty. |
 | [Section 3: Terminology conventions](../source/03-terminology.md) (page 4) | [03-terminology.md](../source/03-terminology.md) | [Terminology](../framework/03-terminology.md): six concise definitions with source citations (see term coverage below). |
 | [Section 4: Framework Core introduction](../source/04-framework-core.md) (pages 4–5) | [04-framework-core.md](../source/04-framework-core.md) | [Framework page](../framework/04-framework-core.md): empty. |
@@ -97,7 +97,7 @@ No substantive departures from the PDF were made. The source preserves all secti
 
 Presentation changes are limited to Markdown headings and tables, joined wrapped lines, navigation, stable control anchors, linked cross-references, and provenance metadata. Appendix A's table becomes one heading per definition. The original duplicated period in [Section 3](../source/03-terminology.md) is retained. Original attribution and document metadata are preserved in the [front matter](../source/00-front-matter.md).
 
-The six derived principle pages contain concise introductions and all 45 complete controls, with source links; control wording is retained from the source. The [Terminology page](../framework/03-terminology.md) defines the six selected terms mapped above. Other derived framework section and appendix pages remain empty. Proposed future departures must be recorded separately from transcription corrections.
+The six derived principle pages contain concise introductions and all 45 complete controls, with source links; control wording is retained from the source. The [Purpose page](../framework/01-purpose.md) summarizes the purpose, audience, and intended outcomes from [Section 1](../source/01-purpose.md#1-purpose), including the organization's choice of implementation. The [Terminology page](../framework/03-terminology.md) defines the six selected terms mapped above. Other derived framework section and appendix pages remain empty. Proposed future departures must be recorded separately from transcription corrections.
 
 Validation: the rendered source text matches all 17,756 whitespace-separated tokens of the PDF extraction in order, including punctuation, after removing editorial aids and restoring field-label punctuation. All 45 controls retain their three fields in order and their scope tags. Local links, Markdown anchors, and PDF page fragments were checked across all changed and added files. The existing `scripts/check-docs.py` is empty; it provides no automated validation. The transcription and link checks were run directly for this conversion.
 

@@ -4,6 +4,8 @@
 
 ### Added
 
+- Completed the [Purpose page](framework/01-purpose.md) from [Section 1: Purpose](source/01-purpose.md#1-purpose), covering the framework's purpose, audience, intended outcomes, and freedom of implementation. Updated [source coverage](maintenance/source-coverage.md). No control requirements changed.
+
 - Completed the six [principle pages](framework/README.md) and controls 1.1–6.5 from the [source principles](source/README.md#control-index), preserving scope tags and all Requirement, Rationale, and Assessment text. Added concise introductions and source links, and updated [source coverage](maintenance/source-coverage.md). No control requirements changed.
 
 - Completed the [contribution](CONTRIBUTING.md), [conduct](CODE_OF_CONDUCT.md), [governance](GOVERNANCE.md), [proposal](contributing/proposing-changes.md), [editorial](contributing/editorial-guide.md), [AI assistance](contributing/ai-assisted-contributions.md), [moderation](maintenance/moderation.md), and [release](maintenance/releases.md) guides. Documented the missing private conduct reporting contact without inventing one, and distinguished repository practices from [framework governance](source/08-framework-governance.md). No framework requirements changed.
