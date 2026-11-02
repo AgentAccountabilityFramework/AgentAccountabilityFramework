@@ -1,12 +1,19 @@
 # Purpose
 
-The Agent Accountability Framework (AAF) gives organizations a common, testable definition of what it means for an AI agent to be accountable.
+The Agent Accountability Framework (AAF) defines what it means for an AI agent to be accountable through requirements your organization can test.
 
-It is written for the people who must answer for agents in production: security and identity leaders, platform and API teams, risk and compliance functions, and the executives who sponsor agent deployments.
+It is written for the people who must answer for agents in production: security and identity leaders, platform and API teams, risk and compliance teams, and the executives who sponsor agent deployments.
 
-An agent acting with delegated authority must be identified, sponsored, given a role, granted bounded authority, overseen, and subject to recourse. The framework expresses these outcomes in terms that can be implemented and audited in technical systems.
+For agents acting with delegated authority, your organization must:
 
-Organizations choose the processes, technologies, and architecture used to meet these outcomes.
+- **[Identity](../source/principles/01-identity.md#principle-1-identity):** Identify each agent as distinct from every other agent and human user.
+- **[Sponsor](../source/principles/02-sponsor.md#principle-2-sponsor):** Name the human who answers for the agent.
+- **[Role](../source/principles/03-role.md#principle-3-role):** Define the agent's job and the limits of that job.
+- **[Authority](../source/principles/04-authority.md#principle-4-authority):** Set and enforce limits on the information it can access and the actions it can take.
+- **[Oversight](../source/principles/05-oversight.md#principle-5-oversight):** Record what it does and check whether it is doing its job.
+- **[Recourse](../source/principles/06-recourse.md#principle-6-recourse):** Have ways to stop it from acting in your organization and respond to the effects of its actions.
+
+The framework describes these requirements so they can be put into practice and audited in technical systems. Your organization chooses the processes, technologies, and architecture it uses to meet them.
 
 Source: [Section 1: Purpose](../source/01-purpose.md#1-purpose).
 

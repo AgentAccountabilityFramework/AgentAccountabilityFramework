@@ -21,6 +21,8 @@
 
 ### Changed
 
+- Rewrote [Purpose](framework/01-purpose.md) and [Framework Core](framework/04-framework-core.md) in direct language, with concrete principle summaries and explanations of formal terms. Preserved the meaning of [Section 1](source/01-purpose.md#1-purpose), [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), the [boundary rule](source/02-scope.md#boundary-of-management), and the [Appendix A definitions](source/appendices/a-terminology.md#appendix-a-terminology). Updated [source coverage](maintenance/source-coverage.md). No control requirements changed.
+
 - Rewrote the [README](README.md) introduction and principle summaries for clarity and alignment with [scope](source/02-scope.md), [Section 4](source/04-framework-core.md), and the linked source principles; removed unsupported or overly broad claims.
 
 - Removed version numbers from AAF citations and source notes outside `source/` and recorded the convention in [AGENTS.md](AGENTS.md#writing-and-linkbacks). Included the existing introduction edits in [Identity](framework/principles/01-identity.md), based on [Section 4, Principle 1](source/principles/01-identity.md#principle-1-identity). Source files and control requirements are unchanged.
