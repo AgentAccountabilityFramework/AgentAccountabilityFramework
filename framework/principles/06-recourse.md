@@ -1,14 +1,14 @@
 # Principle 6: Recourse
 
-[Framework contents](../README.md) · [Previous: Oversight](05-oversight.md)
+[Framework contents](../README.md) · [Previous: Oversight](05-oversight.md) · [Next: Conformance and Assessment](../05-conformance-and-assessment.md)
 
 **Domain:** Account
 
 **Source:** [Section 4, Principle 6](../../source/principles/06-recourse.md#principle-6-recourse).
 
-Recourse gives the organization a way to stop agents, contain or reverse actions, escalate incidents, and make an explicit decision about reinstatement. It also covers decommissioning and dependencies, for individual agents and agent classes. This organizational recourse is distinct from recourse for people affected by automated decisions, which is outside the framework’s scope.
+Have a way to stop agents, contain or reverse the effects of their actions, and escalate an incident. Decide explicitly whether an agent can return to operation, and retire it completely when it is no longer needed. These measures cover individual agents and agent classes, with attention to agents that depend on them. Here, recourse means your organization's ability to act on its agents. Redress for people affected by automated decisions is outside the framework's scope.
 
-Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Read these controls with the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md).
+The Requirement states what must be met. Rationale explains why, and Assessment describes supporting evidence; both provide guidance ([Section 4](../../source/04-framework-core.md#4-the-framework-core-principles-and-controls)). Apply the controls using the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md#appendix-a-terminology).
 
 <a id="control-6-1"></a>
 

@@ -1,14 +1,14 @@
 # Principle 1: Identity
 
-[Framework contents](../README.md) · [Next: Sponsor](02-sponsor.md)
+[Framework contents](../README.md) · [Previous: Framework Core](../04-framework-core.md) · [Next: Sponsor](02-sponsor.md)
 
 **Domain:** Assign
 
 **Source:** [Section 4, Principle 1](../../source/principles/01-identity.md#principle-1-identity).
 
-Every agent has a distinct identity, verifiable credentials bound to it, and a place in the registry. Identity makes it possible to attribute actions to an agent and evaluate the other principles. It applies to spawned and external agents as well as agents the organization operates.
+You must be able to identify each agent separately from every human and every other agent. Give it a place in the registry and verifiable credentials tied to its identity. This lets you attribute its actions and evaluate the other principles. The same requirement covers agents created by other agents and agents operated by third parties.
 
-Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Read these controls with the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md).
+The Requirement states what must be met. Rationale explains why, and Assessment describes supporting evidence; both provide guidance ([Section 4](../../source/04-framework-core.md#4-the-framework-core-principles-and-controls)). Apply the controls using the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md#appendix-a-terminology).
 
 <a id="control-1-1"></a>
 

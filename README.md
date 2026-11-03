@@ -1,6 +1,6 @@
 # Agent Accountability Framework
 
-The Agent Accountability Framework (AAF) describes how organizations can hold AI agents accountable when they act with delegated authority. It is vendor-neutral and describes outcomes without prescribing how to implement them ([purpose](source/01-purpose.md), [implementation neutrality](source/06-implementation-neutrality.md)).
+The Agent Accountability Framework (AAF) helps your organization establish who each AI agent is, who answers for it, what it may do, and how to stop it. It turns those questions into requirements you can test. You choose how to meet them ([Purpose](source/01-purpose.md#1-purpose), [Implementation Neutrality](source/06-implementation-neutrality.md#6-implementation-neutrality)).
 
 [Framework contents](framework/README.md) · [Markdown source](source/README.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
@@ -10,15 +10,15 @@ The AAF covers agents acting in or on behalf of an organization, including inter
 
 The framework organizes its six principles into three domains ([Section 4](source/04-framework-core.md)):
 
-- **Assign:** [Identity](source/principles/01-identity.md#principle-1-identity) establishes the agent as a distinguishable actor; [Sponsor](source/principles/02-sponsor.md#principle-2-sponsor) establishes human accountability.
-- **Align:** [Role](source/principles/03-role.md#principle-3-role) defines what the agent is meant to do; [Authority](source/principles/04-authority.md#principle-4-authority) defines the information and actions available to it.
-- **Account:** [Oversight](source/principles/05-oversight.md#principle-5-oversight) makes the agent's actions and performance observable; [Recourse](source/principles/06-recourse.md#principle-6-recourse) provides for stopping, containment, escalation, and reinstatement.
+- **Assign:** [Identity](source/principles/01-identity.md#principle-1-identity) lets you identify each agent; [Sponsor](source/principles/02-sponsor.md#principle-2-sponsor) names the human who answers for it.
+- **Align:** [Role](source/principles/03-role.md#principle-3-role) defines the agent's job; [Authority](source/principles/04-authority.md#principle-4-authority) sets limits on what it can access and do.
+- **Account:** [Oversight](source/principles/05-oversight.md#principle-5-oversight) lets you see what the agent does and whether it is doing its job; [Recourse](source/principles/06-recourse.md#principle-6-recourse) gives you ways to stop it, address the effects, and decide whether it can return.
 
 The full controls, their scope, and the boundary rule determine how these principles apply. The summaries above are a starting point, not a substitute for the source.
 
 ## Read the framework
 
-Read the complete [AAF source](source/README.md). The [source coverage map](maintenance/source-coverage.md) records the content available in each repository page.
+Start with the [framework reading order](framework/README.md), which includes all six principle pages and their controls. The [AAF source](source/README.md) is the authoring reference; the [coverage map](maintenance/source-coverage.md) shows how each page relates to it.
 
 - [Purpose](framework/01-purpose.md)
 - [Scope](framework/02-scope.md)
@@ -46,6 +46,8 @@ Read the complete [AAF source](source/README.md). The [source coverage map](main
 - [Repository instructions](AGENTS.md)
 - [Changelog](CHANGELOG.md)
 - [Source coverage](maintenance/source-coverage.md)
+- [Documentation checks](maintenance/checks.md)
 - [Release procedures](maintenance/releases.md)
 - [Moderation](maintenance/moderation.md)
-- [License](LICENSE)
+- [Licensing decision](LICENSE)
+- [Review and project decisions](TODO.md)

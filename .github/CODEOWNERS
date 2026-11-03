@@ -1,0 +1,3 @@
+# Review assignments need confirmed GitHub users or teams.
+# Add rules after those reviewers have agreed to take responsibility.
+# Track the decision in TODO.md; do not infer ownership from Git authorship.

@@ -6,9 +6,9 @@
 
 **Source:** [Section 4, Principle 3](../../source/principles/03-role.md#principle-3-role).
 
-Every agent has a defined role: its purpose, success criteria, budget, autonomy level, and scope. The role is the reference for its authority and oversight. It is a job description, not a set of permissions; it expresses rules and intents and declares the agent’s reach and dependencies.
+Define the agent's job so people beyond the deploying team can understand and check it. Record its purpose, success criteria, budget, autonomy level, and scope. The role guides the authority you grant and the performance you assess. It states rules and intended outcomes, and records what the agent can affect and what it depends on. The role describes the job; the Authority principle covers permissions.
 
-Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Read these controls with the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md).
+The Requirement states what must be met. Rationale explains why, and Assessment describes supporting evidence; both provide guidance ([Section 4](../../source/04-framework-core.md#4-the-framework-core-principles-and-controls)). Apply the controls using the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md#appendix-a-terminology).
 
 <a id="control-3-1"></a>
 

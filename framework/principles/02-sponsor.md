@@ -6,9 +6,9 @@
 
 **Source:** [Section 4, Principle 2](../../source/principles/02-sponsor.md#principle-2-sponsor).
 
-Every agent has a named human sponsor who answers for its existence, role, authority, and actions. Sponsorship is established before the role and authority are defined and continues throughout the agent’s lifecycle. External and spawned agents also have an internal sponsor; an external agent’s operator of record is an additional line of accountability.
+Name the human who answers for each agent: why it exists, what its job is, what authority it holds, and what it does. Establish that sponsorship before defining the role and authority, and keep it in place throughout the agent's lifecycle. External and spawned agents also need an internal sponsor. For an external agent, the operator of record adds another line of accountability; it does not replace the sponsor.
 
-Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Read these controls with the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md).
+The Requirement states what must be met. Rationale explains why, and Assessment describes supporting evidence; both provide guidance ([Section 4](../../source/04-framework-core.md#4-the-framework-core-principles-and-controls)). Apply the controls using the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md#appendix-a-terminology).
 
 <a id="control-2-1"></a>
 

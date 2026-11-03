@@ -18,7 +18,7 @@ For a substantial change, consider opening an issue first so others can discuss 
 1. Create a branch or fork and make your changes. Keep unrelated changes separate.
 2. Follow the [editorial guide](contributing/editorial-guide.md), and review the [AI-assisted contributions guide](contributing/ai-assisted-contributions.md) if applicable.
 3. Explain what changed and why, link any related issue, and identify affected source sections and controls. Distinguish a proposed change to the framework from a correction to its transcription or a clarification of a derived page.
-4. Update [CHANGELOG.md](CHANGELOG.md) under Unreleased. Check links and formatting, run `git diff --check`, and run any applicable, implemented repository checks. Describe what you checked and any limitations in the pull request.
+4. Update [CHANGELOG.md](CHANGELOG.md) under Unreleased and [source coverage](maintenance/source-coverage.md) when framework pages change. Run `python3 scripts/check-docs.py` and `git diff --check`. If you changed the checker, run its tests too; the [checks guide](maintenance/checks.md) explains how. Describe what you checked and any limitations in the pull request.
 5. Respond to review comments and update the proposal as needed. Maintainers may ask for revisions or decline a change; discussion of the reasons helps everyone understand the decision.
 
-See [repository governance](GOVERNANCE.md) for the distinction between repository review and governance of the framework itself. The repository's [LICENSE](LICENSE) file does not yet contain licensing terms. Do not submit material you do not have permission to contribute.
+See [repository governance](GOVERNANCE.md) for how repository review relates to governance of the framework itself. The [licensing note](LICENSE) records the terms the project still needs to establish. Only submit material you have permission to contribute.

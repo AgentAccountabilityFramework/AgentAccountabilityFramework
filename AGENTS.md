@@ -17,6 +17,7 @@
 ## Writing and linkbacks
 
 - Use concise, factual, vendor-neutral language. Remove filler, repetition, promotional claims, and extraneous prose.
+- Follow the voice established in [Scope](framework/02-scope.md) and the [editorial guide](contributing/editorial-guide.md#use-the-established-voice): address the reader directly, use familiar verbs and concrete examples, and explain technical terms. Preserve defined meanings, applicability, and every obligation when simplifying prose; keep complete control fields and formal definitions aligned with the source.
 - Describe required outcomes without prescribing a vendor, product, architecture, platform, protocol, or methodology ([Section 6](source/06-implementation-neutrality.md)).
 - Link AAF claims, summaries, and adaptations to the relevant Markdown file in [source/](source/README.md), naming the exact section, principle, control, or appendix. Use stable control anchors such as [Control 1.1](source/principles/01-identity.md#control-1-1) and definition heading anchors. Outside `source/`, all AAF source links must target Markdown files and section or control anchors in `source/`. PDF links belong only in `source/` for provenance. Omit version numbers from citation labels, links, and accompanying source notes outside `source/`.
 - Use relative links for repository navigation and verified anchors for control references. Include source linkbacks on derived framework pages and maintain the mapping in [maintenance/source-coverage.md](maintenance/source-coverage.md) when converting or changing framework content.

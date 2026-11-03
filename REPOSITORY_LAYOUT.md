@@ -6,13 +6,14 @@ The [source/](source/README.md) directory holds the complete Markdown source use
 
 | File | Purpose |
 | --- | --- |
-| [README.md](README.md) | Introduction, status, stewardship, and links to read or contribute. |
-| [LICENSE](LICENSE) | Terms for using and redistributing the project's material. |
+| [README.md](README.md) | Introduction and links to read, review, or contribute. |
+| [LICENSE](LICENSE) | Decision note recording the licensing terms the project still needs to establish. |
 | [CHANGELOG.md](CHANGELOG.md) | Changes by release, including affected controls and their significance. |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to submit feedback or edits, with links to detailed contribution guides. |
-| [GOVERNANCE.md](GOVERNANCE.md) | Maintainer responsibilities, decision-making, and authority to review, merge, and release. |
+| [GOVERNANCE.md](GOVERNANCE.md) | Repository participation and review, with the limits of repository permissions. |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community expectations, reporting contacts, and enforcement process. |
 | [AGENTS.md](AGENTS.md) | Repository-specific instructions for AI assistants. |
+| [TODO.md](TODO.md) | Documentation review and project decisions still needed. |
 | [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) | This file: layout choices and file purposes. |
 
 ## Source
@@ -42,7 +43,7 @@ Use the [AAF Markdown source](source/README.md) for routine authoring. The [prov
 
 ## Framework
 
-These pages are authored from [source/](source/README.md); their existence does not imply that transcription or authoring is complete. Consult [source coverage](maintenance/source-coverage.md) for current status.
+These pages explain the framework in its established voice and reproduce the complete controls and formal definitions from [source/](source/README.md). Consult [source coverage](maintenance/source-coverage.md) for the mapping and [review notes](TODO.md) for decisions that need project input.
 
 | File | Purpose |
 | --- | --- |
@@ -60,9 +61,9 @@ These pages are authored from [source/](source/README.md); their existence does 
 | [05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | How conformance is assessed and claimed. |
 | [06-implementation-neutrality.md](framework/06-implementation-neutrality.md) | The framework's position on implementation neutrality. |
 | [07-relationship-to-standards.md](framework/07-relationship-to-standards.md) | Relationship to adjacent standards work. |
-| [08-framework-governance.md](framework/08-framework-governance.md) | Governance and stewardship as defined in the specification. Root `GOVERNANCE.md` covers repository operations. |
+| [08-framework-governance.md](framework/08-framework-governance.md) | Stewardship described in the source and links to the repository contribution process. |
 | [appendices/a-terminology.md](framework/appendices/a-terminology.md) | Authoritative definitions used by the controls. |
-| [appendices/b-acknowledgments.md](framework/appendices/b-acknowledgments.md) | Credit for reviewers and contributors. |
+| [appendices/b-acknowledgments.md](framework/appendices/b-acknowledgments.md) | Confirmed source credits and how to propose additions. |
 
 ## Contribution, maintenance, and automation
 
@@ -71,13 +72,16 @@ These pages are authored from [source/](source/README.md); their existence does 
 | [contributing/proposing-changes.md](contributing/proposing-changes.md) | How to prepare a change proposal and take it through review. |
 | [contributing/editorial-guide.md](contributing/editorial-guide.md) | Writing and formatting conventions for framework edits. |
 | [contributing/ai-assisted-contributions.md](contributing/ai-assisted-contributions.md) | Policy for contributing AI-assisted work. |
-| [maintenance/releases.md](maintenance/releases.md) | Release checks, approvals, versioning, tagging, and publication. |
+| [maintenance/checks.md](maintenance/checks.md) | How to run checks and interpret their limits. |
+| [maintenance/releases.md](maintenance/releases.md) | Checks for preparing a release and the decisions needed before publication. |
 | [maintenance/moderation.md](maintenance/moderation.md) | Discussion and issue triage, conduct enforcement, and escalation. |
 | [maintenance/source-coverage.md](maintenance/source-coverage.md) | Maps PDF sections and controls to the complete Markdown source and tracks the separate status of derived framework pages, conversion review, and deliberate changes. |
 | [assets/](assets/) | Documentation images and diagrams. |
-| [scripts/check-docs.py](scripts/check-docs.py) | Local checks for links, control IDs, required fields, and cross-references. |
-| [.github/CODEOWNERS](.github/CODEOWNERS) | Review assignments by file or directory. |
-| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | Forms for reporting problems and proposing changes. |
+| [scripts/check-docs.py](scripts/check-docs.py) | Local links and anchors, plus comparison of complete controls and definitions with the source. |
+| [scripts/test_check_docs.py](scripts/test_check_docs.py) | Regression tests for the documentation checker. |
+| [.github/CODEOWNERS](.github/CODEOWNERS) | Instructions for adding review assignments once GitHub users or teams are confirmed. |
+| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | Templates for corrections, framework proposals, and questions. |
 | [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) | Standard information requested from pull-request authors. |
 | [.github/workflows/check-docs.yml](.github/workflows/check-docs.yml) | Runs the local documentation checks on proposed changes. |
-| [.github/workflows/notifications.yml](.github/workflows/notifications.yml) | Sends pull-request and merge notifications. |
+
+The empty notification workflow has been removed. No custom notification service is configured.

@@ -6,9 +6,9 @@
 
 **Source:** [Section 4, Principle 4](../../source/principles/04-authority.md#principle-4-authority).
 
-Authority defines the information an agent can access and the systems and tools it can invoke. It is derived from the role, delegated, enforced, time-bounded, and revocable. It also bounds where an agent can run and send information. Rules and declared intents govern whether a request is permitted.
+Set explicit limits on the information the agent can access and the systems and tools it can use. Derive those limits from its role, grant authority through delegation, enforce it, limit its duration, and make it revocable in real time. Authority also limits where the agent can run and send information. A request must satisfy the rules and any declared intent: the purpose for which the authority was granted.
 
-Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Read these controls with the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md).
+The Requirement states what must be met. Rationale explains why, and Assessment describes supporting evidence; both provide guidance ([Section 4](../../source/04-framework-core.md#4-the-framework-core-principles-and-controls)). Apply the controls using the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md#appendix-a-terminology).
 
 <a id="control-4-1"></a>
 

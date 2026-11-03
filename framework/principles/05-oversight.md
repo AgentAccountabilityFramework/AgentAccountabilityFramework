@@ -6,9 +6,9 @@
 
 **Source:** [Section 4, Principle 5](../../source/principles/05-oversight.md#principle-5-oversight).
 
-Oversight records agent actions and delegated authority, surfaces deviations during operation, and evaluates high-consequence actions before execution. It measures performance against the role and makes the record available beyond the owning team. Expected behavior is re-established when the role, model, or harness changes.
+Record what each agent does and the chain of delegated authority behind its actions. Detect departures from its role or authority while it runs, and evaluate actions with serious consequences before they execute. Check whether the agent meets its success criteria, and make the record available beyond the team that owns it. Re-establish expected behavior when the role, model, or harness changes.
 
-Requirements are normative; Rationale and Assessment are informative ([Section 4](../../source/04-framework-core.md)). Read these controls with the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md).
+The Requirement states what must be met. Rationale explains why, and Assessment describes supporting evidence; both provide guidance ([Section 4](../../source/04-framework-core.md#4-the-framework-core-principles-and-controls)). Apply the controls using the [boundary rule](../../source/02-scope.md#boundary-of-management) and [definitions](../../source/appendices/a-terminology.md#appendix-a-terminology).
 
 <a id="control-5-1"></a>
 

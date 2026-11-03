@@ -1,5 +1,9 @@
 # Terminology
 
+[Framework contents](README.md) · [Previous: Scope](02-scope.md) · [Next: Framework Core](04-framework-core.md)
+
+These short explanations introduce terms you will encounter in the framework. For the full definitions used to interpret the controls, read [Appendix A](appendices/a-terminology.md). Those definitions have normative effect: they fix what the terms mean when you apply a requirement ([Section 3](../source/03-terminology.md#3-terminology), [Section 4](../source/04-framework-core.md#4-the-framework-core-principles-and-controls)).
+
 ## Agent Accountability
 
 The ability to establish, with evidence, what agent acted, on whose authority, within what bounds, and how it can be stopped. [Source](../source/00-front-matter.md#abstract).
