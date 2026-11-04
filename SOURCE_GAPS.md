@@ -61,3 +61,15 @@ This log records gaps reviewed during the accuracy report review. Each entry ide
 **Clarification needed:** Whether, and under what conditions, an accepted dependency gap can satisfy Control 2.5 for conformance, or must remain an unmet Requirement. An authoritative decision must reconcile the acceptance language with the Requirement.
 
 **Documentation treatment:** Preserve the complete control text. Do not treat sponsor acceptance as a confirmed exemption from the Requirement or extend dependency acceptance to admitted external agents. Review piece 8; audit finding U2, dependency-acceptance portion. Applicability is tracked separately in [G4](#g4-operator-of-record-applicability-to-dependencies).
+
+## G6. Permitted delegation and the assessment prohibition
+
+**Status:** Open. Requirements permit bounded agent delegation; corrected assessment wording is not supplied.
+
+**Problem:** Control 4.3's Requirement permits delegation involving agents, and Control 4.14 explicitly describes a parent conferring authority on a spawned agent. Control 4.3's Assessment nevertheless says no mechanism exists by which an agent grants itself or another agent authority. Its blanket wording conflicts with the permitted parent delegation.
+
+**Evidence:** [Control 4.3](source/principles/04-authority.md#control-4-3) contains both the bounded-delegation Requirement and the Assessment prohibition. [Control 4.14 Requirement](source/principles/04-authority.md#control-4-14) expressly makes the parent's conferral a delegation. [Appendix A — Delegation](source/appendices/a-terminology.md#delegation) includes human and agent principals. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) bases conformance on Requirements and makes Assessment informative.
+
+**Clarification needed:** Authoritative assessment wording that distinguishes permitted, bounded delegation by an authorized agent principal from unauthorized grants or expansion of authority. The source does not provide that corrected wording.
+
+**Documentation treatment:** Preserve the complete control text and apply the source's Requirement/Assessment hierarchy. Do not turn the Assessment sentence into a blanket ban on parent delegation or invent a delegation mechanism. Review piece 9; audit finding U4, delegation-prohibition portion. The separate question of equal parent/child authority remains for its own review.
