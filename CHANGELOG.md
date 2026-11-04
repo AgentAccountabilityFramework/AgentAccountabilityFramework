@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Dropped the memory-transfer flag from the [accuracy report](ACCURACY_AUDIT.md). [Control 6.5](source/principles/06-recourse.md#control-6-5) allows transfer to a recorded successor, and its Assessment explicitly permits transferred memory to remain readable. Questions about which stores or copies a transfer procedure removes do not establish a missing framework rule. The transfer option and destruction-record requirement are unchanged.
+
 - Dropped the separate subset/exception flag from the [accuracy report](ACCURACY_AUDIT.md). [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment) already permits declared control subsets covering every agent and exceptions with remediation windows; [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) explains when a control passes. Further assessment procedures belong to the method already tracked in [G1](SOURCE_GAPS.md#g1-formal-conformance-assessment). Framework text is unchanged.
 
 - Dropped the identity/instance flag from the [accuracy report](ACCURACY_AUDIT.md). The [Agent definition](source/appendices/a-terminology.md#agent) distinguishes an agent from its sessions and instances, while [Control 1.2](source/principles/01-identity.md#control-1-2) covers admission and individual registration of agents created from approved templates. These serve different purposes; no contradiction or new identity rule was established. Framework text is unchanged.

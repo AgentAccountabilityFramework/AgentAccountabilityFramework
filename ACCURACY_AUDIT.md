@@ -72,12 +72,12 @@ In the table, **faithful** means supported as a source summary or reproduction, 
 | [framework/principles/03-role.md](framework/principles/03-role.md) | Complete source Role page; linked controls; Appendix A Role, Rule, Intent, Reach, Budget, Autonomy level, Change event, Dependency. | All eight controls match; introduction faithful. |
 | [framework/principles/04-authority.md](framework/principles/04-authority.md) | Complete source Authority page; linked controls; Appendix A definitions; boundary rule and Section 6. | All 14 controls match; introduction preserves conditional intent evaluation. Delegation Assessment wording is covered in U4. |
 | [framework/principles/05-oversight.md](framework/principles/05-oversight.md) | Complete source Oversight page; linked controls; Appendix A Action class, Disposition, Intent, Scope tag; Section 5. | All eight controls match; introduction faithful. Evidence qualifications are discussed in Section 4 below. |
-| [framework/principles/06-recourse.md](framework/principles/06-recourse.md) | Complete source Recourse page; linked controls; Section 2; Appendix A Class, Recourse, Severity-1 event, Decommissioning. | All five controls match; introduction faithful. Transfer/destruction issue U10. |
+| [framework/principles/06-recourse.md](framework/principles/06-recourse.md) | Complete source Recourse page; linked controls; Section 2; Appendix A Class, Recourse, Severity-1 event, Decommissioning. | All five controls match; introduction faithful. |
 | [framework/05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | Sections 2–5; controls 3.3 and 6.1; Appendix A Estate. | Added the missing assessment-method explanation (C2). Kept the confidence-threshold disclosure limit without flagging a conflict. |
 | [framework/06-implementation-neutrality.md](framework/06-implementation-neutrality.md) | Section 6; control 1.2; Appendix A Registry, Enforcement layer, Containment boundary. | Faithful; registry example does not prescribe technology or claim to replace the complete controls. |
 | [framework/07-relationship-to-standards.md](framework/07-relationship-to-standards.md) | Section 7; Section 5; controls 4.3 and 4.6; seven linked primary pages. | Related-work descriptions verified; authenticated-delegation qualification restored (C3). No equivalence or required protocol asserted. |
 | [framework/08-framework-governance.md](framework/08-framework-governance.md) | Section 8; front matter. | Current steward and intended direction faithful; no receiving body, transfer mechanism, or decision rights invented. |
-| [framework/appendices/a-terminology.md](framework/appendices/a-terminology.md) | Entire source Appendix A and its linked controls/sections. | All 37 definitions match, including order and links. Candidate U10 still awaits review. |
+| [framework/appendices/a-terminology.md](framework/appendices/a-terminology.md) | Entire source Appendix A and its linked controls/sections. | All 37 definitions match, including order and links. |
 | [framework/appendices/b-acknowledgments.md](framework/appendices/b-acknowledgments.md) | Appendix B; front matter, lines 15–16. | Editor and steward attribution supported; does not invent additional reviewers. Contribution route is repository guidance. |
 | [maintenance/checks.md](maintenance/checks.md) | Section 4; source control inventory; Appendix A; source provenance. | Counts and limits verified against actual checker and tests. Correctly disclaims prose accuracy and conformance verification. |
 | [maintenance/moderation.md](maintenance/moderation.md) | Section 8 as governance boundary. | Repository guidance only; does not confer roles or promise outcomes. Operational arrangements unverified. |
@@ -179,14 +179,6 @@ These are specific wording issues. The control already describes what to do with
 
 The Assessment sentence needs narrowing so it doesn't rule out permitted delegation. Requirements take precedence under [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls). This is an assessment wording issue, not a missing delegation rule. See [G6](SOURCE_GAPS.md#g6-permitted-delegation-and-the-assessment-prohibition).
 
-### U10. Destruction evidence after memory transfer
-
-**Published content:** [Recourse Control 6.5](framework/principles/06-recourse.md#control-6-5), Requirement and Assessment.
-
-**Evidence:** [6.5 Requirement](source/principles/06-recourse.md#control-6-5), line 103, permits memory/context stores to be “destroyed or transferred to a recorded successor with the destruction attested.” Assessment, line 111, allows readability where a recorded transfer names its successor and destruction is attested.
-
-**Why unresolved / decision needed:** The transfer alternative is explicit, but the source does not identify exactly what is destroyed and attested when the transferred data remains available to a successor. Clarify whether the obligation concerns the predecessor's store, residual copies, access, or something else. The audit preserves both the transfer option and the destruction wording rather than selecting a storage procedure.
-
 ### U11. Historical and operational claims beyond the supplied evidence
 
 **Published content:** `CONTRIBUTING.md` line 14 says issues and pull requests are public. `maintenance/source-coverage.md` records a prior complete transcription proof and past validation. The changelog records completed repository work; governance and conduct pages discuss operating project spaces.
@@ -242,7 +234,7 @@ Examples were checked against the applicable Requirements and related controls, 
 | Role scenarios: capable-but-unmandated action, unused/valueless agents, runaway loops, concurrent delegated consumption, hidden provider changes, dependency withdrawal. | Checked against 3.1–3.8 and their Oversight/Recourse references. Value uses sponsor criteria; ten agents' separate limits do not replace the task-wide bound. Control 3.7 expressly covers emergency changes and sampling for hidden provider changes; no timing gap is flagged. |
 | Authority scenarios: general-purpose tools, composite workflows, stale grants, injected instructions, intent scores, indirect egress, generated code, memory sharing, masking, three-condition exposure, tool substitution, spawning. | Checked against 4.1–4.14 and their related controls. Lists introduced as examples were not treated as exhaustive; the registered/allowed sets in Requirements remain binding. Three children per parent yield 27 in the third generation, but the Requirement limits the whole tree. The delegation Assessment wording issue remains U4; the equal-authority reader question is not retained as a gap. |
 | Oversight scenarios: reconstructing multi-agent actions, staged deviations, payments/deletions/communications/filings, independent queries, success and budget checks, adversarial tests, off-gateway discovery. | Checked against 5.1–5.8, Role, and Recourse. The record is not asserted to expose faithful model reasoning. High-consequence disposition is per action and does not invariably mean human approval. Production tests use canary assets/credentials; samples do not replace reconciliation. |
-| Recourse scenarios: live/class suspension, irreversible actions, severity escalation, reinstatement, and retirement with dependents. | Checked against 6.1–6.5 and linked Sponsor/Authority controls. No universal rollback guarantee, automatic timeout reinstatement, or external-runtime control was introduced. Emergency ordering is retained; memory transfer evidence remains U10. |
+| Recourse scenarios: live/class suspension, irreversible actions, severity escalation, reinstatement, and retirement with dependents. | Checked against 6.1–6.5 and linked Sponsor/Authority controls. No universal rollback guarantee, automatic timeout reinstatement, or external-runtime control was introduced. Emergency ordering and the recorded-transfer option are retained. |
 
 Copied Rationale anecdotes and causal assertions are supported as statements of the source, not independently established empirical facts. Assessment exercises remain illustrative evidence patterns. No example was certified as a sufficient implementation of the whole framework.
 
@@ -260,7 +252,7 @@ Copied Rationale anecdotes and causal assertions are supported as statements of 
 
 **Confirmed errors corrected:** The README's omitted delegated-authority condition, the conformance page/layout's missing methodological qualification, the overbroad content/delegation example, and two grouped section citations. The confidence-threshold disclosure limit is retained without calling it a publication conflict.
 
-**Unresolved accuracy concerns:** Operator tagging and acceptance wording; delegation Assessment wording; and memory-transfer destruction evidence. Faithful copying does not resolve these concerns.
+**Unresolved accuracy concerns:** Operator tagging and acceptance wording, and delegation Assessment wording. Faithful copying does not resolve these concerns.
 
 **Not verified:** Hosted AAF content, sibling website/mockup/media artifacts, repository settings and operational arrangements, every historical validation claim, the complete PDF transcription proof anew, the full text of external standards, or the real-world efficacy/conformance of any agent deployment. No Markdown source file was inaccessible.
 
