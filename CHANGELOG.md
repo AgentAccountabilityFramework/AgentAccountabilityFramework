@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Restored the delegated-authority condition in the [README scope summary](README.md#what-the-framework-covers), following [Section 2](source/02-scope.md#2-scope). This keeps the summary aligned with the agents covered by the framework; no control requirements changed.
+
 - Finished [Scope](framework/02-scope.md) in the established voice, preserving the meaning of [Section 2](source/02-scope.md#2-scope) and its [boundary rule](source/02-scope.md#boundary-of-management). Clarified internal, external, and spawned agents using [Appendix A](source/appendices/a-terminology.md#appendix-a-terminology); distinguished general software maintenance from declared agent dependencies under [Control 3.8](source/principles/03-role.md#control-3-8). Retained the external-agent suspension and operator requirements in controls [6.1](source/principles/06-recourse.md#control-6-1) and [2.5](source/principles/02-sponsor.md#control-2-5).
 - Applied the same direct voice to the [README](README.md) and six [principle introductions](framework/README.md), and recorded it in the [editorial guide](contributing/editorial-guide.md#use-the-established-voice) and [repository instructions](AGENTS.md#writing-and-linkbacks). Source text, complete control fields, and formal definition wording are unchanged.
 - Completed framework navigation, updated the [coverage map](maintenance/source-coverage.md) and [repository layout](REPOSITORY_LAYOUT.md), and linked the checks from contributor and release guidance. Removed the empty notification workflow; no custom notification service was configured.

@@ -6,7 +6,7 @@ The Agent Accountability Framework (AAF) helps your organization establish who e
 
 ## What the framework covers
 
-The AAF covers agents acting in or on behalf of an organization, including internal, external, and spawned agents. Controls are satisfied within the organization's own boundary. Model safety, general AI ethics, and the general operation and security of information systems are outside its scope ([Section 2](source/02-scope.md)).
+The AAF covers agents acting in or on behalf of an organization with delegated authority to access information or take actions, including internal, external, and spawned agents. Controls are satisfied within the organization's own boundary. Model safety, general AI ethics, and the general operation and security of information systems are outside its scope ([Section 2](source/02-scope.md)).
 
 The framework organizes its six principles into three domains ([Section 4](source/04-framework-core.md)):
 
