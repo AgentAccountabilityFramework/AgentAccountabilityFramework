@@ -4,7 +4,7 @@
 
 Source: [Section 5: Conformance and Assessment](../source/05-conformance-and-assessment.md#5-conformance-and-assessment).
 
-This page explains the conformance positions in Section 5, which is informative. The source does not define formal conformance keywords or an assessment methodology, or establish a certification scheme. Control Requirements remain the basis for conformance ([Section 4](../source/04-framework-core.md#4-the-framework-core-principles-and-controls)).
+Section 5 explains what a conformance claim covers and what evidence you need. It gives guidance, rather than adding control requirements. It leaves the formal assessment method and conformance keywords undefined. Use each control's Requirement to decide whether it is met ([Section 4](../source/04-framework-core.md#4-the-framework-core-principles-and-controls)).
 
 Conformance means your organization's agents meet the accountability requirements you claim to meet. The claim covers your **agent estate**: all agents operating in or on behalf of your organization. You provide evidence for each agent.
 
@@ -20,7 +20,7 @@ A finding against one agent is a finding against the estate, unless it is record
 
 Your conformance statement must publish every parameter the framework leaves to your organization. This includes each defined window, cadence, period, threshold, and tolerance.
 
-[Control 3.3](../source/principles/03-role.md#control-3-3) limits disclosure of confidence thresholds to parties with a need to know. The source does not specify how that limit applies to publication in a conformance statement ([Section 5](../source/05-conformance-and-assessment.md#5-conformance-and-assessment)); see the [gap log](../SOURCE_GAPS.md#g2-confidence-thresholds-in-conformance-statements).
+Share confidence thresholds only with people who need to know them ([Control 3.3](../source/principles/03-role.md#control-3-3)).
 
 Where the framework sets a minimum, your chosen parameter must meet it. For example, [Control 6.1](../source/principles/06-recourse.md#control-6-1) requires suspension in seconds. For an agent whose runtime you do not control, that means revoking its credentials, sessions, and authority at your boundary within the same window.
 

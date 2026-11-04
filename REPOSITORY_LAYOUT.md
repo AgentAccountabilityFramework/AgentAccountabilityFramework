@@ -14,7 +14,7 @@ The [source/](source/README.md) directory holds the complete Markdown source use
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community expectations, reporting contacts, and enforcement process. |
 | [AGENTS.md](AGENTS.md) | Repository-specific instructions for AI assistants. |
 | [TODO.md](TODO.md) | Documentation review and project decisions still needed. |
-| [SOURCE_GAPS.md](SOURCE_GAPS.md) | Reviewed source gaps, supporting evidence, and clarifications needed. |
+| [SOURCE_GAPS.md](SOURCE_GAPS.md) | Missing assessment material and specific wording issues from the reviewed items. |
 | [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) | This file: layout choices and file purposes. |
 
 ## Source
@@ -59,7 +59,7 @@ These pages explain the framework in its established voice and reproduce the com
 | [principles/04-authority.md](framework/principles/04-authority.md) | Authority principle and its controls. |
 | [principles/05-oversight.md](framework/principles/05-oversight.md) | Oversight principle and its controls. |
 | [principles/06-recourse.md](framework/principles/06-recourse.md) | Recourse principle and its controls. |
-| [05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | Conformance positions and evidence expectations; the source does not define a formal assessment methodology. |
+| [05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | What conformance covers and the evidence it needs; Section 5 leaves the formal assessment method undefined. |
 | [06-implementation-neutrality.md](framework/06-implementation-neutrality.md) | The framework's position on implementation neutrality. |
 | [07-relationship-to-standards.md](framework/07-relationship-to-standards.md) | Relationship to adjacent standards work. |
 | [08-framework-governance.md](framework/08-framework-governance.md) | Stewardship described in the source and links to the repository contribution process. |

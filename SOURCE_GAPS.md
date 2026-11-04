@@ -1,111 +1,29 @@
 # Source gaps
 
-This log records gaps reviewed during the accuracy report review. Each entry identifies the source evidence, what remains unknown, and the clarification needed. Documentation can flag a gap; resolving it requires an authoritative source or a framework decision. Further entries are added as the review proceeds.
+These are the remaining issues from the approved review items. Each one points to missing material or wording that doesn't line up. A possible reader question, on its own, isn't a gap. The original controls stay as written.
+
+The entry numbers stay the same so earlier references still work for the items kept here.
 
 ## G1. Formal conformance assessment
 
-**Status:** Open. The documentation explains the limitation; the assessment method remains unspecified.
+[Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment) describes what a conformance claim covers, but explicitly leaves the formal assessment method and conformance keywords undefined. [Section 3](source/03-terminology.md#3-terminology) also points to Section 5 for those keywords.
 
-**Problem:** The source gives conformance positions but does not supply formal conformance keywords or a complete assessment methodology. It does not establish a certification scheme.
-
-**Evidence:** [Section 3](source/03-terminology.md#3-terminology) points formal conformance keywords to Section 5. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) makes Section 5 informative, bases conformance on control Requirements, and directs formal assessment methodology to Section 5. [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment) describes positions and leaves formal keywords and methodology undefined.
-
-**Clarification needed:** An authoritative assessment methodology and formal conformance vocabulary. Any claim of certification also needs evidence of an established certification scheme; none is supplied by these passages.
-
-**Documentation treatment:** [Conformance and Assessment](framework/05-conformance-and-assessment.md) explains these limits and retains control Requirements as the basis for conformance. Review piece 2; audit finding C2.
-
-## G2. Confidence thresholds in conformance statements
-
-**Status:** Open. Both source provisions are identified; disclosure policy remains unspecified.
-
-**Problem:** Section 5 says every organization-defined threshold is published in the conformance statement. Control 3.3 limits confidence-threshold disclosure to parties with a need to know. The source does not explain how the statement meets both provisions.
-
-**Evidence:** [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment) includes every organization-defined threshold among the published parameters. [Control 3.3 Requirement](source/principles/03-role.md#control-3-3) restricts disclosure of confidence thresholds and says role readability does not make them public.
-
-**Clarification needed:** Who receives the conformance statement and how confidential confidence thresholds are represented or disclosed within it. The source does not establish whether a restricted statement, separate disclosure, or another arrangement is intended.
-
-**Documentation treatment:** [What to publish](framework/05-conformance-and-assessment.md#what-to-publish) flags the gap without choosing an audience or inventing an omission rule. Review piece 3; audit findings C2 and U3.
-
-## G3. Authoring convention and release evidence
-
-**Status:** Open. The authoring convention remains in effect; evidence of subsequent release, governance, or licensing decisions is not supplied by the source.
-
-**Problem:** Treating the framework as final for repository authoring does not establish a release event, completed framework governance, or an approved license grant.
-
-**Evidence:** [Repository authoring instructions](AGENTS.md#source-of-truth) establish the final-for-authoring convention while prohibiting invented release events, governance decisions, and licensing terms. The [source front matter](source/00-front-matter.md#agent-accountability) records a proposed license, and its [status section](source/00-front-matter.md#status-of-this-document) records internal review ahead of public release. [Section 8](source/08-framework-governance.md#8-framework-governance) describes stewardship and leaves governance mechanics unspecified. These passages do not establish whether later decisions exist outside the supplied source.
-
-**Clarification needed:** An authoritative decision record or approved successor source establishing any subsequent release, governance arrangements, or license grant. If one exists, identify which source statements it supersedes and the intended treatment of status in derived pages.
-
-**Documentation treatment:** Preserve the current authoring convention and source transcription. Record the evidence limit without inferring a release, governance decision, or license grant. Review piece 6; audit finding U1.
+**What's needed:** The assessment method promised by Section 5. Until then, use the control Requirements to decide whether a control is met, as [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) directs. The missing method doesn't make the controls unusable.
 
 ## G4. Operator-of-record applicability to dependencies
 
-**Status:** Open. Control 2.5's scope tag and dependency obligations remain unchanged.
+[Control 2.5](source/principles/02-sponsor.md#control-2-5) is tagged External, but its Requirement also covers outside tools and models used by agents your organization runs. [Appendix A](source/appendices/a-terminology.md#scope-tag) defines External as applying to external agents only. The [boundary rule](source/02-scope.md#boundary-of-management) supports the dependency coverage stated in the Requirement.
 
-**Problem:** Control 2.5 is tagged External, but its Requirement also covers external tools and models used by agents the organization operates. The formal scope-tag definition says External applies to external agents only.
-
-**Evidence:** [Control 2.5](source/principles/02-sponsor.md#control-2-5) carries the External tag and requires an operator of record for both admitted external agents and external tool/model dependencies of internally operated agents. [Appendix A — Scope tag](source/appendices/a-terminology.md#scope-tag) limits External to external agents. The [Section 2 boundary rule](source/02-scope.md#boundary-of-management) also directs internally operated agents' uncontrolled dependencies to an operator of record under Control 2.5.
-
-**Clarification needed:** How the External tag applies to the dependency obligations in Control 2.5, and whether the tag, definition, or control structure needs an authoritative correction. The source supplies no explicit reconciliation of these passages.
-
-**Documentation treatment:** Preserve the complete Requirement and existing tag. Do not omit dependency obligations solely on the basis of the tag or silently retag the control. Review piece 7; audit finding U2, applicability portion. The separate dependency-acceptance question is recorded in [G5](#g5-acceptance-of-missing-operator-arrangements).
+**What needs fixing:** Make the tag and its definition line up with the control's stated coverage. The dependency obligation is already written down; this is a labeling mismatch, not a missing obligation.
 
 ## G5. Acceptance of missing operator arrangements
 
-**Status:** Open. Sponsor acceptance of a dependency gap is described in informative text; its effect on conformance is unspecified.
+[Control 2.5](source/principles/02-sponsor.md#control-2-5) requires an operating organization, an agreement, and a named contact. Its Rationale and Assessment explain how a sponsor can accept a tool or model dependency when the arrangement isn't available, using compensating controls. That exception isn't in the Requirement, which [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) says is the basis for passing the control.
 
-**Problem:** Control 2.5's Requirement mandates a verified operating organization, an accountability agreement, and a named accountable contact for every covered dependency. Its Rationale and Assessment describe accepting a dependency when the arrangement is unavailable, with sponsor acceptance and compensating boundary controls. The Requirement contains no corresponding exception.
-
-**Evidence:** [Control 2.5](source/principles/02-sponsor.md#control-2-5) contains the unconditional Requirement and the dependency-acceptance language in its Rationale and Assessment. The Assessment separately states that an admitted external agent cannot act when required operator information is missing. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) bases conformance on Requirements, requires every obligation to be met, and makes Rationale and Assessment informative.
-
-**Clarification needed:** Whether, and under what conditions, an accepted dependency gap can satisfy Control 2.5 for conformance, or must remain an unmet Requirement. An authoritative decision must reconcile the acceptance language with the Requirement.
-
-**Documentation treatment:** Preserve the complete control text. Do not treat sponsor acceptance as a confirmed exemption from the Requirement or extend dependency acceptance to admitted external agents. Review piece 8; audit finding U2, dependency-acceptance portion. Applicability is tracked separately in [G4](#g4-operator-of-record-applicability-to-dependencies).
+**What needs fixing:** Bring the Requirement and the dependency-acceptance guidance into agreement. The practical guidance is there; the issue is whether accepting the dependency also satisfies the Requirement. The Assessment separately says an external agent can't act when the required operator information is missing.
 
 ## G6. Permitted delegation and the assessment prohibition
 
-**Status:** Open. Requirements permit bounded agent delegation; corrected assessment wording is not supplied.
+[Control 4.3's Assessment](source/principles/04-authority.md#control-4-3) says no mechanism exists for an agent to grant another agent authority. But [Control 4.14's Requirement](source/principles/04-authority.md#control-4-14) explicitly allows a parent to delegate authority to a spawned agent. The [Delegation definition](source/appendices/a-terminology.md#delegation) also includes agent principals.
 
-**Problem:** Control 4.3's Requirement permits delegation involving agents, and Control 4.14 explicitly describes a parent conferring authority on a spawned agent. Control 4.3's Assessment nevertheless says no mechanism exists by which an agent grants itself or another agent authority. Its blanket wording conflicts with the permitted parent delegation.
-
-**Evidence:** [Control 4.3](source/principles/04-authority.md#control-4-3) contains both the bounded-delegation Requirement and the Assessment prohibition. [Control 4.14 Requirement](source/principles/04-authority.md#control-4-14) expressly makes the parent's conferral a delegation. [Appendix A — Delegation](source/appendices/a-terminology.md#delegation) includes human and agent principals. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) bases conformance on Requirements and makes Assessment informative.
-
-**Clarification needed:** Authoritative assessment wording that distinguishes permitted, bounded delegation by an authorized agent principal from unauthorized grants or expansion of authority. The source does not provide that corrected wording.
-
-**Documentation treatment:** Preserve the complete control text and apply the source's Requirement/Assessment hierarchy. Do not turn the Assessment sentence into a blanket ban on parent delegation or invent a delegation mechanism. Review piece 9; audit finding U4, delegation-prohibition portion. The separate question of equal parent/child authority is recorded in [G7](#g7-equal-parent-and-child-authority).
-
-## G7. Equal parent and child authority
-
-**Status:** Open. The source does not clearly reconcile default inheritance with the Assessment's strict reduction of authority.
-
-**Problem:** Control 4.14's Requirement limits a child to at most a subset of its parent's authority and says it never receives all of it by default. Its Assessment requires less authority than the parent. These formulations leave uncertainty about whether explicitly approved equal authority is permitted.
-
-**Evidence:** [Control 4.14](source/principles/04-authority.md#control-4-14) contains the Requirement's subset/default wording and the Assessment's strict-less-than wording. [Control 4.3](source/principles/04-authority.md#control-4-3) prohibits delegation from exceeding the delegator's authority or amplifying privileges; it does not resolve whether Control 4.14 always requires a strict reduction. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) makes Requirements normative and Assessment informative.
-
-**Clarification needed:** Whether a child must always have strictly less authority than its parent, or whether explicitly approved equal authority is permitted, and the corresponding assessment evidence. The source supplies no explicit reconciliation.
-
-**Documentation treatment:** Preserve both control fields and all existing delegation limits. Do not infer permission for equal authority or introduce a universal strict-subset requirement through explanatory prose. Review piece 10; audit finding U4, authority-amount portion. The separate assessment prohibition is tracked in [G6](#g6-permitted-delegation-and-the-assessment-prohibition).
-
-## G8. Emergency changes and evaluation timing
-
-**Status:** Open. The emergency exception is explicit; its relationship to broader pre-action evaluation requirements is not reconciled.
-
-**Problem:** Control 3.7 permits a change to remediate a disclosed vulnerability under an emergency exception, with reduced autonomy until re-validation completes within a defined time. Its Assessment asks for re-validation before the next action. Control 5.6's Requirement and Assessment also require evaluation before action under a change event without explaining the emergency exception.
-
-**Evidence:** [Control 3.7](source/principles/03-role.md#control-3-7) contains the exception, reduced-autonomy condition, completion-time condition, and pre-next-action Assessment. [Control 5.6](source/principles/05-oversight.md#control-5-6) requires evaluation before acting under any change event and corresponding evidence. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) makes Requirements normative and Assessment informative, but does not reconcile these two Requirements.
-
-**Clarification needed:** How an emergency change satisfies Control 5.6 while operating at reduced autonomy before re-validation completes, and what timing and evidence demonstrate that the exception's conditions are met. The source does not supply a reconciled cross-control assessment rule.
-
-**Documentation treatment:** Preserve the explicit exception and both complete controls. Do not erase the emergency exception, invent a completion deadline, or extend it into a general permission for evaluation after action. Review piece 11; audit finding U5, emergency-change portion. Hidden provider changes are tracked separately in [G9](#g9-hidden-provider-changes-and-evaluation-timing).
-
-## G9. Hidden provider changes and evaluation timing
-
-**Status:** Open. Cadenced detection is explicit; the relationship to pre-action evaluation is not fully specified.
-
-**Problem:** Control 3.7 permits behavioral sampling on a defined cadence to detect provider changes behind an unchanged model label and says detected changes trigger re-validation. Its Assessment requires re-validation before the next action, including for detected provider changes. Control 5.6 requires evaluation before acting under any change event. The source does not explain how those timing requirements apply while a provider change is unknown or being evaluated after detection.
-
-**Evidence:** [Control 3.7](source/principles/03-role.md#control-3-7) states the sampling-based satisfaction condition and pre-next-action Assessment. [Control 5.6](source/principles/05-oversight.md#control-5-6) requires pre-change-action evaluation and evidence of that ordering.
-
-**Clarification needed:** How actions between a hidden provider change and its detection are treated in assessment, and what actions, if any, are permitted between detection and completed re-validation. The source does not explicitly reconcile the cadence-based detection provision with the broader pre-action evaluation requirement.
-
-**Documentation treatment:** Preserve the sampling provision, evaluation requirements, and complete control text. Do not invent an automatic suspension rule or a general permission to keep acting pending re-validation. Review piece 12; audit finding U5, provider-change portion. Emergency changes are tracked separately in [G8](#g8-emergency-changes-and-evaluation-timing).
+**What needs fixing:** Narrow the Assessment sentence so it doesn't rule out the delegation the Requirements allow. The Requirements take precedence under [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls); this is an assessment wording problem, not a ban on parent delegation.
