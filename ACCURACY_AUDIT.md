@@ -73,11 +73,11 @@ In the table, **faithful** means supported as a source summary or reproduction, 
 | [framework/principles/04-authority.md](framework/principles/04-authority.md) | Complete source Authority page; linked controls; Appendix A definitions; boundary rule and Section 6. | All 14 controls match; introduction preserves conditional intent evaluation. Delegation Assessment wording is covered in U4. |
 | [framework/principles/05-oversight.md](framework/principles/05-oversight.md) | Complete source Oversight page; linked controls; Appendix A Action class, Disposition, Intent, Scope tag; Section 5. | All eight controls match; introduction faithful. Evidence qualifications are discussed in Section 4 below. |
 | [framework/principles/06-recourse.md](framework/principles/06-recourse.md) | Complete source Recourse page; linked controls; Section 2; Appendix A Class, Recourse, Severity-1 event, Decommissioning. | All five controls match; introduction faithful. Transfer/destruction issue U10. |
-| [framework/05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | Sections 2–5; controls 3.3 and 6.1; Appendix A Estate. | Added the missing assessment-method explanation (C2). Kept the confidence-threshold disclosure limit without flagging a conflict; U9 remains for review. |
+| [framework/05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | Sections 2–5; controls 3.3 and 6.1; Appendix A Estate. | Added the missing assessment-method explanation (C2). Kept the confidence-threshold disclosure limit without flagging a conflict. |
 | [framework/06-implementation-neutrality.md](framework/06-implementation-neutrality.md) | Section 6; control 1.2; Appendix A Registry, Enforcement layer, Containment boundary. | Faithful; registry example does not prescribe technology or claim to replace the complete controls. |
 | [framework/07-relationship-to-standards.md](framework/07-relationship-to-standards.md) | Section 7; Section 5; controls 4.3 and 4.6; seven linked primary pages. | Related-work descriptions verified; authenticated-delegation qualification restored (C3). No equivalence or required protocol asserted. |
 | [framework/08-framework-governance.md](framework/08-framework-governance.md) | Section 8; front matter. | Current steward and intended direction faithful; no receiving body, transfer mechanism, or decision rights invented. |
-| [framework/appendices/a-terminology.md](framework/appendices/a-terminology.md) | Entire source Appendix A and its linked controls/sections. | All 37 definitions match, including order and links. Candidates U9–U10 still await review. |
+| [framework/appendices/a-terminology.md](framework/appendices/a-terminology.md) | Entire source Appendix A and its linked controls/sections. | All 37 definitions match, including order and links. Candidate U10 still awaits review. |
 | [framework/appendices/b-acknowledgments.md](framework/appendices/b-acknowledgments.md) | Appendix B; front matter, lines 15–16. | Editor and steward attribution supported; does not invent additional reviewers. Contribution route is repository guidance. |
 | [maintenance/checks.md](maintenance/checks.md) | Section 4; source control inventory; Appendix A; source provenance. | Counts and limits verified against actual checker and tests. Correctly disclaims prose accuracy and conformance verification. |
 | [maintenance/moderation.md](maintenance/moderation.md) | Section 8 as governance boundary. | Repository guidance only; does not confer roles or promise outcomes. Operational arrangements unverified. |
@@ -179,14 +179,6 @@ These are specific wording issues. The control already describes what to do with
 
 The Assessment sentence needs narrowing so it doesn't rule out permitted delegation. Requirements take precedence under [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls). This is an assessment wording issue, not a missing delegation rule. See [G6](SOURCE_GAPS.md#g6-permitted-delegation-and-the-assessment-prohibition).
 
-### U9. Control-subset claims and declared exceptions lack formal treatment
-
-**Published content:** [Conformance and Assessment](framework/05-conformance-and-assessment.md), [Appendix A — Estate](framework/appendices/a-terminology.md#estate), and Control.
-
-**Evidence:** The [abstract](source/00-front-matter.md#abstract), line 32, describes conformance as every production agent meeting each Requirement. [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment), line 9, permits declared control subsets across the whole population and declared exceptions with remediation windows. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), line 21, requires every obligation for a control to pass; [Appendix A — Estate](source/appendices/a-terminology.md#estate), line 85, summarizes findings against an agent as estate findings without restating the exception.
-
-**Why unresolved / decision needed:** A declared subset is supported; partial population coverage is expressly disallowed. A failed control is still failed. What is absent is the formal treatment of exception approval, expiry, allowable scope, claim wording, and any distinction between subset conformance and full-framework conformance. Do not infer an exemption from particular obligations or a certification outcome. The framework owner must define those choices in the assessment methodology; C2 makes its absence explicit.
-
 ### U10. Destruction evidence after memory transfer
 
 **Published content:** [Recourse Control 6.5](framework/principles/06-recourse.md#control-6-5), Requirement and Assessment.
@@ -268,7 +260,7 @@ Copied Rationale anecdotes and causal assertions are supported as statements of 
 
 **Confirmed errors corrected:** The README's omitted delegated-authority condition, the conformance page/layout's missing methodological qualification, the overbroad content/delegation example, and two grouped section citations. The confidence-threshold disclosure limit is retained without calling it a publication conflict.
 
-**Unresolved accuracy concerns:** Operator tagging and acceptance wording; delegation Assessment wording; formal treatment of subset/exception claims; and memory-transfer destruction evidence. Faithful copying does not resolve these concerns.
+**Unresolved accuracy concerns:** Operator tagging and acceptance wording; delegation Assessment wording; and memory-transfer destruction evidence. Faithful copying does not resolve these concerns.
 
 **Not verified:** Hosted AAF content, sibling website/mockup/media artifacts, repository settings and operational arrangements, every historical validation claim, the complete PDF transcription proof anew, the full text of external standards, or the real-world efficacy/conformance of any agent deployment. No Markdown source file was inaccessible.
 
