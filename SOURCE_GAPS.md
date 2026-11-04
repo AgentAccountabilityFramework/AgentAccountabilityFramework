@@ -85,3 +85,15 @@ This log records gaps reviewed during the accuracy report review. Each entry ide
 **Clarification needed:** Whether a child must always have strictly less authority than its parent, or whether explicitly approved equal authority is permitted, and the corresponding assessment evidence. The source supplies no explicit reconciliation.
 
 **Documentation treatment:** Preserve both control fields and all existing delegation limits. Do not infer permission for equal authority or introduce a universal strict-subset requirement through explanatory prose. Review piece 10; audit finding U4, authority-amount portion. The separate assessment prohibition is tracked in [G6](#g6-permitted-delegation-and-the-assessment-prohibition).
+
+## G8. Emergency changes and evaluation timing
+
+**Status:** Open. The emergency exception is explicit; its relationship to broader pre-action evaluation requirements is not reconciled.
+
+**Problem:** Control 3.7 permits a change to remediate a disclosed vulnerability under an emergency exception, with reduced autonomy until re-validation completes within a defined time. Its Assessment asks for re-validation before the next action. Control 5.6's Requirement and Assessment also require evaluation before action under a change event without explaining the emergency exception.
+
+**Evidence:** [Control 3.7](source/principles/03-role.md#control-3-7) contains the exception, reduced-autonomy condition, completion-time condition, and pre-next-action Assessment. [Control 5.6](source/principles/05-oversight.md#control-5-6) requires evaluation before acting under any change event and corresponding evidence. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) makes Requirements normative and Assessment informative, but does not reconcile these two Requirements.
+
+**Clarification needed:** How an emergency change satisfies Control 5.6 while operating at reduced autonomy before re-validation completes, and what timing and evidence demonstrate that the exception's conditions are met. The source does not supply a reconciled cross-control assessment rule.
+
+**Documentation treatment:** Preserve the explicit exception and both complete controls. Do not erase the emergency exception, invent a completion deadline, or extend it into a general permission for evaluation after action. Review piece 11; audit finding U5, emergency-change portion. Hidden provider changes remain for separate review.

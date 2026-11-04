@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Logged the [emergency-change timing gap](SOURCE_GAPS.md#g8-emergency-changes-and-evaluation-timing) between [Control 3.7](source/principles/03-role.md#control-3-7)'s reduced-autonomy exception and the pre-action evaluation wording in its Assessment and [Control 5.6](source/principles/05-oversight.md#control-5-6). Cited [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), identified the missing cross-control timing and evidence rule, and preserved the exception and both controls.
+
 - Logged the [parent/child authority ambiguity](SOURCE_GAPS.md#g7-equal-parent-and-child-authority) between [Control 4.14](source/principles/04-authority.md#control-4-14)'s subset/default wording and its Assessment requiring less authority. Cited [Control 4.3](source/principles/04-authority.md#control-4-3) and [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls); recorded the need for an explicit decision on equal authority while preserving both fields and existing delegation limits.
 
 - Logged the [agent-delegation assessment conflict](SOURCE_GAPS.md#g6-permitted-delegation-and-the-assessment-prohibition) between the Requirements in Controls [4.3](source/principles/04-authority.md#control-4-3) and [4.14](source/principles/04-authority.md#control-4-14) and the blanket prohibition in 4.3's Assessment. Cited [Delegation](source/appendices/a-terminology.md#delegation) and [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), and recorded the need for corrected assessment wording; preserved controls and the existing authority bounds.
