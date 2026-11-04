@@ -25,3 +25,15 @@ This log records gaps reviewed during the accuracy report review. Each entry ide
 **Clarification needed:** Who receives the conformance statement and how confidential confidence thresholds are represented or disclosed within it. The source does not establish whether a restricted statement, separate disclosure, or another arrangement is intended.
 
 **Documentation treatment:** [What to publish](framework/05-conformance-and-assessment.md#what-to-publish) flags the gap without choosing an audience or inventing an omission rule. Review piece 3; audit findings C2 and U3.
+
+## G3. Authoring convention and release evidence
+
+**Status:** Open. The authoring convention remains in effect; evidence of subsequent release, governance, or licensing decisions is not supplied by the source.
+
+**Problem:** Treating the framework as final for repository authoring does not establish a release event, completed framework governance, or an approved license grant.
+
+**Evidence:** [Repository authoring instructions](AGENTS.md#source-of-truth) establish the final-for-authoring convention while prohibiting invented release events, governance decisions, and licensing terms. The [source front matter](source/00-front-matter.md#agent-accountability) records a proposed license, and its [status section](source/00-front-matter.md#status-of-this-document) records internal review ahead of public release. [Section 8](source/08-framework-governance.md#8-framework-governance) describes stewardship and leaves governance mechanics unspecified. These passages do not establish whether later decisions exist outside the supplied source.
+
+**Clarification needed:** An authoritative decision record or approved successor source establishing any subsequent release, governance arrangements, or license grant. If one exists, identify which source statements it supersedes and the intended treatment of status in derived pages.
+
+**Documentation treatment:** Preserve the current authoring convention and source transcription. Record the evidence limit without inferring a release, governance decision, or license grant. Review piece 6; audit finding U1.
