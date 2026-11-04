@@ -1,6 +1,4 @@
 *.pdf
-# Keep the official source PDF in the repository.
-!/source/AAF-0.9.4.pdf
 __pycache__/
 
 # Local review reports

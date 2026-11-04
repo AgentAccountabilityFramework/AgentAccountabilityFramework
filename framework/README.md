@@ -1,5 +1,7 @@
 # Framework contents
 
+These pages explain the current internal working document; they do not establish a public release. See the [source status](../source/00-front-matter.md#status-of-this-document) and [review findings](../TODO.md#internal-and-incomplete-information-review).
+
 Start with Purpose and Scope, then read the core and its six principle pages. Each page links to the [Markdown source](../source/README.md), which is the reference for authoring and review.
 
 ## Start here

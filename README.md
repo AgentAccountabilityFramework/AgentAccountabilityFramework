@@ -1,5 +1,7 @@
 # Agent Accountability Framework
 
+The current AAF is an internal working document under review, ahead of public release ([document status](source/00-front-matter.md#status-of-this-document)). Assessment methodology, framework governance, acknowledgments, and licensing remain unresolved. See the [review findings](TODO.md#internal-and-incomplete-information-review).
+
 The Agent Accountability Framework (AAF) helps your organization establish who each AI agent is, who answers for it, what it may do, and how to stop it. It turns those questions into requirements you can test. You choose how to meet them ([Purpose](source/01-purpose.md#1-purpose), [Implementation Neutrality](source/06-implementation-neutrality.md#6-implementation-neutrality)).
 
 [Framework contents](framework/README.md) · [Markdown source](source/README.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)

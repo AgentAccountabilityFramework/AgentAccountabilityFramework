@@ -4,6 +4,8 @@
 
 Source: [Section 8: Framework Governance](../source/08-framework-governance.md#8-framework-governance).
 
+The source marks this section as “to be developed” and describes internal review before publication. The governance model and mechanics of public contribution remain undefined.
+
 Gravitee stewards the Agent Accountability Framework. Framework governance covers how versions are managed, how changes are reviewed, and how contributions are considered and decided.
 
 The source describes a path from Gravitee's stewardship toward governance shared by multiple stakeholders or a home within a standards body. It identifies that direction without naming a receiving body or specifying a transfer process.

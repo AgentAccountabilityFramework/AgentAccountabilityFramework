@@ -4,6 +4,8 @@
 
 Source: [Section 5: Conformance and Assessment](../source/05-conformance-and-assessment.md#5-conformance-and-assessment).
 
+The source marks this section as “to be developed”; the positions below are part of the internal working document.
+
 Section 5 explains what a conformance claim covers and what evidence you need. It gives guidance, rather than adding control requirements. It leaves the formal assessment method and conformance keywords undefined. Use each control's Requirement to decide whether it is met ([Section 4](../source/04-framework-core.md#4-the-framework-core-principles-and-controls)).
 
 Conformance means your organization's agents meet the accountability requirements you claim to meet. The claim covers your **agent estate**: all agents operating in or on behalf of your organization. You provide evidence for each agent.
