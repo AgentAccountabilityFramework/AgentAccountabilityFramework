@@ -1,6 +1,6 @@
 # Framework contents
 
-These pages explain the current internal working document; they do not establish a public release. See the [source status](../source/00-front-matter.md#status-of-this-document) and [review findings](../TODO.md#internal-and-incomplete-information-review).
+These pages explain the current internal working document; they do not establish a public release. See the [source status](../source/00-front-matter.md#status-of-this-document).
 
 Start with Purpose and Scope, then read the core and its six principle pages. Each page links to the [Markdown source](../source/README.md), which is the reference for authoring and review.
 
@@ -40,4 +40,3 @@ The principles follow the three domains in [Section 4](../source/04-framework-co
 - [Appendix A: Terminology](appendices/a-terminology.md): all 37 definitions used by the controls.
 - [Appendix B: Acknowledgments](appendices/b-acknowledgments.md): source credits and how to submit a correction.
 - [Source coverage](../maintenance/source-coverage.md): how each page relates to the source.
-- [Review and project decisions](../TODO.md): the decisions and review work still needed.

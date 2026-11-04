@@ -2,11 +2,11 @@
 
 Authoring source: [AAF Markdown source](../source/README.md). All 42 original pages are transcribed; the [provenance record](../source/README.md#transcription-and-provenance) identifies the original document and conversion conventions. Page numbers below refer to the original document.
 
-Internal status and unfinished source sections are flagged in the [review findings](../TODO.md#internal-and-incomplete-information-review). The framework contents and derived Section 5, Section 8, and Appendix B pages now state those limits explicitly. This is a status clarification; source text, control requirements, and definitions are unchanged.
+Internal status and unfinished source sections are recorded in the source. The framework contents and derived Section 5, Section 8, and Appendix B pages now state those limits explicitly. This is a status clarification; source text, control requirements, and definitions are unchanged.
 
 ## Section coverage
 
-Every source file below is fully transcribed, and every listed framework page has content. The last column describes what each derived page covers. Project decisions and the documentation review are tracked in [TODO.md](../TODO.md).
+Every source file below is fully transcribed, and every listed framework page has content. The last column describes what each derived page covers.
 
 | Source section and original pages | Markdown source | Derived destination and status |
 | --- | --- | --- |

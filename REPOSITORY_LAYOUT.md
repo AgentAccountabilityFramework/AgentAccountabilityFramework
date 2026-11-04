@@ -13,7 +13,6 @@ The [source/](source/README.md) directory holds the complete Markdown source use
 | [GOVERNANCE.md](GOVERNANCE.md) | Repository participation and review, with the limits of repository permissions. |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community expectations, reporting contacts, and enforcement process. |
 | [AGENTS.md](AGENTS.md) | Repository-specific instructions for AI assistants. |
-| [TODO.md](TODO.md) | Documentation review and project decisions still needed. |
 | [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) | This file: layout choices and file purposes. |
 
 ## Source
@@ -43,7 +42,7 @@ Use the [AAF Markdown source](source/README.md) for routine authoring. The [prov
 
 ## Framework
 
-These pages explain the framework in its established voice and reproduce the complete controls and formal definitions from [source/](source/README.md). Consult [source coverage](maintenance/source-coverage.md) for the mapping and [review notes](TODO.md) for decisions that need project input.
+These pages explain the framework in its established voice and reproduce the complete controls and formal definitions from [source/](source/README.md). Consult [source coverage](maintenance/source-coverage.md) for the mapping.
 
 | File | Purpose |
 | --- | --- |
