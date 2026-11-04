@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Dropped the identity/instance flag from the [accuracy report](ACCURACY_AUDIT.md). The [Agent definition](source/appendices/a-terminology.md#agent) distinguishes an agent from its sessions and instances, while [Control 1.2](source/principles/01-identity.md#control-1-2) covers admission and individual registration of agents created from approved templates. These serve different purposes; no contradiction or new identity rule was established. Framework text is unchanged.
+
 - Dropped the agent-classification flag from the [accuracy report](ACCURACY_AUDIT.md). [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) establishes the authority of the [Appendix A definitions](source/appendices/a-terminology.md#internal-agent), and the [scope tags](source/appendices/a-terminology.md#scope-tag) specify control applicability. The difference in Section 2's summary does not establish a missing rule. Framework text is unchanged.
 
 - Dropped the external-agent applicability flag from the [accuracy report](ACCURACY_AUDIT.md). The [Section 2 boundary rule](source/02-scope.md#boundary-of-management) and [Section 4 scope rules](source/04-framework-core.md#4-the-framework-core-principles-and-controls) already explain that controls apply at the organization's boundary and Internal controls do not apply to external agents. Added the report as a review-in-progress record; remaining candidates still await review. No framework requirements changed.
