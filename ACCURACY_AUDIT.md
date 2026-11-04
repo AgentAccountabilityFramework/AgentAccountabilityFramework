@@ -66,7 +66,7 @@ In the table, **faithful** means supported as a source summary or reproduction, 
 | [framework/01-purpose.md](framework/01-purpose.md) | Section 1; all principle introductions; Section 6. | Faithful purpose, audience, outcomes, and implementation choice. |
 | [framework/02-scope.md](framework/02-scope.md) | Section 2; Section 4; Appendix A; controls 1.1, 1.3, 1.4, 2.1, 2.5, 3.1, 3.8, 4.1, 4.6, 4.8, 5.1, 6.1. | Faithful scope and boundary explanation. Operator-of-record summary inherits source tension U2. |
 | [framework/03-terminology.md](framework/03-terminology.md) | Abstract; Sections 3–4; Appendix A definitions of Principle, Registry, Credential, Agent identity. | Six introductory explanations are clearly distinguished from formal definitions. No new formal terms imposed. |
-| [framework/04-framework-core.md](framework/04-framework-core.md) | Section 4; Section 2 boundary; domain introductions; Appendix A. | Domain mapping, upstream sequence, normative effect, control fields, applicability, and consequence/reach faithful; see U2 for the operator tag wording; U7 still awaits review. |
+| [framework/04-framework-core.md](framework/04-framework-core.md) | Section 4; Section 2 boundary; domain introductions; Appendix A. | Domain mapping, upstream sequence, normative effect, control fields, applicability, and consequence/reach faithful; see U2 for the operator tag wording. |
 | [framework/principles/01-identity.md](framework/principles/01-identity.md) | Complete source Identity page; linked controls; Appendix A identity/configuration/credential definitions; boundary rule. | All five complete controls match; introduction faithful. Identity/instance question U8. |
 | [framework/principles/02-sponsor.md](framework/principles/02-sponsor.md) | Complete source Sponsor page; linked controls; Appendix A Sponsor, Admitting authority, Operator of record; boundary rule. | All five controls match; introduction faithful. Operator scope and exception issue U2. |
 | [framework/principles/03-role.md](framework/principles/03-role.md) | Complete source Role page; linked controls; Appendix A Role, Rule, Intent, Reach, Budget, Autonomy level, Change event, Dependency. | All eight controls match; introduction faithful. |
@@ -77,7 +77,7 @@ In the table, **faithful** means supported as a source summary or reproduction, 
 | [framework/06-implementation-neutrality.md](framework/06-implementation-neutrality.md) | Section 6; control 1.2; Appendix A Registry, Enforcement layer, Containment boundary. | Faithful; registry example does not prescribe technology or claim to replace the complete controls. |
 | [framework/07-relationship-to-standards.md](framework/07-relationship-to-standards.md) | Section 7; Section 5; controls 4.3 and 4.6; seven linked primary pages. | Related-work descriptions verified; authenticated-delegation qualification restored (C3). No equivalence or required protocol asserted. |
 | [framework/08-framework-governance.md](framework/08-framework-governance.md) | Section 8; front matter. | Current steward and intended direction faithful; no receiving body, transfer mechanism, or decision rights invented. |
-| [framework/appendices/a-terminology.md](framework/appendices/a-terminology.md) | Entire source Appendix A and its linked controls/sections. | All 37 definitions match, including order and links. Candidates U7–U10 still await review. |
+| [framework/appendices/a-terminology.md](framework/appendices/a-terminology.md) | Entire source Appendix A and its linked controls/sections. | All 37 definitions match, including order and links. Candidates U8–U10 still await review. |
 | [framework/appendices/b-acknowledgments.md](framework/appendices/b-acknowledgments.md) | Appendix B; front matter, lines 15–16. | Editor and steward attribution supported; does not invent additional reviewers. Contribution route is repository guidance. |
 | [maintenance/checks.md](maintenance/checks.md) | Section 4; source control inventory; Appendix A; source provenance. | Counts and limits verified against actual checker and tests. Correctly disclaims prose accuracy and conformance verification. |
 | [maintenance/moderation.md](maintenance/moderation.md) | Section 8 as governance boundary. | Repository guidance only; does not confer roles or promise outcomes. Operational arrangements unverified. |
@@ -179,14 +179,6 @@ These are specific wording issues. The control already describes what to do with
 
 The Assessment sentence needs narrowing so it doesn't rule out permitted delegation. Requirements take precedence under [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls). This is an assessment wording issue, not a missing delegation rule. See [G6](SOURCE_GAPS.md#g6-permitted-delegation-and-the-assessment-prohibition).
 
-### U7. Internal and external agent classification can overlap
-
-**Published content:** [Scope's agent terms](framework/02-scope.md#in-scope), [Appendix A — Internal agent](framework/appendices/a-terminology.md#internal-agent), and the scope-tag table.
-
-**Evidence:** [Section 2](source/02-scope.md#2-scope), line 9, describes internal agents as those the organization “builds and operates.” [Appendix A — Internal agent](source/appendices/a-terminology.md#internal-agent), line 105, says “builds or operates itself.” [External agent](source/appendices/a-terminology.md#external-agent), line 89, is defined by third-party operation; [Scope tag](source/appendices/a-terminology.md#scope-tag), line 141, applies Internal controls to agents the organization operates.
-
-**Why unresolved / decision needed:** An organization-built agent operated by a third party can satisfy both type definitions, while scope applicability turns on operation and access to internals. Clarify the classification of that case. The published Scope page correctly reproduces the normative Appendix A definition; changing “or” to “and” there would silently alter a formal definition.
-
 ### U8. Identity versus template instantiation
 
 **Published content:** [Identity Control 1.2](framework/principles/01-identity.md#control-1-2), [Appendix A — Agent](framework/appendices/a-terminology.md#agent), and Configuration.
@@ -284,7 +276,7 @@ Copied Rationale anecdotes and causal assertions are supported as statements of 
 
 **Confirmed errors corrected:** The README's omitted delegated-authority condition, the conformance page/layout's missing methodological qualification, the overbroad content/delegation example, and two grouped section citations. The confidence-threshold disclosure limit is retained without calling it a publication conflict.
 
-**Unresolved accuracy concerns:** Operator tagging and acceptance wording; delegation Assessment wording; agent classification and identity boundaries; formal treatment of subset/exception claims; and memory-transfer destruction evidence. Faithful copying does not resolve these concerns.
+**Unresolved accuracy concerns:** Operator tagging and acceptance wording; delegation Assessment wording; identity boundaries; formal treatment of subset/exception claims; and memory-transfer destruction evidence. Faithful copying does not resolve these concerns.
 
 **Not verified:** Hosted AAF content, sibling website/mockup/media artifacts, repository settings and operational arrangements, every historical validation claim, the complete PDF transcription proof anew, the full text of external standards, or the real-world efficacy/conformance of any agent deployment. No Markdown source file was inaccessible.
 
