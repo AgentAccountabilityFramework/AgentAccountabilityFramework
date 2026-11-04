@@ -96,4 +96,16 @@ This log records gaps reviewed during the accuracy report review. Each entry ide
 
 **Clarification needed:** How an emergency change satisfies Control 5.6 while operating at reduced autonomy before re-validation completes, and what timing and evidence demonstrate that the exception's conditions are met. The source does not supply a reconciled cross-control assessment rule.
 
-**Documentation treatment:** Preserve the explicit exception and both complete controls. Do not erase the emergency exception, invent a completion deadline, or extend it into a general permission for evaluation after action. Review piece 11; audit finding U5, emergency-change portion. Hidden provider changes remain for separate review.
+**Documentation treatment:** Preserve the explicit exception and both complete controls. Do not erase the emergency exception, invent a completion deadline, or extend it into a general permission for evaluation after action. Review piece 11; audit finding U5, emergency-change portion. Hidden provider changes are tracked separately in [G9](#g9-hidden-provider-changes-and-evaluation-timing).
+
+## G9. Hidden provider changes and evaluation timing
+
+**Status:** Open. Cadenced detection is explicit; the relationship to pre-action evaluation is not fully specified.
+
+**Problem:** Control 3.7 permits behavioral sampling on a defined cadence to detect provider changes behind an unchanged model label and says detected changes trigger re-validation. Its Assessment requires re-validation before the next action, including for detected provider changes. Control 5.6 requires evaluation before acting under any change event. The source does not explain how those timing requirements apply while a provider change is unknown or being evaluated after detection.
+
+**Evidence:** [Control 3.7](source/principles/03-role.md#control-3-7) states the sampling-based satisfaction condition and pre-next-action Assessment. [Control 5.6](source/principles/05-oversight.md#control-5-6) requires pre-change-action evaluation and evidence of that ordering.
+
+**Clarification needed:** How actions between a hidden provider change and its detection are treated in assessment, and what actions, if any, are permitted between detection and completed re-validation. The source does not explicitly reconcile the cadence-based detection provision with the broader pre-action evaluation requirement.
+
+**Documentation treatment:** Preserve the sampling provision, evaluation requirements, and complete control text. Do not invent an automatic suspension rule or a general permission to keep acting pending re-validation. Review piece 12; audit finding U5, provider-change portion. Emergency changes are tracked separately in [G8](#g8-emergency-changes-and-evaluation-timing).
