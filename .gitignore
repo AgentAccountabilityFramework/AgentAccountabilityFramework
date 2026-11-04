@@ -1,2 +1,7 @@
 *.pdf
 __pycache__/
+
+# Local review reports
+/ACCURACY_AUDIT.md
+/SOURCE_GAPS.md
+/reports/
