@@ -26,6 +26,6 @@ Section 7 also points to runtime governance practices in regulated industries th
 
 When an agent acts for someone else, the party receiving its request needs to verify who authorized it and what that authorization permits. Under [Control 4.3](../source/principles/04-authority.md#control-4-3), the delegation must be explicit, attributable, bounded, and verifiable. The agent's effective authority cannot exceed either its own authority or the delegating principal's, and further delegation cannot add privileges.
 
-For example, an agent with permission to update customer records cannot use that permission on behalf of a person who may only read them. A request written in a document or tool response cannot grant extra authority either: [Control 4.6](../source/principles/04-authority.md#control-4-6) requires an explicit, authenticated grant or delegation.
+For example, an agent with permission to update customer records cannot use that permission on behalf of a person who may only read them. A request written in a document or tool response cannot grant extra authority unless it is an authenticated delegation from a principal authorized to confer it and is captured in the record ([Control 4.6](../source/principles/04-authority.md#control-4-6)).
 
 The AAF requires those properties without choosing a delegation protocol. Section 7 looks to the standards community to provide ways to implement them.
