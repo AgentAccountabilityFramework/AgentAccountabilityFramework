@@ -1,0 +1,27 @@
+# Source gaps
+
+This log records gaps reviewed during the accuracy report review. Each entry identifies the source evidence, what remains unknown, and the clarification needed. Documentation can flag a gap; resolving it requires an authoritative source or a framework decision. Further entries are added as the review proceeds.
+
+## G1. Formal conformance assessment
+
+**Status:** Open. The documentation explains the limitation; the assessment method remains unspecified.
+
+**Problem:** The source gives conformance positions but does not supply formal conformance keywords or a complete assessment methodology. It does not establish a certification scheme.
+
+**Evidence:** [Section 3](source/03-terminology.md#3-terminology) points formal conformance keywords to Section 5. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) makes Section 5 informative, bases conformance on control Requirements, and directs formal assessment methodology to Section 5. [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment) describes positions and leaves formal keywords and methodology undefined.
+
+**Clarification needed:** An authoritative assessment methodology and formal conformance vocabulary. Any claim of certification also needs evidence of an established certification scheme; none is supplied by these passages.
+
+**Documentation treatment:** [Conformance and Assessment](framework/05-conformance-and-assessment.md) explains these limits and retains control Requirements as the basis for conformance. Review piece 2; audit finding C2.
+
+## G2. Confidence thresholds in conformance statements
+
+**Status:** Open. Both source provisions are identified; disclosure policy remains unspecified.
+
+**Problem:** Section 5 says every organization-defined threshold is published in the conformance statement. Control 3.3 limits confidence-threshold disclosure to parties with a need to know. The source does not explain how the statement meets both provisions.
+
+**Evidence:** [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment) includes every organization-defined threshold among the published parameters. [Control 3.3 Requirement](source/principles/03-role.md#control-3-3) restricts disclosure of confidence thresholds and says role readability does not make them public.
+
+**Clarification needed:** Who receives the conformance statement and how confidential confidence thresholds are represented or disclosed within it. The source does not establish whether a restricted statement, separate disclosure, or another arrangement is intended.
+
+**Documentation treatment:** [What to publish](framework/05-conformance-and-assessment.md#what-to-publish) flags the gap without choosing an audience or inventing an omission rule. Review piece 3; audit findings C2 and U3.

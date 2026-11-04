@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Flagged the confidence-threshold disclosure gap in [Conformance and Assessment](framework/05-conformance-and-assessment.md#what-to-publish) and [source coverage](maintenance/source-coverage.md#section-coverage), citing [Control 3.3](source/principles/03-role.md#control-3-3) and [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment). Created the [source gap log](SOURCE_GAPS.md) for this conflict and the reviewed assessment-method gap under Sections [3](source/03-terminology.md#3-terminology), [4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), and [5](source/05-conformance-and-assessment.md#5-conformance-and-assessment); added it to the [repository layout](REPOSITORY_LAYOUT.md#root). No disclosure policy or assessment method was invented.
+
 - Clarified the limits of [Conformance and Assessment](framework/05-conformance-and-assessment.md), with matching descriptions in the [repository layout](REPOSITORY_LAYOUT.md#framework) and [source coverage](maintenance/source-coverage.md#section-coverage). Following Sections [3](source/03-terminology.md#3-terminology), [4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), and [5](source/05-conformance-and-assessment.md#5-conformance-and-assessment), identified the informative guidance, absent formal keywords and assessment methodology, and lack of a source-defined certification scheme. Control Requirements remain the basis for conformance.
 
 - Restored the delegated-authority condition in the [README scope summary](README.md#what-the-framework-covers), following [Section 2](source/02-scope.md#2-scope). This keeps the summary aligned with the agents covered by the framework; no control requirements changed.

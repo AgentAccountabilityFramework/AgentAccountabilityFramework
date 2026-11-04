@@ -20,6 +20,8 @@ A finding against one agent is a finding against the estate, unless it is record
 
 Your conformance statement must publish every parameter the framework leaves to your organization. This includes each defined window, cadence, period, threshold, and tolerance.
 
+[Control 3.3](../source/principles/03-role.md#control-3-3) limits disclosure of confidence thresholds to parties with a need to know. The source does not specify how that limit applies to publication in a conformance statement ([Section 5](../source/05-conformance-and-assessment.md#5-conformance-and-assessment)); see the [gap log](../SOURCE_GAPS.md#g2-confidence-thresholds-in-conformance-statements).
+
 Where the framework sets a minimum, your chosen parameter must meet it. For example, [Control 6.1](../source/principles/06-recourse.md#control-6-1) requires suspension in seconds. For an agent whose runtime you do not control, that means revoking its credentials, sessions, and authority at your boundary within the same window.
 
 ## What the evidence must show

@@ -14,6 +14,7 @@ The [source/](source/README.md) directory holds the complete Markdown source use
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community expectations, reporting contacts, and enforcement process. |
 | [AGENTS.md](AGENTS.md) | Repository-specific instructions for AI assistants. |
 | [TODO.md](TODO.md) | Documentation review and project decisions still needed. |
+| [SOURCE_GAPS.md](SOURCE_GAPS.md) | Reviewed source gaps, supporting evidence, and clarifications needed. |
 | [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) | This file: layout choices and file purposes. |
 
 ## Source
