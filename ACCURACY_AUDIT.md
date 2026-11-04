@@ -51,9 +51,9 @@ In the table, **faithful** means supported as a source summary or reproduction, 
 | --- | --- | --- |
 | [README.md](README.md) | Sections 1, 2, 4, 6; all six source principle introductions. | Corrected scope qualification (C1); domain/principle summaries otherwise faithful. |
 | [AGENTS.md](AGENTS.md) | Source index; front matter; Sections 2–6, 8; Appendix A. | Framework-fidelity instructions faithful; final-for-authoring convention is explicit and is not a framework defect. Commit and attribution instructions are repository conventions, not AAF rules. |
-| [CHANGELOG.md](CHANGELOG.md) | All source sections cited in its entries; local Git history for repository events. | Technical descriptions reviewed; two grouped citations corrected (C4). Historical statements retained as history, not current file status. Prior validation runs not independently replayed (U11). |
+| [CHANGELOG.md](CHANGELOG.md) | All source sections cited in its entries; local Git history for repository events. | Technical descriptions reviewed; two grouped citations corrected (C4). Historical statements retained as history, not current file status. Prior validation runs not independently replayed. |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Section 8 as the boundary between framework governance and local practices. | Repository guidance, not AAF controls; no invented named reporting contact. Actual operational arrangements not established by source. |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Source index; Section 4; Section 8; front-matter license/status. | Source-change and derived-edit distinctions faithful. Repository contribution process is local; public issue/PR status unverified (U11). |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Source index; Section 4; Section 8; front-matter license/status. | Source-change and derived-edit distinctions faithful. Repository contribution process is local; public issue/PR status unverified. |
 | [GOVERNANCE.md](GOVERNANCE.md) | Section 8; source index. | Correctly separates repository permissions from framework decision rights. Actual permissions are outside source evidence. |
 | [LICENSE](LICENSE) | Front matter, line 17; source index. | Faithfully avoids treating the proposed license as a grant. No legal determination or off-repository licensing agreement was audited. |
 | [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) | Source index; all source headings and control ranges; Section 5; Appendix A. | File inventory and mappings reviewed against the tree. Conformance-page description qualified (C2). |
@@ -82,7 +82,7 @@ In the table, **faithful** means supported as a source summary or reproduction, 
 | [maintenance/checks.md](maintenance/checks.md) | Section 4; source control inventory; Appendix A; source provenance. | Counts and limits verified against actual checker and tests. Correctly disclaims prose accuracy and conformance verification. |
 | [maintenance/moderation.md](maintenance/moderation.md) | Section 8 as governance boundary. | Repository guidance only; does not confer roles or promise outcomes. Operational arrangements unverified. |
 | [maintenance/releases.md](maintenance/releases.md) | Source index; Section 8; front matter. | Repository release guidance correctly leaves authority, licensing, versioning, and publication decisions to the project. |
-| [maintenance/source-coverage.md](maintenance/source-coverage.md) | All 18 source files; actual derived pages; targeted provenance checks. | Section/control/term mappings reviewed; added audit limitations and updated Section 5 coverage (C2). Historical transcription-proof claim not independently reproduced in full (U11). |
+| [maintenance/source-coverage.md](maintenance/source-coverage.md) | All 18 source files; actual derived pages; targeted provenance checks. | Section/control/term mappings reviewed; added audit limitations and updated Section 5 coverage (C2). Historical transcription-proof claim not independently reproduced in full. |
 | [.github/ISSUE_TEMPLATE/documentation.md](.github/ISSUE_TEMPLATE/documentation.md) | Source index and Section 4. | Local correction-report template; no added AAF requirement. |
 | [.github/ISSUE_TEMPLATE/proposal.md](.github/ISSUE_TEMPLATE/proposal.md) | Sections 2 and 4; source index. | Preserves boundary impacts and distinction between proposals and current obligations. |
 | [.github/ISSUE_TEMPLATE/question.md](.github/ISSUE_TEMPLATE/question.md) | Source index. | Local question template; no technical framework claim beyond locating a passage. |
@@ -161,7 +161,7 @@ Supporting edits add audit navigation in the framework contents and layout, reco
 
 ## 3. Unresolved issues
 
-U2 and U4 below were re-reviewed and narrowed to specific wording issues. External-agent applicability was also reviewed: the boundary rule and scope tags already explain how the controls apply, so no gap is recorded. The later items still await review; they are candidates, not confirmed gaps. Control text and definitions stay unchanged.
+U2 and U4 below were re-reviewed and narrowed to specific wording issues. External-agent applicability was also reviewed: the boundary rule and scope tags already explain how the controls apply, so no gap is recorded. The remaining candidates have been reviewed and dropped; they did not establish additional framework gaps. Control text and definitions stay unchanged.
 
 
 ### U2. Operator-of-record wording
@@ -178,14 +178,6 @@ These are specific wording issues. The control already describes what to do with
 [Control 4.3's Assessment](source/principles/04-authority.md#control-4-3) says no mechanism exists for an agent to grant another agent authority. [Control 4.14's Requirement](source/principles/04-authority.md#control-4-14) explicitly allows a parent to delegate authority to a spawned agent, and [Appendix A — Delegation](source/appendices/a-terminology.md#delegation) includes agent principals.
 
 The Assessment sentence needs narrowing so it doesn't rule out permitted delegation. Requirements take precedence under [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls). This is an assessment wording issue, not a missing delegation rule. See [G6](SOURCE_GAPS.md#g6-permitted-delegation-and-the-assessment-prohibition).
-
-### U11. Historical and operational claims beyond the supplied evidence
-
-**Published content:** `CONTRIBUTING.md` line 14 says issues and pull requests are public. `maintenance/source-coverage.md` records a prior complete transcription proof and past validation. The changelog records completed repository work; governance and conduct pages discuss operating project spaces.
-
-**Evidence and limitation:** The source establishes neither GitHub visibility/settings nor past checker execution. Local history supports the sequence of repository edits, and the current source inventory, PDF hash/token count, control comparison, and tests were independently checked. Those facts do not prove every historical run or current hosted setting.
-
-**Decision/verification needed:** Verify repository visibility, hosted checks, permissions, reporting arrangements, and any intended publication assets before relying on those operational statements. Reproduce the full historical transcription comparison if a fresh PDF-level proof is required. No claim in this audit treats those matters as source-verified; historical statements were not rewritten as if they described today's tree.
 
 ## 4. Coverage and consistency findings
 
@@ -238,6 +230,10 @@ Examples were checked against the applicable Requirements and related controls, 
 
 Copied Rationale anecdotes and causal assertions are supported as statements of the source, not independently established empirical facts. Assessment exercises remain illustrative evidence patterns. No example was certified as a sufficient implementation of the whole framework.
 
+### Verification limits
+
+This review checked the local files. It did not verify hosted repository settings or repeat every previously recorded check. Those limits do not establish that the repository statements or earlier check results are wrong.
+
 ### Validation performed
 
 - The repository checker passed before changes: 55 Markdown pages, 1,483 local links, 45 controls, and 37 definitions.
@@ -256,4 +252,4 @@ Copied Rationale anecdotes and causal assertions are supported as statements of 
 
 **Not verified:** Hosted AAF content, sibling website/mockup/media artifacts, repository settings and operational arrangements, every historical validation claim, the complete PDF transcription proof anew, the full text of external standards, or the real-world efficacy/conformance of any agent deployment. No Markdown source file was inaccessible.
 
-The documentation closely follows the source. The approved review leaves four supported points in the [gap log](SOURCE_GAPS.md): the assessment method Section 5 explicitly leaves undefined, two wording issues in Control 2.5, and the delegation Assessment sentence in Control 4.3. Other audit findings still await review under the same standard: a possible reader question is not enough to establish a gap.
+The documentation closely follows the source. The approved review leaves four supported points in the [gap log](SOURCE_GAPS.md): the assessment method Section 5 explicitly leaves undefined, two wording issues in Control 2.5, and the delegation Assessment sentence in Control 4.3. The remaining candidates have been reviewed. A possible reader question, by itself, is not a gap.
