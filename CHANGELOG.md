@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Logged the [parent/child authority ambiguity](SOURCE_GAPS.md#g7-equal-parent-and-child-authority) between [Control 4.14](source/principles/04-authority.md#control-4-14)'s subset/default wording and its Assessment requiring less authority. Cited [Control 4.3](source/principles/04-authority.md#control-4-3) and [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls); recorded the need for an explicit decision on equal authority while preserving both fields and existing delegation limits.
+
 - Logged the [agent-delegation assessment conflict](SOURCE_GAPS.md#g6-permitted-delegation-and-the-assessment-prohibition) between the Requirements in Controls [4.3](source/principles/04-authority.md#control-4-3) and [4.14](source/principles/04-authority.md#control-4-14) and the blanket prohibition in 4.3's Assessment. Cited [Delegation](source/appendices/a-terminology.md#delegation) and [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), and recorded the need for corrected assessment wording; preserved controls and the existing authority bounds.
 
 - Logged the [dependency-acceptance gap](SOURCE_GAPS.md#g5-acceptance-of-missing-operator-arrangements) between [Control 2.5](source/principles/02-sponsor.md#control-2-5)'s unconditional operator Requirement and its informative acceptance language, applying the field hierarchy in [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls). Recorded the need to clarify conformance treatment, preserved control wording, and kept admitted external agents distinct from dependency acceptance.

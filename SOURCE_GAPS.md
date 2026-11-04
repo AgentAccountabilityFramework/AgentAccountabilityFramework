@@ -72,4 +72,16 @@ This log records gaps reviewed during the accuracy report review. Each entry ide
 
 **Clarification needed:** Authoritative assessment wording that distinguishes permitted, bounded delegation by an authorized agent principal from unauthorized grants or expansion of authority. The source does not provide that corrected wording.
 
-**Documentation treatment:** Preserve the complete control text and apply the source's Requirement/Assessment hierarchy. Do not turn the Assessment sentence into a blanket ban on parent delegation or invent a delegation mechanism. Review piece 9; audit finding U4, delegation-prohibition portion. The separate question of equal parent/child authority remains for its own review.
+**Documentation treatment:** Preserve the complete control text and apply the source's Requirement/Assessment hierarchy. Do not turn the Assessment sentence into a blanket ban on parent delegation or invent a delegation mechanism. Review piece 9; audit finding U4, delegation-prohibition portion. The separate question of equal parent/child authority is recorded in [G7](#g7-equal-parent-and-child-authority).
+
+## G7. Equal parent and child authority
+
+**Status:** Open. The source does not clearly reconcile default inheritance with the Assessment's strict reduction of authority.
+
+**Problem:** Control 4.14's Requirement limits a child to at most a subset of its parent's authority and says it never receives all of it by default. Its Assessment requires less authority than the parent. These formulations leave uncertainty about whether explicitly approved equal authority is permitted.
+
+**Evidence:** [Control 4.14](source/principles/04-authority.md#control-4-14) contains the Requirement's subset/default wording and the Assessment's strict-less-than wording. [Control 4.3](source/principles/04-authority.md#control-4-3) prohibits delegation from exceeding the delegator's authority or amplifying privileges; it does not resolve whether Control 4.14 always requires a strict reduction. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) makes Requirements normative and Assessment informative.
+
+**Clarification needed:** Whether a child must always have strictly less authority than its parent, or whether explicitly approved equal authority is permitted, and the corresponding assessment evidence. The source supplies no explicit reconciliation.
+
+**Documentation treatment:** Preserve both control fields and all existing delegation limits. Do not infer permission for equal authority or introduce a universal strict-subset requirement through explanatory prose. Review piece 10; audit finding U4, authority-amount portion. The separate assessment prohibition is tracked in [G6](#g6-permitted-delegation-and-the-assessment-prohibition).
