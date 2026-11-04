@@ -33,6 +33,8 @@ Start with the [framework reading order](framework/README.md), which includes al
 
 ## Contribute
 
+For general questions or to contact the AAF team, email [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org). You can also use this address to report conduct concerns privately; see the [Code of Conduct](CODE_OF_CONDUCT.md#reporting-a-concern).
+
 - [Contribution guide](CONTRIBUTING.md)
 - [Proposing changes](contributing/proposing-changes.md)
 - [Editorial guide](contributing/editorial-guide.md)

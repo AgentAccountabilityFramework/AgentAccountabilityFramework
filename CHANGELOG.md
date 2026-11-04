@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Added the official AAF contact, [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org), to the [README](README.md#contribute), [contribution guide](CONTRIBUTING.md), [Code of Conduct](CODE_OF_CONDUCT.md#reporting-a-concern), and [moderation guidance](maintenance/moderation.md) for general contact and private conduct reports. Replaced the missing-contact placeholders and updated [project decisions](TODO.md#confirm-project-decisions); an alternative contact still needs to be confirmed. This is repository contact information, not a change to the framework governance described in [Section 8](source/08-framework-governance.md#8-framework-governance).
+
 - Integrated the source PDF uploaded to the remote branch while the documentation review was in progress. Preserved the [Markdown authoring source](source/README.md#transcription-and-provenance) and the completed review changes; no framework requirements changed.
 
 - Kept the accuracy report and gap log as local review files: added them to [.gitignore](.gitignore), stopped tracking them, and removed documentation links that would be broken in a fresh checkout. Finished the report review and retained the approved documentation corrections. Source text and complete controls are unchanged.

@@ -12,7 +12,7 @@ The [framework pages](framework/README.md), contribution guides, and maintenance
 ## Confirm project decisions
 
 - **Licensing:** Confirm the terms for the framework text, documentation, scripts, and contributions. Replace the decision note in [LICENSE](LICENSE) with approved terms. The [source front matter](source/00-front-matter.md#agent-accountability) records a proposal, not an established repository license.
-- **Conduct reports:** Name a private reporting contact and an alternative for reports involving that person. Update [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [moderation guidance](maintenance/moderation.md).
+- **Conduct reports:** The reporting contact is [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org), listed in the [Code of Conduct](CODE_OF_CONDUCT.md#reporting-a-concern) and [moderation guidance](maintenance/moderation.md). Confirm an alternative for reports involving the people handling that inbox.
 - **Review assignments:** Confirm which GitHub users or teams will review which files before adding rules to [CODEOWNERS](.github/CODEOWNERS).
 - **Framework governance:** Confirm who can approve source changes and releases, how versions are managed, and how the intended shared stewardship would work. Record approved decisions against [Section 8](source/08-framework-governance.md#8-framework-governance) without treating repository permissions as framework authority.
 - **Assessment method:** If adding formal conformance keywords or an assessment method, define and approve them through a source change. The positions in [Section 5](source/05-conformance-and-assessment.md#5-conformance-and-assessment) alone do not settle those choices.

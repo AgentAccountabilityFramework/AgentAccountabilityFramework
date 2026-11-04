@@ -12,6 +12,6 @@ This project welcomes participation from people with different backgrounds, expe
 
 ## Reporting a concern
 
-Do not post a conduct report or identifying details in a public issue. A private reporting contact has not yet been published for this repository. If you cannot identify a trusted maintainer through the repository's established private channels, wait until a private contact is available before sharing sensitive details. You may include links, dates, context, and how you can be reached when reporting; share only what you are comfortable providing.
+Email conduct concerns to [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org). Do not post the report or identifying details in a public issue. You may include links, dates, context, and how you can be reached; share only what you are comfortable providing.
 
 Maintainers handling a report should limit access to those who need it, consider conflicts of interest, and protect the privacy and safety of those involved as far as possible. They may request more information and take proportionate action, including removing content, limiting participation, or excluding someone from project spaces. See [moderation guidance](maintenance/moderation.md). No particular response time or outcome is guaranteed.

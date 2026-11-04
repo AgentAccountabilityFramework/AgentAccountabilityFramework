@@ -13,6 +13,8 @@ Read the [framework source](source/README.md) and the relevant sections and cont
 
 For a substantial change, consider opening an issue first so others can discuss the approach before you invest in a full edit. Issues and pull requests are public: do not include confidential information, personal data, or sensitive incident details.
 
+For general questions or matters that need a private conversation, email [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org). Send conduct reports to this address too, following the [Code of Conduct](CODE_OF_CONDUCT.md#reporting-a-concern).
+
 ## Prepare a pull request
 
 1. Create a branch or fork and make your changes. Keep unrelated changes separate.
