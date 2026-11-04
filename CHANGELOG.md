@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Added an explicit exception in [.gitignore](.gitignore) for the official source PDF at `source/AAF-0.9.4.pdf`, which remains tracked. Other PDFs and local review reports remain ignored.
+
 - Added the official AAF contact, [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org), to the [README](README.md#contribute), [contribution guide](CONTRIBUTING.md), [Code of Conduct](CODE_OF_CONDUCT.md#reporting-a-concern), and [moderation guidance](maintenance/moderation.md) for general contact and private conduct reports. Replaced the missing-contact placeholders and updated [project decisions](TODO.md#confirm-project-decisions); an alternative contact still needs to be confirmed. This is repository contact information, not a change to the framework governance described in [Section 8](source/08-framework-governance.md#8-framework-governance).
 
 - Integrated the source PDF uploaded to the remote branch while the documentation review was in progress. Preserved the [Markdown authoring source](source/README.md#transcription-and-provenance) and the completed review changes; no framework requirements changed.
