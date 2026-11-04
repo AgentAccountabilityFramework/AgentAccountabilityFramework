@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Clarified the limits of [Conformance and Assessment](framework/05-conformance-and-assessment.md), with matching descriptions in the [repository layout](REPOSITORY_LAYOUT.md#framework) and [source coverage](maintenance/source-coverage.md#section-coverage). Following Sections [3](source/03-terminology.md#3-terminology), [4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), and [5](source/05-conformance-and-assessment.md#5-conformance-and-assessment), identified the informative guidance, absent formal keywords and assessment methodology, and lack of a source-defined certification scheme. Control Requirements remain the basis for conformance.
+
 - Restored the delegated-authority condition in the [README scope summary](README.md#what-the-framework-covers), following [Section 2](source/02-scope.md#2-scope). This keeps the summary aligned with the agents covered by the framework; no control requirements changed.
 
 - Finished [Scope](framework/02-scope.md) in the established voice, preserving the meaning of [Section 2](source/02-scope.md#2-scope) and its [boundary rule](source/02-scope.md#boundary-of-management). Clarified internal, external, and spawned agents using [Appendix A](source/appendices/a-terminology.md#appendix-a-terminology); distinguished general software maintenance from declared agent dependencies under [Control 3.8](source/principles/03-role.md#control-3-8). Retained the external-agent suspension and operator requirements in controls [6.1](source/principles/06-recourse.md#control-6-1) and [2.5](source/principles/02-sponsor.md#control-2-5).

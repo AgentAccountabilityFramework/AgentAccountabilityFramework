@@ -4,6 +4,8 @@
 
 Source: [Section 5: Conformance and Assessment](../source/05-conformance-and-assessment.md#5-conformance-and-assessment).
 
+This page explains the conformance positions in Section 5, which is informative. The source does not define formal conformance keywords or an assessment methodology, or establish a certification scheme. Control Requirements remain the basis for conformance ([Section 4](../source/04-framework-core.md#4-the-framework-core-principles-and-controls)).
+
 Conformance means your organization's agents meet the accountability requirements you claim to meet. The claim covers your **agent estate**: all agents operating in or on behalf of your organization. You provide evidence for each agent.
 
 ## What the claim covers

@@ -58,7 +58,7 @@ These pages explain the framework in its established voice and reproduce the com
 | [principles/04-authority.md](framework/principles/04-authority.md) | Authority principle and its controls. |
 | [principles/05-oversight.md](framework/principles/05-oversight.md) | Oversight principle and its controls. |
 | [principles/06-recourse.md](framework/principles/06-recourse.md) | Recourse principle and its controls. |
-| [05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | How conformance is assessed and claimed. |
+| [05-conformance-and-assessment.md](framework/05-conformance-and-assessment.md) | Conformance positions and evidence expectations; the source does not define a formal assessment methodology. |
 | [06-implementation-neutrality.md](framework/06-implementation-neutrality.md) | The framework's position on implementation neutrality. |
 | [07-relationship-to-standards.md](framework/07-relationship-to-standards.md) | Relationship to adjacent standards work. |
 | [08-framework-governance.md](framework/08-framework-governance.md) | Stewardship described in the source and links to the repository contribution process. |
