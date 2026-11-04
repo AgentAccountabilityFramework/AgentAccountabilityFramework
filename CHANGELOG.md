@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Integrated the source PDF uploaded to the remote branch while the documentation review was in progress. Preserved the [Markdown authoring source](source/README.md#transcription-and-provenance) and the completed review changes; no framework requirements changed.
+
 - Kept the accuracy report and gap log as local review files: added them to [.gitignore](.gitignore), stopped tracking them, and removed documentation links that would be broken in a fresh checkout. Finished the report review and retained the approved documentation corrections. Source text and complete controls are unchanged.
 
 - Moved the repository-settings and historical-check item from the accuracy report's unresolved issues to its verification limits. Not checking a hosted setting or repeating a past check does not establish an error or framework gap. Contribution instructions and framework text are unchanged.
