@@ -48,4 +48,16 @@ This log records gaps reviewed during the accuracy report review. Each entry ide
 
 **Clarification needed:** How the External tag applies to the dependency obligations in Control 2.5, and whether the tag, definition, or control structure needs an authoritative correction. The source supplies no explicit reconciliation of these passages.
 
-**Documentation treatment:** Preserve the complete Requirement and existing tag. Do not omit dependency obligations solely on the basis of the tag or silently retag the control. Review piece 7; audit finding U2, applicability portion. The separate dependency-acceptance question is reserved for its own review.
+**Documentation treatment:** Preserve the complete Requirement and existing tag. Do not omit dependency obligations solely on the basis of the tag or silently retag the control. Review piece 7; audit finding U2, applicability portion. The separate dependency-acceptance question is recorded in [G5](#g5-acceptance-of-missing-operator-arrangements).
+
+## G5. Acceptance of missing operator arrangements
+
+**Status:** Open. Sponsor acceptance of a dependency gap is described in informative text; its effect on conformance is unspecified.
+
+**Problem:** Control 2.5's Requirement mandates a verified operating organization, an accountability agreement, and a named accountable contact for every covered dependency. Its Rationale and Assessment describe accepting a dependency when the arrangement is unavailable, with sponsor acceptance and compensating boundary controls. The Requirement contains no corresponding exception.
+
+**Evidence:** [Control 2.5](source/principles/02-sponsor.md#control-2-5) contains the unconditional Requirement and the dependency-acceptance language in its Rationale and Assessment. The Assessment separately states that an admitted external agent cannot act when required operator information is missing. [Section 4](source/04-framework-core.md#4-the-framework-core-principles-and-controls) bases conformance on Requirements, requires every obligation to be met, and makes Rationale and Assessment informative.
+
+**Clarification needed:** Whether, and under what conditions, an accepted dependency gap can satisfy Control 2.5 for conformance, or must remain an unmet Requirement. An authoritative decision must reconcile the acceptance language with the Requirement.
+
+**Documentation treatment:** Preserve the complete control text. Do not treat sponsor acceptance as a confirmed exemption from the Requirement or extend dependency acceptance to admitted external agents. Review piece 8; audit finding U2, dependency-acceptance portion. Applicability is tracked separately in [G4](#g4-operator-of-record-applicability-to-dependencies).
