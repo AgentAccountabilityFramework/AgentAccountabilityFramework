@@ -26,6 +26,8 @@
 
 ### Changed
 
+- Logged the [operator-of-record applicability gap](SOURCE_GAPS.md#g4-operator-of-record-applicability-to-dependencies): [Control 2.5](source/principles/02-sponsor.md#control-2-5) includes internal-agent dependencies despite its External tag, while [Appendix A](source/appendices/a-terminology.md#scope-tag) limits that tag to external agents and the [Section 2 boundary rule](source/02-scope.md#boundary-of-management) also directs dependencies to an operator of record. Recorded the clarification needed; preserved the control Requirement and tag.
+
 - Logged the gap between the repository authoring convention and release evidence in [Source gaps](SOURCE_GAPS.md#g3-authoring-convention-and-release-evidence), citing the [source front matter](source/00-front-matter.md#agent-accountability), its [status section](source/00-front-matter.md#status-of-this-document), and [Section 8](source/08-framework-governance.md#8-framework-governance). Identified the authoritative decisions or successor source needed to support later release, governance, or licensing claims; preserved the authoring convention and source text.
 
 - Split two grouped citations in this changelog into separate links for [Sections 2](source/02-scope.md#2-scope), [3](source/03-terminology.md#3-terminology), and [4](source/04-framework-core.md#4-the-framework-core-principles-and-controls), so readers can reach each cited section. Historical event descriptions and framework requirements are unchanged.

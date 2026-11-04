@@ -37,3 +37,15 @@ This log records gaps reviewed during the accuracy report review. Each entry ide
 **Clarification needed:** An authoritative decision record or approved successor source establishing any subsequent release, governance arrangements, or license grant. If one exists, identify which source statements it supersedes and the intended treatment of status in derived pages.
 
 **Documentation treatment:** Preserve the current authoring convention and source transcription. Record the evidence limit without inferring a release, governance decision, or license grant. Review piece 6; audit finding U1.
+
+## G4. Operator-of-record applicability to dependencies
+
+**Status:** Open. Control 2.5's scope tag and dependency obligations remain unchanged.
+
+**Problem:** Control 2.5 is tagged External, but its Requirement also covers external tools and models used by agents the organization operates. The formal scope-tag definition says External applies to external agents only.
+
+**Evidence:** [Control 2.5](source/principles/02-sponsor.md#control-2-5) carries the External tag and requires an operator of record for both admitted external agents and external tool/model dependencies of internally operated agents. [Appendix A — Scope tag](source/appendices/a-terminology.md#scope-tag) limits External to external agents. The [Section 2 boundary rule](source/02-scope.md#boundary-of-management) also directs internally operated agents' uncontrolled dependencies to an operator of record under Control 2.5.
+
+**Clarification needed:** How the External tag applies to the dependency obligations in Control 2.5, and whether the tag, definition, or control structure needs an authoritative correction. The source supplies no explicit reconciliation of these passages.
+
+**Documentation treatment:** Preserve the complete Requirement and existing tag. Do not omit dependency obligations solely on the basis of the tag or silently retag the control. Review piece 7; audit finding U2, applicability portion. The separate dependency-acceptance question is reserved for its own review.
