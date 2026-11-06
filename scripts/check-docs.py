@@ -93,7 +93,7 @@ def check_repository(root):
     root = root.resolve()
     errors = []
     pages = sorted(path for path in root.rglob("*.md") if not any(
-        part in {".git", ".venv", "__pycache__", "source", "reports", "ACCURACY_AUDIT.md", "SOURCE_GAPS.md", "TODO.md"} for part in path.relative_to(root).parts
+        part in {".git", ".venv", "__pycache__", "source", "reports", "ACCURACY_AUDIT.md", "SOURCE_GAPS.md", "TODO.md", "source-links.md"} for part in path.relative_to(root).parts
     ))
     contents = {path: path.read_text(encoding="utf-8") for path in pages}
     page_anchors = {path: anchors(text) for path, text in contents.items()}

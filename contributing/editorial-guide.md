@@ -1,6 +1,6 @@
 # Editorial guide
 
-The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the [source link restoration record](../maintenance/source-links.md).
+The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the source link restoration record (maintained locally).
 Write for readers who may be new to the framework. Use direct, concise, vendor-neutral language, define unfamiliar terms, and explain the reason for a change. Prefer specific examples when they clarify a point, without implying that an example is a required implementation.
 
 ## Use the established voice

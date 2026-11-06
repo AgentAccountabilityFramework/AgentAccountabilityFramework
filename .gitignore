@@ -11,3 +11,7 @@ __pycache__/
 
 # Withdrawn internal AAF source (keep local copies private)
 /source/
+
+# Local source restoration records
+/maintenance/removed-source-links.json
+/maintenance/source-links.md

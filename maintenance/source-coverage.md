@@ -1,6 +1,6 @@
 # Source coverage
 
-The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the [source link restoration record](../maintenance/source-links.md).
+The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the source link restoration record (maintained locally).
 Authoring source: AAF Markdown source. All 42 original pages are transcribed; the provenance record identifies the original document and conversion conventions. Page numbers below refer to the original document.
 
 Internal status and unfinished source sections are recorded in the source. The framework contents and derived Section 5, Section 8, and Appendix B pages now state those limits explicitly. This is a status clarification; source text, control requirements, and definitions are unchanged.

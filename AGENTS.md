@@ -1,6 +1,6 @@
 # Repository instructions
 
-The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the [source link restoration record](maintenance/source-links.md).
+The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the source link restoration record (maintained locally).
 ## Source of truth
 
 While the source is withdrawn, source-reading and citation instructions below apply only when an authorized local copy is available. Do not require contributors to retrieve the internal draft, restore its links, or publish it. Defer source-dependent changes when no authorized source is available. Record future citation restoration in the restoration inventory.

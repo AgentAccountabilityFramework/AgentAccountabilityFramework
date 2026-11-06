@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- Withdrew the internal AAF source from the current Git revision and ignored `/source/`, preserving local copies. Removed 761 source links while retaining their labels; [the restoration inventory](maintenance/removed-source-links.json) records exact original locations and destinations for review against public AAF 1.0. See [restoration guidance](maintenance/source-links.md). Existing controls and definitions are unchanged apart from link markup. Updated [documentation checks](maintenance/checks.md) to validate links and framework structure without the private source; source fidelity checks are suspended. This does not remove source files from earlier Git history.
+- Made the restoration inventory and guidance local-only through [.gitignore](.gitignore), preserving local copies and removing repository links to those files. Updated [documentation checks](maintenance/checks.md) to exclude the local guidance. Earlier Git history is unchanged.
+
+- Withdrew the internal AAF source from the current Git revision and ignored `/source/`, preserving local copies. Removed 761 source links while retaining their labels; the restoration inventory (maintained locally) records exact original locations and destinations for review against public AAF 1.0. See restoration guidance (maintained locally). Existing controls and definitions are unchanged apart from link markup. Updated [documentation checks](maintenance/checks.md) to validate links and framework structure without the private source; source fidelity checks are suspended. This does not remove source files from earlier Git history.
 
 
 ### Added

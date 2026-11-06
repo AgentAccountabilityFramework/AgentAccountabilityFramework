@@ -1,6 +1,6 @@
 # Agent Accountability Framework
 
-The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the [source link restoration record](maintenance/source-links.md).
+The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the source link restoration record (maintained locally).
 The current AAF is an internal working document under review, ahead of public release (document status). Assessment methodology, framework governance, acknowledgments, and licensing remain unresolved.
 
 The Agent Accountability Framework (AAF) helps your organization establish who each AI agent is, who answers for it, what it may do, and how to stop it. It turns those questions into requirements you can test. You choose how to meet them (Purpose, Implementation Neutrality).

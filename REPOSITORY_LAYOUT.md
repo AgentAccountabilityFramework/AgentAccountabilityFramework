@@ -1,6 +1,6 @@
 # Repository layout
 
-The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the [source link restoration record](maintenance/source-links.md).
+The internal AAF source has been withdrawn from version control pending public AAF 1.0. Source links are suspended; existing derived content remains a working draft and has not been validated against 1.0. See the source link restoration record (maintained locally).
 The source/ directory holds the complete Markdown source used for repository authoring. The numbered files in [framework/](framework/) are derived pages following the same section order. Each principle gets its own page so its introduction and controls can be read and reviewed together. Contribution guides, maintainer procedures, and GitHub configuration are grouped separately for ease of navigation.
 
 ## Root
@@ -67,7 +67,7 @@ These pages explain the framework in its established voice and reproduce the com
 
 ## Contribution, maintenance, and automation
 
-The [restoration guide](maintenance/source-links.md) and [removed-link inventory](maintenance/removed-source-links.json) track suspended source citations.
+The restoration guide (maintained locally) and removed-link inventory (maintained locally) track suspended source citations.
 
 | Path | Purpose |
 | --- | --- |
