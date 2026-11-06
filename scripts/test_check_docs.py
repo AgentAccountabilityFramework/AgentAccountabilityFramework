@@ -19,7 +19,7 @@ class DocumentationChecks(unittest.TestCase):
         self.addCleanup(self.temporary.cleanup)
         self.root = Path(self.temporary.name) / "repo"
         shutil.copytree(REPOSITORY, self.root, ignore=shutil.ignore_patterns(
-            ".git", "*.pdf", "__pycache__", ".venv"
+            ".git", "*.pdf", "__pycache__", ".venv", "source"
         ))
 
     def errors(self):
@@ -52,13 +52,18 @@ class DocumentationChecks(unittest.TestCase):
         )
         self.assertEqual([], self.errors())
 
-    def test_changed_obligation_is_reported(self):
-        self.replace("framework/principles/01-identity.md", "Every agent has a unique identity", "Some agents have a unique identity")
-        self.assert_error("control 1.1: Requirement differs from source")
+    def test_withdrawn_source_link_is_reported_even_with_local_copy(self):
+        source = self.root / "source"
+        source.mkdir()
+        (source / "README.md").write_text("# Internal source\n", encoding="utf-8")
+        (self.root / "link-test.md").write_text("[Source](source/README.md)\n", encoding="utf-8")
+        self.assert_error("link to withdrawn source")
 
-    def test_wrong_but_valid_cross_reference_is_reported(self):
-        self.replace("framework/principles/01-identity.md", "#control-4-3", "#control-4-4")
-        self.assert_error("control 1.1: Requirement differs from source")
+    def test_local_source_is_excluded_from_checks(self):
+        source = self.root / "source"
+        source.mkdir()
+        (source / "README.md").write_text("[Private](absent.md)\n", encoding="utf-8")
+        self.assertEqual([], self.errors())
 
     def test_missing_control_and_scope_are_reported(self):
         self.replace("framework/principles/01-identity.md", "## Control 1.1 —", "## Control 1.9 —")
@@ -66,9 +71,9 @@ class DocumentationChecks(unittest.TestCase):
         self.assert_error("control IDs or order differ")
         self.assert_error("expected one valid Scope tag")
 
-    def test_changed_definition_is_reported(self):
-        self.replace("framework/appendices/a-terminology.md", "A category of agent actions", "A category of human actions")
-        self.assert_error("definition 'Action class' differs from source")
+    def test_missing_definition_is_reported(self):
+        self.replace("framework/appendices/a-terminology.md", "## Action class", "Action class")
+        self.assert_error("expected 37 definitions")
 
     def test_pdf_links_outside_source_are_reported(self):
         (self.root / "link-test.md").write_text("[Source](AAF.pdf)\n", encoding="utf-8")

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check local Markdown links and fidelity to the AAF source using only stdlib."""
+"""Check local Markdown links and framework structure using only stdlib."""
 
 import argparse
 import html
@@ -93,7 +93,7 @@ def check_repository(root):
     root = root.resolve()
     errors = []
     pages = sorted(path for path in root.rglob("*.md") if not any(
-        part in {".git", ".venv", "__pycache__"} for part in path.relative_to(root).parts
+        part in {".git", ".venv", "__pycache__", "source", "reports", "ACCURACY_AUDIT.md", "SOURCE_GAPS.md", "TODO.md"} for part in path.relative_to(root).parts
     ))
     contents = {path: path.read_text(encoding="utf-8") for path in pages}
     page_anchors = {path: anchors(text) for path, text in contents.items()}
@@ -116,6 +116,9 @@ def check_repository(root):
             except ValueError:
                 errors.append(f"{where}: link leaves the repository: {match[2]}")
                 continue
+            if filename == root / "source" or root / "source" in filename.parents:
+                errors.append(f"{where}: link to withdrawn source: {match[2]}")
+                continue
             if filename.suffix.lower() == ".pdf":
                 if name.parts[0] != "source":
                     errors.append(f"{where}: PDF link outside source/: {match[2]}")
@@ -137,7 +140,7 @@ def check_repository(root):
     for principle, (filename, count) in enumerate(PRINCIPLES, start=1):
         parsed = []
         expected = [f"{principle}.{number}" for number in range(1, count + 1)]
-        for directory in ("source", "framework"):
+        for directory in ("framework",):
             path, text = read_required(f"{directory}/principles/{filename}")
             blocks = list(sections(text, CONTROL))
             ids = [match[1] for match, _ in blocks]
@@ -158,19 +161,10 @@ def check_repository(root):
                         errors.append(f"{where}: empty or missing {field}")
                 controls[match[1]] = (match[2], scopes, values)
             parsed.append(controls)
-        source, framework = parsed
-        for identifier in source.keys() & framework.keys():
-            original, derived = source[identifier], framework[identifier]
-            where = f"framework/principles/{filename}: control {identifier}"
-            if original[:2] != derived[:2]:
-                errors.append(f"{where}: title or scope differs from source")
-            for field in FIELDS:
-                if original[2].get(field) != derived[2].get(field):
-                    errors.append(f"{where}: {field} differs from source")
-            control_count += 1
+        control_count += len(parsed[0])
 
     definitions = []
-    for directory in ("source", "framework"):
+    for directory in ("framework",):
         path, text = read_required(f"{directory}/appendices/a-terminology.md")
         entries = [(match[1], normalized(body, path, root)) for match, body in sections(
             text, re.compile(r"^## (.+)$", re.MULTILINE)
@@ -178,14 +172,11 @@ def check_repository(root):
         if len(entries) != 37:
             errors.append(f"{path.relative_to(root)}: expected 37 definitions, got {len(entries)}")
         definitions.append(entries)
-    if [term for term, _ in definitions[0]] != [term for term, _ in definitions[1]]:
-        errors.append("framework/appendices/a-terminology.md: definition names or order differ from source")
-    source_definitions = dict(definitions[0])
-    for term, definition in definitions[1]:
-        if not definition or definition != source_definitions.get(term):
-            errors.append(f"framework/appendices/a-terminology.md: definition {term!r} differs from source or is empty")
+    for term, definition in definitions[0]:
+        if not definition:
+            errors.append(f"framework/appendices/a-terminology.md: definition {term!r} is empty")
 
-    return errors, len(pages), link_count, control_count, len(definitions[1])
+    return errors, len(pages), link_count, control_count, len(definitions[0])
 
 
 def main():
@@ -199,7 +190,8 @@ def main():
         print(f"Documentation checks failed: {len(errors)} issue(s).", file=sys.stderr)
         return 1
     print(f"Checked {pages} Markdown pages, {links} local links, {controls} controls, and {definitions} definitions.")
-    print("Documentation checks passed. External sites and prose accuracy require review.")
+    print("Documentation checks passed. Source fidelity is unavailable while the internal source is withdrawn.")
+    print("External sites and prose accuracy require review.")
     return 0
 
 

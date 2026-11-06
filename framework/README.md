@@ -1,8 +1,8 @@
 # Framework contents
 
-These pages explain the current internal working document; they do not establish a public release. See the [source status](../source/00-front-matter.md#status-of-this-document).
+These pages explain the current internal working document; they do not establish a public release. See the source status.
 
-Start with Purpose and Scope, then read the core and its six principle pages. Each page links to the [Markdown source](../source/README.md), which is the reference for authoring and review.
+Start with Purpose and Scope, then read the core and its six principle pages. Each page links to the Markdown source, which is the reference for authoring and review.
 
 ## Start here
 
@@ -11,7 +11,7 @@ Start with Purpose and Scope, then read the core and its six principle pages. Ea
 3. [Terminology](03-terminology.md): a short introduction to frequently used terms.
 4. [Framework Core](04-framework-core.md): how to read the controls and decide which apply.
 
-The principles follow the three domains in [Section 4](../source/04-framework-core.md#4-the-framework-core-principles-and-controls). Read their controls with the [boundary rule](../source/02-scope.md#boundary-of-management) and [definitions](../source/appendices/a-terminology.md#appendix-a-terminology).
+The principles follow the three domains in Section 4. Read their controls with the boundary rule and definitions.
 
 ## Assign
 

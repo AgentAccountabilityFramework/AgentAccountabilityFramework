@@ -4,7 +4,7 @@ Thank you for helping improve the AAF. Questions, corrections, examples of ambig
 
 ## Find a starting point
 
-Read the [framework source](source/README.md) and the relevant sections and controls before proposing a change. The [repository layout](REPOSITORY_LAYOUT.md) explains where content belongs. If something is confusing, an issue describing what you tried to understand is useful on its own.
+Read the framework source and the relevant sections and controls before proposing a change. The [repository layout](REPOSITORY_LAYOUT.md) explains where content belongs. If something is confusing, an issue describing what you tried to understand is useful on its own.
 
 - **Correct an error:** identify the passage and explain the correction. For factual claims, provide a reliable source.
 - **Suggest a change or addition:** describe the problem, who it affects, and the outcome you propose. See [proposing changes](contributing/proposing-changes.md).

@@ -7,9 +7,9 @@ python3 scripts/check-docs.py
 git diff --check
 ```
 
-The checker uses Python 3 and its standard library. It checks that Markdown pages contain text, local inline links reach existing files or directories, and Markdown fragments name a heading or explicit anchor. It also compares all 45 controls and all 37 formal definitions with the source, including control IDs, titles, scope tags, field order, wording, and linked references.
+The checker uses Python 3 and its standard library. It checks that Markdown pages contain text, local inline links reach existing files or directories, and Markdown fragments name a heading or explicit anchor. It checks the 45 framework controls for IDs, order, scope tags, and complete Requirement, Rationale, and Assessment fields, and checks that all 37 definitions are present and nonempty.
 
-The original document is excluded from Git. Links to that file are allowed inside `source/` for provenance, so a fresh checkout can pass without it. Framework citations elsewhere must use the Markdown source.
+The internal source is withdrawn and excluded from checks even if a local copy exists; ignored local review reports and task notes are also excluded. Links to it are rejected. Source wording, titles, and reference fidelity cannot be validated until the approved public source is restored. See [source link restoration](source-links.md).
 
 These checks cover the Markdown syntax used in this repository: inline links, ATX headings, and explicit HTML anchors. They do not fetch external sites, assess the accuracy of explanatory prose, or establish AAF conformance. Review those points yourself against the relevant sources.
 

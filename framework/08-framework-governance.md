@@ -2,7 +2,7 @@
 
 [Framework contents](README.md) · [Previous: Relationship to Standards](07-relationship-to-standards.md) · [Next: Appendix A](appendices/a-terminology.md)
 
-Source: [Section 8: Framework Governance](../source/08-framework-governance.md#8-framework-governance).
+Source: Section 8: Framework Governance.
 
 The source marks this section as “to be developed” and describes internal review before publication. The governance model and mechanics of public contribution remain undefined.
 

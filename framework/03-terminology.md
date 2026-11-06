@@ -2,28 +2,28 @@
 
 [Framework contents](README.md) · [Previous: Scope](02-scope.md) · [Next: Framework Core](04-framework-core.md)
 
-These short explanations introduce terms you will encounter in the framework. For the full definitions used to interpret the controls, read [Appendix A](appendices/a-terminology.md). Those definitions have normative effect: they fix what the terms mean when you apply a requirement ([Section 3](../source/03-terminology.md#3-terminology), [Section 4](../source/04-framework-core.md#4-the-framework-core-principles-and-controls)).
+These short explanations introduce terms you will encounter in the framework. For the full definitions used to interpret the controls, read [Appendix A](appendices/a-terminology.md). Those definitions have normative effect: they fix what the terms mean when you apply a requirement (Section 3, Section 4).
 
 ## Agent Accountability
 
-The ability to establish, with evidence, what agent acted, on whose authority, within what bounds, and how it can be stopped. [Source](../source/00-front-matter.md#abstract).
+The ability to establish, with evidence, what agent acted, on whose authority, within what bounds, and how it can be stopped. Source.
 
 ## Agent Accountability Framework
 
-A framework of principles and testable controls for governing AI agents acting with delegated authority. [Source](../source/00-front-matter.md#abstract).
+A framework of principles and testable controls for governing AI agents acting with delegated authority. Source.
 
 ## Principle
 
-One of the framework's six top-level requirements. [Source](../source/appendices/a-terminology.md#principle).
+One of the framework's six top-level requirements. Source.
 
 ## Registry
 
-The authoritative record of agent identities, sponsors, owning teams, lifecycle status, and authorized tools and models. [Source](../source/appendices/a-terminology.md#registry).
+The authoritative record of agent identities, sponsors, owning teams, lifecycle status, and authorized tools and models. Source.
 
 ## Credentials
 
-Evidence an agent presents to authenticate as its identity, bound to that identity and the intended resource. [Source](../source/appendices/a-terminology.md#credential).
+Evidence an agent presents to authenticate as its identity, bound to that identity and the intended resource. Source.
 
 ## Identity
 
-The unique, durable identifier of an agent in the registry, distinct from every human user and every other agent. [Source](../source/appendices/a-terminology.md#agent-identity). [Principle](principles/01-identity.md).
+The unique, durable identifier of an agent in the registry, distinct from every human user and every other agent. Source. [Principle](principles/01-identity.md).

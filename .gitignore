@@ -8,3 +8,6 @@ __pycache__/
 
 # Local project tasks
 /TODO.md
+
+# Withdrawn internal AAF source (keep local copies private)
+/source/
