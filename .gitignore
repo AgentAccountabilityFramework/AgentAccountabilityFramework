@@ -9,8 +9,10 @@ __pycache__/
 # Local project tasks
 /TODO.md
 
-# Withdrawn internal AAF source (keep local copies private)
-/source/
+# Keep legacy source and local PDFs private. Track only the 1.0 release directory.
+/source/*
+!/source/v1.0/
+!/source/v1.0/AAF-1.0.pdf
 
 # Local source restoration records
 /maintenance/removed-source-links.json

@@ -4,7 +4,7 @@ Thank you for helping improve the AAF. Questions, corrections, examples of ambig
 
 ## Find a starting point
 
-Read the framework source and the relevant sections and controls before proposing a change. The [repository layout](REPOSITORY_LAYOUT.md) explains where content belongs. If something is confusing, an issue describing what you tried to understand is useful on its own.
+Read the [framework source](source/v1.0/README.md) and the relevant sections and controls before proposing a change. The [repository layout](REPOSITORY_LAYOUT.md) explains where content belongs. If something is confusing, an issue describing what you tried to understand is useful on its own.
 
 - **Correct an error:** identify the passage and explain the correction. For factual claims, provide a reliable source.
 - **Suggest a change or addition:** describe the problem, who it affects, and the outcome you propose. See [proposing changes](contributing/proposing-changes.md).
@@ -23,4 +23,4 @@ For general questions or matters that need a private conversation, email [admin@
 4. Update [CHANGELOG.md](CHANGELOG.md) under Unreleased and [source coverage](maintenance/source-coverage.md) when framework pages change. Run `python3 scripts/check-docs.py` and `git diff --check`. If you changed the checker, run its tests too; the [checks guide](maintenance/checks.md) explains how. Describe what you checked and any limitations in the pull request.
 5. Respond to review comments and update the proposal as needed. Maintainers may ask for revisions or decline a change; discussion of the reasons helps everyone understand the decision.
 
-See [repository governance](GOVERNANCE.md) for how repository review relates to governance of the framework itself. The [licensing note](LICENSE) records the terms the project still needs to establish. Only submit material you have permission to contribute.
+See [repository governance](GOVERNANCE.md) for how repository review relates to governance of the framework itself. The [license notice](LICENSE) describes the terms and scope of the framework license. Only submit material you have permission to contribute.

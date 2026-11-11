@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## Framework 1.0
+
+- Added the [AAF 1.0 PDF](source/v1.0/AAF-1.0.pdf) and its [versioned Markdown transcription and control index](source/v1.0/README.md).
+- Aligned framework [governance](framework/08-framework-governance.md), [acknowledgments](framework/appendices/b-acknowledgments.md), and [licensing](LICENSE) with the PDF. Updated publication and assessment status. The 45 controls, scope tags, and 37 definitions match the PDF.
+- Restored applicable citations to the 1.0 source and re-enabled automated comparison of complete control fields and definitions. Updated the [coverage map](maintenance/source-coverage.md) and release guidance.
+
+## Earlier repository work
+
 - Made the restoration inventory and guidance local-only through [.gitignore](.gitignore), preserving local copies and removing repository links to those files. Updated [documentation checks](maintenance/checks.md) to exclude the local guidance. Earlier Git history is unchanged.
 
 - Withdrew the internal AAF source from the current Git revision and ignored `/source/`, preserving local copies. Removed 761 source links while retaining their labels; the restoration inventory (maintained locally) records exact original locations and destinations for review against public AAF 1.0. See restoration guidance (maintained locally). Existing controls and definitions are unchanged apart from link markup. Updated [documentation checks](maintenance/checks.md) to validate links and framework structure without the private source; source fidelity checks are suspended. This does not remove source files from earlier Git history.
