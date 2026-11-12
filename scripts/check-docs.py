@@ -3,6 +3,7 @@
 
 import argparse
 import html
+import hashlib
 from pathlib import Path
 import re
 import sys
@@ -12,6 +13,9 @@ from urllib.parse import unquote, urlsplit
 LINK = re.compile(r'!?\[([^\]\n]+)\]\((<[^>\n]+>|[^\s()]*(?:\([^()]*\)[^\s()]*)*)(?:\s+"[^"]*")?\)')
 HEADING = re.compile(r"^#{1,6}\s+(.+?)\s*#*\s*$", re.MULTILINE)
 CONTROL = re.compile(r"^## Control (\d+\.\d+) — (.+)$", re.MULTILINE)
+RELEASE_SOURCE = Path("source/v1.0")
+RELEASE_PDF = RELEASE_SOURCE / "AAF-1.0.pdf"
+
 FIELDS = ("Requirement", "Rationale", "Assessment")
 PRINCIPLES = (
     ("01-identity.md", 5), ("02-sponsor.md", 5), ("03-role.md", 8),
@@ -92,9 +96,15 @@ def sections(text, pattern):
 def check_repository(root):
     root = root.resolve()
     errors = []
-    pages = sorted(path for path in root.rglob("*.md") if not any(
-        part in {".git", ".venv", "__pycache__", "source", "reports", "ACCURACY_AUDIT.md", "SOURCE_GAPS.md", "TODO.md", "source-links.md"} for part in path.relative_to(root).parts
-    ))
+    excluded = {".git", ".venv", "__pycache__", "reports", "ACCURACY_AUDIT.md", "SOURCE_GAPS.md", "TODO.md", "source-links.md"}
+
+    def is_documentation(path):
+        relative = path.relative_to(root)
+        if excluded.intersection(relative.parts):
+            return False
+        return relative.parts[0] != "source" or relative.is_relative_to(RELEASE_SOURCE)
+
+    pages = sorted(path for path in root.rglob("*.md") if is_documentation(path))
     contents = {path: path.read_text(encoding="utf-8") for path in pages}
     page_anchors = {path: anchors(text) for path, text in contents.items()}
     link_count = 0
@@ -116,14 +126,12 @@ def check_repository(root):
             except ValueError:
                 errors.append(f"{where}: link leaves the repository: {match[2]}")
                 continue
-            if filename == root / "source" or root / "source" in filename.parents:
+            if filename.is_relative_to(root / "source") and not filename.is_relative_to(root / RELEASE_SOURCE):
                 errors.append(f"{where}: link to withdrawn source: {match[2]}")
                 continue
-            if filename.suffix.lower() == ".pdf":
-                if name.parts[0] != "source":
-                    errors.append(f"{where}: PDF link outside source/: {match[2]}")
-                if name.parts[0] == "source" and filename == root / "AAF.pdf":
-                    continue  # Optional local provenance file, intentionally not committed.
+            if filename.suffix.lower() == ".pdf" and filename != root / RELEASE_PDF:
+                errors.append(f"{where}: PDF link outside the approved release: {match[2]}")
+                continue
             if not filename.exists():
                 errors.append(f"{where}: missing link target: {match[2]}")
             elif fragment and filename.suffix == ".md":
@@ -136,11 +144,19 @@ def check_repository(root):
             errors.append(f"{relative}: required page is missing")
         return path, contents.get(path, "")
 
+    _, index = read_required(RELEASE_SOURCE / "README.md")
+    pdf = root / RELEASE_PDF
+    checksum = re.search(r"PDF SHA-256: `([a-f0-9]{64})`", index)
+    if not pdf.is_file():
+        errors.append(f"{RELEASE_PDF}: release PDF is missing")
+    elif not checksum or hashlib.sha256(pdf.read_bytes()).hexdigest() != checksum[1]:
+        errors.append(f"{RELEASE_PDF}: PDF does not match the SHA-256 in the source index")
+
     control_count = 0
     for principle, (filename, count) in enumerate(PRINCIPLES, start=1):
         parsed = []
         expected = [f"{principle}.{number}" for number in range(1, count + 1)]
-        for directory in ("framework",):
+        for directory in ("framework", RELEASE_SOURCE):
             path, text = read_required(f"{directory}/principles/{filename}")
             blocks = list(sections(text, CONTROL))
             ids = [match[1] for match, _ in blocks]
@@ -161,10 +177,21 @@ def check_repository(root):
                         errors.append(f"{where}: empty or missing {field}")
                 controls[match[1]] = (match[2], scopes, values)
             parsed.append(controls)
-        control_count += len(parsed[0])
+        derived, source = parsed
+        for number in derived.keys() & source.keys():
+            title, scopes, fields = derived[number]
+            source_title, source_scopes, source_fields = source[number]
+            if title != source_title:
+                errors.append(f"control {number}: title differs from the release source")
+            if scopes != source_scopes:
+                errors.append(f"control {number}: Scope tag differs from the release source")
+            for field in FIELDS:
+                if fields.get(field) != source_fields.get(field):
+                    errors.append(f"control {number}: {field} differs from the release source")
+        control_count += len(derived)
 
     definitions = []
-    for directory in ("framework",):
+    for directory in ("framework", RELEASE_SOURCE):
         path, text = read_required(f"{directory}/appendices/a-terminology.md")
         entries = [(match[1], normalized(body, path, root)) for match, body in sections(
             text, re.compile(r"^## (.+)$", re.MULTILINE)
@@ -172,9 +199,15 @@ def check_repository(root):
         if len(entries) != 37:
             errors.append(f"{path.relative_to(root)}: expected 37 definitions, got {len(entries)}")
         definitions.append(entries)
-    for term, definition in definitions[0]:
+    derived_definitions, source_definitions = definitions
+    if [term for term, _ in derived_definitions] != [term for term, _ in source_definitions]:
+        errors.append("framework/appendices/a-terminology.md: definition terms or order differ from the release source")
+    source_by_term = dict(source_definitions)
+    for term, definition in derived_definitions:
         if not definition:
             errors.append(f"framework/appendices/a-terminology.md: definition {term!r} is empty")
+        if definition != source_by_term.get(term):
+            errors.append(f"framework/appendices/a-terminology.md: definition {term!r} differs from the release source")
 
     return errors, len(pages), link_count, control_count, len(definitions[0])
 
@@ -190,7 +223,7 @@ def main():
         print(f"Documentation checks failed: {len(errors)} issue(s).", file=sys.stderr)
         return 1
     print(f"Checked {pages} Markdown pages, {links} local links, {controls} controls, and {definitions} definitions.")
-    print("Documentation checks passed. Source fidelity is unavailable while the internal source is withdrawn.")
+    print("Documentation checks passed against the versioned release source.")
     print("External sites and prose accuracy require review.")
     return 0
 

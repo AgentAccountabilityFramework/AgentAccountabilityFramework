@@ -19,7 +19,7 @@ class DocumentationChecks(unittest.TestCase):
         self.addCleanup(self.temporary.cleanup)
         self.root = Path(self.temporary.name) / "repo"
         shutil.copytree(REPOSITORY, self.root, ignore=shutil.ignore_patterns(
-            ".git", "*.pdf", "__pycache__", ".venv", "source"
+            ".git", "__pycache__", ".venv"
         ))
 
     def errors(self):
@@ -34,7 +34,7 @@ class DocumentationChecks(unittest.TestCase):
     def assert_error(self, fragment):
         self.assertTrue(any(fragment in error for error in self.errors()), fragment)
 
-    def test_repository_without_provenance_pdf_passes(self):
+    def test_repository_with_approved_release_passes(self):
         self.assertEqual([], self.errors())
 
     def test_missing_target_and_anchor_are_reported(self):
@@ -54,14 +54,14 @@ class DocumentationChecks(unittest.TestCase):
 
     def test_withdrawn_source_link_is_reported_even_with_local_copy(self):
         source = self.root / "source"
-        source.mkdir()
+        source.mkdir(exist_ok=True)
         (source / "README.md").write_text("# Internal source\n", encoding="utf-8")
         (self.root / "link-test.md").write_text("[Source](source/README.md)\n", encoding="utf-8")
         self.assert_error("link to withdrawn source")
 
     def test_local_source_is_excluded_from_checks(self):
         source = self.root / "source"
-        source.mkdir()
+        source.mkdir(exist_ok=True)
         (source / "README.md").write_text("[Private](absent.md)\n", encoding="utf-8")
         self.assertEqual([], self.errors())
 
@@ -77,7 +77,19 @@ class DocumentationChecks(unittest.TestCase):
 
     def test_pdf_links_outside_source_are_reported(self):
         (self.root / "link-test.md").write_text("[Source](AAF.pdf)\n", encoding="utf-8")
-        self.assert_error("PDF link outside source/")
+        self.assert_error("PDF link outside the approved release")
+
+    def test_control_requirement_drift_is_reported(self):
+        self.replace("framework/principles/01-identity.md", "Every agent has a unique identity", "Some agents have a unique identity")
+        self.assert_error("control 1.1: Requirement differs from the release source")
+
+    def test_definition_drift_is_reported(self):
+        self.replace("framework/appendices/a-terminology.md", "A category of agent actions", "A list of agent actions")
+        self.assert_error("definition 'Action class' differs from the release source")
+
+    def test_changed_release_pdf_is_reported(self):
+        (self.root / CHECKER.RELEASE_PDF).write_bytes(b"different PDF")
+        self.assert_error("PDF does not match the SHA-256")
 
     def test_missing_required_page_is_reported(self):
         (self.root / "framework/principles/01-identity.md").unlink()
