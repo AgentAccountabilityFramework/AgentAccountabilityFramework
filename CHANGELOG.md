@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Retained only the opening paragraph of [Section 7](source/v1.0/07-relationship-to-standards.md), removing the named standards and following delegation discussion from the PDF and corresponding framework page.
+- Arranged Appendix B’s contributors in two columns in the [PDF](source/v1.0/AAF-1.0.pdf) and refreshed its checksum and source page references.
+
 ## Framework 1.0
 
 - Added the [AAF 1.0 PDF](source/v1.0/AAF-1.0.pdf) and its [versioned Markdown transcription and control index](source/v1.0/README.md).
@@ -63,7 +66,7 @@
 
 - Dropped the external-agent applicability flag from the accuracy report. The Section 2 boundary rule and Section 4 scope rules already explain that controls apply at the organization's boundary and Internal controls do not apply to external agents. Added the report as a review-in-progress record; remaining candidates still await review. No framework requirements changed.
 
-- Re-read the approved accuracy findings and trimmed the gap log to four supported points: the missing assessment method in Section 5, the tag and acceptance wording in 2.5, and the delegation Assessment wording in 4.3 alongside 4.14. Removed five flags that went beyond what the text supports, including the timing flags: 3.7 already covers emergency and hidden provider changes. Simplified the [conformance explanation](framework/05-conformance-and-assessment.md) and [delegation example](framework/07-relationship-to-standards.md#delegation-in-practice). Kept the confidentiality limit in 3.3, with no claim that publication requires public disclosure. Updated coverage and layout; source text and complete controls are unchanged.
+- Re-read the approved accuracy findings and trimmed the gap log to four supported points: the missing assessment method in Section 5, the tag and acceptance wording in 2.5, and the delegation Assessment wording in 4.3 alongside 4.14. Removed five flags that went beyond what the text supports, including the timing flags: 3.7 already covers emergency and hidden provider changes. Simplified the [conformance explanation](framework/05-conformance-and-assessment.md) and [delegation example](https://github.com/AgentAccountabilityFramework/AgentAccountabilityFramework/blob/669c9521f442e41a9600ab51d94fea8c22998b5a/framework/07-relationship-to-standards.md#delegation-in-practice). Kept the confidentiality limit in 3.3, with no claim that publication requires public disclosure. Updated coverage and layout; source text and complete controls are unchanged.
 
 - Logged the agent-delegation assessment conflict between the Requirements in Controls 4.3 and 4.14 and the blanket prohibition in 4.3's Assessment. Cited Delegation and Section 4, and recorded the need for corrected assessment wording; preserved controls and the existing authority bounds.
 
@@ -73,7 +76,7 @@
 
 - Split two grouped citations in this changelog into separate links for Sections 2, 3, and 4, so readers can reach each cited section. Historical event descriptions and framework requirements are unchanged.
 
-- Corrected the [delegation example](framework/07-relationship-to-standards.md#delegation-in-practice): a document or tool response can convey authenticated delegation from an authorized principal when captured in the record, following Control 4.6 and the authority bounds in Control 4.3. Updated [source coverage](maintenance/source-coverage.md#section-coverage). The medium alone does not determine whether a request confers authority; no control requirements changed.
+- Corrected the [delegation example](https://github.com/AgentAccountabilityFramework/AgentAccountabilityFramework/blob/669c9521f442e41a9600ab51d94fea8c22998b5a/framework/07-relationship-to-standards.md#delegation-in-practice): a document or tool response can convey authenticated delegation from an authorized principal when captured in the record, following Control 4.6 and the authority bounds in Control 4.3. Updated [source coverage](maintenance/source-coverage.md#section-coverage). The medium alone does not determine whether a request confers authority; no control requirements changed.
 
 - Created the source gap log to track reviewed items, with source references and a short explanation of what needs attention. Added it to the [repository layout](REPOSITORY_LAYOUT.md#root).
 

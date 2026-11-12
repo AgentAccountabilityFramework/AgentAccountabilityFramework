@@ -21,7 +21,7 @@ Start with the [front matter](00-front-matter.md), the [scope and boundary rule]
 | [principles/06-recourse.md](principles/06-recourse.md) | [34–38](AAF-1.0.pdf#page=34) |
 | [05-conformance-and-assessment.md](05-conformance-and-assessment.md) | [38](AAF-1.0.pdf#page=38) |
 | [06-implementation-neutrality.md](06-implementation-neutrality.md) | [38](AAF-1.0.pdf#page=38) |
-| [07-relationship-to-standards.md](07-relationship-to-standards.md) | [38–39](AAF-1.0.pdf#page=38) |
+| [07-relationship-to-standards.md](07-relationship-to-standards.md) | [38](AAF-1.0.pdf#page=38) |
 | [08-framework-governance.md](08-framework-governance.md) | [39](AAF-1.0.pdf#page=39) |
 | [appendices/a-terminology.md](appendices/a-terminology.md) | [40–45](AAF-1.0.pdf#page=40) |
 | [appendices/b-acknowledgments.md](appendices/b-acknowledgments.md) | [46](AAF-1.0.pdf#page=46) |
@@ -84,5 +84,5 @@ The Markdown preserves the release wording. It adds navigation, stable anchors, 
 
 - PDF title: Agent Accountability Framework 1.0
 - PDF length: 47 pages
-- PDF SHA-256: `64d99984a02f27cbd0bc0e716e757ae4896cde583d06fb8e587ff76113bd43be`
+- PDF SHA-256: `d1898d9e394c0f882515e5686fc22143b0ceaa17f68ca6c73b23d41af9afbbd4`
 - License: [CC BY-SA 4.0](../../LICENSE)

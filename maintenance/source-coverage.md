@@ -19,7 +19,7 @@ The [AAF 1.0 PDF](../source/v1.0/AAF-1.0.pdf) is the release reference. The [ver
 | Recourse | 34–38 | [Source](../source/v1.0/principles/06-recourse.md) | [Framework page](../framework/principles/06-recourse.md) |
 | Conformance and Assessment | 38 | [Source](../source/v1.0/05-conformance-and-assessment.md) | [Framework page](../framework/05-conformance-and-assessment.md) |
 | Implementation Neutrality | 38 | [Source](../source/v1.0/06-implementation-neutrality.md) | [Framework page](../framework/06-implementation-neutrality.md) |
-| Relationship to Existing Standards | 38–39 | [Source](../source/v1.0/07-relationship-to-standards.md) | [Framework page](../framework/07-relationship-to-standards.md) |
+| Relationship to Existing Standards | 38 | [Source](../source/v1.0/07-relationship-to-standards.md) | [Framework page](../framework/07-relationship-to-standards.md) |
 | Framework Governance | 39 | [Source](../source/v1.0/08-framework-governance.md) | [Framework page](../framework/08-framework-governance.md) |
 | Appendix A. Terminology | 40–45 | [Source](../source/v1.0/appendices/a-terminology.md) | [Framework page](../framework/appendices/a-terminology.md) |
 | Appendix B. Acknowledgments | 46 | [Source](../source/v1.0/appendices/b-acknowledgments.md) | [Framework page](../framework/appendices/b-acknowledgments.md) |
@@ -29,3 +29,5 @@ The [control index](../source/v1.0/README.md#control-index) maps all 45 control 
 Section 5 gives conformance guidance. The 1.0 PDF leaves formal assessment methodology and conformance keywords undefined. Section 8 records the contribution and review procedures and leaves the framework’s governing body, decision rights, and versioning process undefined. Appendix B lists 16 individual contributors and one acknowledgment. The [license notice](../LICENSE) records the framework’s CC BY-SA 4.0 terms.
 
 The [documentation checker](../scripts/check-docs.py) validates links and anchors and compares controls and definitions with the versioned source. See the [checks guide](checks.md) for its limits. Record future changes in the [changelog](../CHANGELOG.md) and update this map when coverage changes.
+
+The Section 7 text retains its opening paragraph. Named standards and the following delegation discussion were removed for 1.0. Appendix B presents the same 16 contributors in two columns in the PDF.
