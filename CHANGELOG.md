@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added [question and discussion guidance](CONTRIBUTING.md#ask-a-question-or-start-a-discussion) to the contribution guide, including GitHub Discussion submission steps, when to open a linked issue, and an email fallback while Discussions is disabled. No framework requirements changed.
+
 - Moved the contribution screenshots into [assets](assets/) with descriptive filenames and updated their links. Added [guidance for asking an AI agent to submit an issue](CONTRIBUTING.md#ask-an-ai-agent-to-submit-an-issue), including a reusable prompt, contributor review, and a fallback when the agent cannot submit. No framework requirements changed.
 
 - Kept the documentation correction and framework change proposal [issue templates](.github/ISSUE_TEMPLATE/) and removed the question template. Completed the [contribution guide](CONTRIBUTING.md) with issue-first reporting, notification settings, and pull request submission and validation instructions; aligned the [proposal guide](contributing/proposing-changes.md) and [repository layout](REPOSITORY_LAYOUT.md). General questions go to the published contact email. This changes repository contribution guidance only; the framework baseline and controls remain unchanged ([Section 8](source/v1.0/08-framework-governance.md)).

@@ -4,6 +4,18 @@ Corrections, reports of ambiguity, and framework change proposals are welcome; y
 
 ## How to contribute
 
+### Ask a question or start a discussion
+
+For a question about the framework or an open-ended conversation without a specific correction or change proposal, use GitHub Discussions when available:
+
+1. Open the repository's **Discussions** tab and check for an existing conversation on your topic.
+2. Select **New discussion** and choose the category that best fits.
+3. Add a descriptive title and your question or topic. Link the relevant framework passages and include enough context for others to respond, then select **Start discussion**.
+
+If the conversation identifies a concrete correction or framework change, open an issue using the appropriate template and link back to the discussion. See GitHub's [discussion guide](https://docs.github.com/en/discussions/quickstart#creating-a-new-discussion) for the submission steps.
+
+Discussions are currently disabled for this repository; maintainers need to enable them before the tab appears. Until then, send questions to [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org).
+
 ### First, create an issue
 
 Start with an issue so the problem and proposed approach can be discussed before you prepare an edit. Reporting an issue does not commit you to fixing it. Identify the affected files and passages, including line numbers or control IDs where relevant, and explain what needs to change and why.
@@ -29,7 +41,7 @@ Read the relevant [framework source](source/v1.0/README.md) before proposing a c
 
 Updates to the issue depend on your [GitHub notification settings](https://github.com/settings/notifications); see GitHub's [notification guide](https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications) to configure delivery. You can report a problem without submitting the edit yourself.
 
-**Issues and pull requests are public. Do not include confidential information, personal data, or sensitive details.**
+**Discussions, issues, and pull requests are public. Do not include confidential information, personal data, or sensitive details.**
 
 For general questions or matters that need a private conversation, email [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org). Send conduct reports to this address too, following the [Code of Conduct](CODE_OF_CONDUCT.md#reporting-a-concern).
 
