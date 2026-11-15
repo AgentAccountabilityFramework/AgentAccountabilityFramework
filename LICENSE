@@ -1,9 +1,15 @@
-Repository licensing decision
+Agent Accountability Framework 1.0
 
-Licensing terms for this repository have not been established.
-The source front matter records a proposed license; it does not establish
-licensing terms for the repository. This file does not grant a license.
+The AAF 1.0 specification is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0).
 
-The project needs to confirm the terms that apply to the framework text,
-supporting documentation, scripts, and contributed material, then replace
-this note with the approved terms.
+License summary: https://creativecommons.org/licenses/by-sa/4.0/
+License text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+This notice covers the 1.0 framework PDF, its Markdown transcription, and
+the framework text in framework/. Repository scripts, other supporting
+materials, and third-party materials are outside the scope of this notice
+unless they carry a separate license.
+
+For attribution, identify the work as Agent Accountability Framework 1.0.
+Contributor credits are in framework/appendices/b-acknowledgments.md.

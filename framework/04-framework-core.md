@@ -2,26 +2,26 @@
 
 [Framework contents](README.md) · [Previous: Terminology](03-terminology.md) · [Next: Identity](principles/01-identity.md)
 
-Source: Section 4: The Framework Core.
+Source: [Section 4: The Framework Core](../source/v1.0/04-framework-core.md#4-the-framework-core-principles-and-controls).
 
 The Framework Core sets the requirements used to assess agent accountability. Meeting these requirements is called conformance. The controls are organized into six principles. These sit in three groups, called domains.
 
 Sections 1–3 and 5–8 provide explanation and guidance, called informative material. Two parts outside the Core also determine how the requirements apply:
 
-- The Appendix A definitions fix what the terms in the controls mean.
-- The Section 2 boundary rule governs how you apply controls from within your organization's own boundary.
+- The [Appendix A definitions](../source/v1.0/appendices/a-terminology.md#appendix-a-terminology) fix what the terms in the controls mean.
+- The [Section 2 boundary rule](../source/v1.0/02-scope.md#boundary-of-management) governs how you apply controls from within your organization's own boundary.
 
 These have normative effect: you must use them when interpreting and applying a control.
 
 ## Domains and principles
 
-The principles follow the steps for admitting an agent to production. Each depends on the ones before it. If an earlier principle fails, verification of the later principles is no longer valid. For example, you cannot verify who answers for an agent until you can identify that agent (Principle 1: Identity).
+The principles follow the steps for admitting an agent to production. Each depends on the ones before it. If an earlier principle fails, verification of the later principles is no longer valid. For example, you cannot verify who answers for an agent until you can identify that agent ([Principle 1: Identity](../source/v1.0/principles/01-identity.md#principle-1-identity)).
 
 | Domain | Question | Principles in reading order |
 | --- | --- | --- |
-| Assign | Who is this, and who answers for it? | 1. [Identity](principles/01-identity.md); 2. [Sponsor](principles/02-sponsor.md) |
-| Align | What is it for, and what may it do? | 3. [Role](principles/03-role.md); 4. [Authority](principles/04-authority.md) |
-| Account | Is it doing what we expect, and what happens when it isn't? | 5. [Oversight](principles/05-oversight.md); 6. [Recourse](principles/06-recourse.md) |
+| [Assign](../source/v1.0/principles/01-identity.md#principle-1-identity) | Who is this, and who answers for it? | 1. [Identity](principles/01-identity.md); 2. [Sponsor](principles/02-sponsor.md) |
+| [Align](../source/v1.0/principles/03-role.md#principle-3-role) | What is it for, and what may it do? | 3. [Role](principles/03-role.md); 4. [Authority](principles/04-authority.md) |
+| [Account](../source/v1.0/principles/05-oversight.md#principle-5-oversight) | Is it doing what we expect, and what happens when it isn't? | 5. [Oversight](principles/05-oversight.md); 6. [Recourse](principles/06-recourse.md) |
 
 ## How to read a control
 
@@ -41,11 +41,11 @@ Within each principle, controls follow a common progression:
 - **Enforcement:** Your systems enforce the requirement in operation.
 - **Lifecycle:** The requirement continues to be met as your organization changes.
 
-A number in parentheses, such as (1.2), points to a control. References to sections include the word “Section.”
+A number in parentheses, such as ([1.2](../source/v1.0/principles/01-identity.md#control-1-2)), points to a control. References to sections include the word “Section.”
 
 ## Scope tags and the organizational boundary
 
-Each control has a Scope tag that tells you which agents it applies to. Your agent estate includes all agents operating in or on behalf of your organization.
+Each control has a [Scope tag](../source/v1.0/appendices/a-terminology.md#scope-tag) that tells you which agents it applies to. Your [agent estate](../source/v1.0/appendices/a-terminology.md#estate) includes all agents operating in or on behalf of your organization.
 
 | Scope tag | Applies to |
 | --- | --- |
@@ -55,7 +55,7 @@ Each control has a Scope tag that tells you which agents it applies to. Your age
 
 Your organization must meet every control whose Scope tag includes the agent. A Generic control may explicitly limit one of its clauses to agents you operate. Assess that clause only for those agents. Internal controls do not apply to external agents; your organization addresses the resulting gaps through controls at its own boundary.
 
-Every control is met from within your organization's own boundary. You do not need authority over another operator's people or systems. Where you cannot apply a control directly to an external agent, tool, or model, apply it to what crosses your boundary and to the relationship with its operator, and hold that operator to an agreement. This is the Section 2 boundary rule.
+Every control is met from within your organization's own boundary. You do not need authority over another operator's people or systems. Where you cannot apply a control directly to an external agent, tool, or model, apply it to what crosses your boundary and to the relationship with its operator, and hold that operator to an agreement. This is the [Section 2 boundary rule](../source/v1.0/02-scope.md#boundary-of-management).
 
 ## Consequence and reach
 
@@ -63,7 +63,7 @@ An agent's behavior can change after deployment. Its model or the content it pro
 
 The framework therefore assigns no risk tier to agents and does not assume they will behave as people would. It uses two things to set the level of oversight and the limits on authority:
 
-- **Action classes** group actions with similar consequences and a common approach to authorization and recourse (Appendix A: Action class). Rate each class by consequence under Control 5.3.
-- **Declared reach** lists the systems, data domains, and external parties an agent can affect using its authority (Appendix A: Reach). Record this reach in the agent's role under Control 3.1.
+- **Action classes** group actions with similar consequences and a common approach to authorization and recourse ([Appendix A: Action class](../source/v1.0/appendices/a-terminology.md#action-class)). Rate each class by consequence under [Control 5.3](../source/v1.0/principles/05-oversight.md#control-5-3).
+- **Declared reach** lists the systems, data domains, and external parties an agent can affect using its authority ([Appendix A: Reach](../source/v1.0/appendices/a-terminology.md#reach)). Record this reach in the agent's role under [Control 3.1](../source/v1.0/principles/03-role.md#control-3-1).
 
 Consequence and reach do not change which controls apply; the Scope tags still determine that. If rules your organization must follow classify systems by use case, record how those classifications map to action classes and declared reach.

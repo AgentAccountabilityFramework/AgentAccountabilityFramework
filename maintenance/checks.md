@@ -9,7 +9,7 @@ git diff --check
 
 The checker uses Python 3 and its standard library. It checks that Markdown pages contain text, local inline links reach existing files or directories, and Markdown fragments name a heading or explicit anchor. It checks the 45 framework controls for IDs, order, scope tags, and complete Requirement, Rationale, and Assessment fields, and checks that all 37 definitions are present and nonempty.
 
-The internal source is withdrawn and excluded from checks even if a local copy exists; ignored local review reports and task notes are also excluded. Links to it are rejected. Source wording, titles, and reference fidelity cannot be validated until the approved public source is restored. See source link restoration (maintained locally).
+The checker compares the complete control fields, scope tags, titles, and definitions in the framework pages with the [versioned Markdown source](../source/v1.0/README.md). It verifies the release PDF against the SHA-256 recorded in that index. Older local source, review reports, and task notes are excluded, and links to older source files are rejected.
 
 These checks cover the Markdown syntax used in this repository: inline links, ATX headings, and explicit HTML anchors. They do not fetch external sites, assess the accuracy of explanatory prose, or establish AAF conformance. Review those points yourself against the relevant sources.
 

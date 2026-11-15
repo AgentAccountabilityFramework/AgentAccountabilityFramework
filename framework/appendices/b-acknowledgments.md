@@ -2,10 +2,25 @@
 
 [Framework contents](../README.md) · [Previous: Appendix A](a-terminology.md)
 
-Source: Appendix B: Acknowledgments.
+Source: [Appendix B. Acknowledgments](../../source/v1.0/appendices/b-acknowledgments.md#appendix-b-acknowledgments).
 
-The source appendix is an unfinished placeholder for reviewers and contributors.
+The Agent Accountability Framework thanks the following individual contributors:
 
-The source identifies **Tim Tyler** as editor and **Gravitee** as steward in its front matter.
+- [Rory Blundell](https://www.linkedin.com/in/rory-blundell-a7545832/)
+- [Linus Hakansson](https://www.linkedin.com/in/linushakansson/)
+- [Tim Tyler](https://www.linkedin.com/in/tim-tyler-co/)
+- [John Gren](https://www.linkedin.com/in/johngren/)
+- [Sam Prodger](https://www.linkedin.com/in/drsamprodger/)
+- [Jonathan Michaux](https://www.linkedin.com/in/jmcx/)
+- [Cole Howard](https://www.linkedin.com/in/cole-howard-892b54115/)
+- [Firas Abou-Shamalah](https://www.linkedin.com/in/firas-ab/)
+- Marc Magnin
+- Mateusz Adamek
+- Uzma Mahmood
+- David Brassely
+- Elesh Mistry
+- Garrett Cole
+- Kay James
+- Chris Coleman
 
-Appendix B provides a place to credit reviewers and contributors. The source does not name additional people in this appendix. Confirmed additions and corrections to attribution can be proposed through the [contribution guide](../../CONTRIBUTING.md).
+Thank you to Gravitee for its support of the framework.

@@ -1,8 +1,8 @@
 # Framework contents
 
-These pages explain the current internal working document; they do not establish a public release. See the source status.
+These pages explain [Agent Accountability Framework 1.0](../source/v1.0/AAF-1.0.pdf).
 
-Start with Purpose and Scope, then read the core and its six principle pages. Each page links to the Markdown source, which is the reference for authoring and review.
+Start with Purpose and Scope, then read the core and its six principle pages. Each page links to the [Markdown source](../source/v1.0/README.md), which is the reference for authoring and review.
 
 ## Start here
 
@@ -11,7 +11,7 @@ Start with Purpose and Scope, then read the core and its six principle pages. Ea
 3. [Terminology](03-terminology.md): a short introduction to frequently used terms.
 4. [Framework Core](04-framework-core.md): how to read the controls and decide which apply.
 
-The principles follow the three domains in Section 4. Read their controls with the boundary rule and definitions.
+The principles follow the three domains in [Section 4](../source/v1.0/04-framework-core.md#4-the-framework-core-principles-and-controls). Read their controls with the [boundary rule](../source/v1.0/02-scope.md#boundary-of-management) and [definitions](../source/v1.0/appendices/a-terminology.md#appendix-a-terminology).
 
 ## Assign
 
@@ -33,10 +33,11 @@ The principles follow the three domains in Section 4. Read their controls with t
 5. [Conformance and Assessment](05-conformance-and-assessment.md): what a conformance claim covers and what evidence supports it.
 6. [Implementation Neutrality](06-implementation-neutrality.md): how the framework leaves implementation choices to you.
 7. [Relationship to Existing Standards](07-relationship-to-standards.md): how other standards and guidance relate to the framework.
-8. [Framework Governance](08-framework-governance.md): stewardship and how to propose changes.
+8. [Framework Governance](08-framework-governance.md): how to contribute, how proposals are reviewed, and how repository releases are handled.
 
 ## Reference
 
+- [Control index](../source/v1.0/README.md#control-index): all 45 controls and scope tags.
 - [Appendix A: Terminology](appendices/a-terminology.md): all 37 definitions used by the controls.
-- [Appendix B: Acknowledgments](appendices/b-acknowledgments.md): source credits and how to submit a correction.
+- [Appendix B: Acknowledgments](appendices/b-acknowledgments.md): individual contributors and acknowledgment.
 - [Source coverage](../maintenance/source-coverage.md): how each page relates to the source.
