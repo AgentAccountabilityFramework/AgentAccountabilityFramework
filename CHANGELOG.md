@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Updated the [contribution guide](CONTRIBUTING.md#ask-a-question-or-start-a-discussion) now that GitHub Discussions is enabled: linked the live forum, identified the question and conversation categories, and removed the disabled-feature notice. No framework requirements changed.
+
 - Added [question and discussion guidance](CONTRIBUTING.md#ask-a-question-or-start-a-discussion) to the contribution guide, including GitHub Discussion submission steps, when to open a linked issue, and an email fallback while Discussions is disabled. No framework requirements changed.
 
 - Moved the contribution screenshots into [assets](assets/) with descriptive filenames and updated their links. Added [guidance for asking an AI agent to submit an issue](CONTRIBUTING.md#ask-an-ai-agent-to-submit-an-issue), including a reusable prompt, contributor review, and a fallback when the agent cannot submit. No framework requirements changed.

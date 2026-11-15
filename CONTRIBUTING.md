@@ -6,15 +6,13 @@ Corrections, reports of ambiguity, and framework change proposals are welcome; y
 
 ### Ask a question or start a discussion
 
-For a question about the framework or an open-ended conversation without a specific correction or change proposal, use GitHub Discussions when available:
+For a question about the framework or an open-ended conversation without a specific correction or change proposal, use [GitHub Discussions](https://github.com/AgentAccountabilityFramework/AgentAccountabilityFramework/discussions):
 
 1. Open the repository's **Discussions** tab and check for an existing conversation on your topic.
-2. Select **New discussion** and choose the category that best fits.
+2. Select **New discussion**. Choose **Q&A** for questions, **General** for open conversations, or **Ideas** to explore a possible improvement.
 3. Add a descriptive title and your question or topic. Link the relevant framework passages and include enough context for others to respond, then select **Start discussion**.
 
 If the conversation identifies a concrete correction or framework change, open an issue using the appropriate template and link back to the discussion. See GitHub's [discussion guide](https://docs.github.com/en/discussions/quickstart#creating-a-new-discussion) for the submission steps.
-
-Discussions are currently disabled for this repository; maintainers need to enable them before the tab appears. Until then, send questions to [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org).
 
 ### First, create an issue
 
