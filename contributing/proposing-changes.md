@@ -1,6 +1,6 @@
 # Proposing changes
 
-Start with an issue for a question or a substantial proposal, or open a focused pull request for an edit. Link the relevant [source](../source/v1.0/README.md) passage and explain:
+Start with a documentation correction or framework change proposal issue before preparing an edit. For general questions, email [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org). Link the relevant [source](../source/v1.0/README.md) passage and explain:
 
 - What problem or ambiguity you found, and who it affects.
 - The current text, your proposed outcome or wording, and why it helps.

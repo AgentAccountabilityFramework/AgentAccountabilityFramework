@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Kept the documentation correction and framework change proposal [issue templates](.github/ISSUE_TEMPLATE/) and removed the question template. Completed the [contribution guide](CONTRIBUTING.md) with issue-first reporting, notification settings, and pull request submission and validation instructions; aligned the [proposal guide](contributing/proposing-changes.md) and [repository layout](REPOSITORY_LAYOUT.md). General questions go to the published contact email. This changes repository contribution guidance only; the framework baseline and controls remain unchanged ([Section 8](source/v1.0/08-framework-governance.md)).
+
 - Retained only the opening paragraph of [Section 7](source/v1.0/07-relationship-to-standards.md), removing the named standards and following delegation discussion from the PDF and corresponding framework page.
 - Arranged Appendix B’s contributors in two columns in the [PDF](source/v1.0/AAF-1.0.pdf) and refreshed its checksum and source page references.
 

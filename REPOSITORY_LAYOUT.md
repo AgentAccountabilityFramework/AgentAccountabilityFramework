@@ -82,7 +82,7 @@ Earlier source drafts and restoration records remain local.
 | [scripts/check-docs.py](scripts/check-docs.py) | Local links and anchors, plus comparison of complete controls and definitions with the source. |
 | [scripts/test_check_docs.py](scripts/test_check_docs.py) | Regression tests for the documentation checker. |
 | [.github/CODEOWNERS](.github/CODEOWNERS) | Instructions for adding review assignments once GitHub users or teams are confirmed. |
-| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | Templates for corrections, framework proposals, and questions. |
+| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | Templates for documentation corrections and framework change proposals. |
 | [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) | Standard information requested from pull-request authors. |
 | [.github/workflows/check-docs.yml](.github/workflows/check-docs.yml) | Runs the local documentation checks on proposed changes. |
 
