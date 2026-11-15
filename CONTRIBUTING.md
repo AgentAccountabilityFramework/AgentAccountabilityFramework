@@ -12,11 +12,11 @@ Read the relevant [framework source](source/v1.0/README.md) before proposing a c
 
 1. Open the **Issues** tab in the repository navigation.
 
-   ![The Issues tab in GitHub navigation](image.png)
+   ![The Issues tab in GitHub navigation](assets/github-issues-tab.png)
 
 2. Select **New issue**.
 
-   ![The New issue button in the Issues tab](image-1.png)
+   ![The New issue button in the Issues tab](assets/github-new-issue-button.png)
 
 3. Choose the template that fits your contribution:
 
@@ -32,6 +32,16 @@ Updates to the issue depend on your [GitHub notification settings](https://githu
 **Issues and pull requests are public. Do not include confidential information, personal data, or sensitive details.**
 
 For general questions or matters that need a private conversation, email [admin@agentaccountabilityframework.org](mailto:admin@agentaccountabilityframework.org). Send conduct reports to this address too, following the [Code of Conduct](CODE_OF_CONDUCT.md#reporting-a-concern).
+
+### Ask an AI agent to submit an issue
+
+Give the agent the repository URL, the passage or files involved, and your description of the problem or proposed outcome. Ask it to read the relevant [framework source](source/v1.0/README.md), check for an existing issue, and use the [documentation correction](.github/ISSUE_TEMPLATE/documentation.md) or [framework change proposal](.github/ISSUE_TEMPLATE/proposal.md) template. Follow the [AI-assisted contributions guide](contributing/ai-assisted-contributions.md); you remain responsible for the issue and responses to reviewers.
+
+For example:
+
+> Prepare an issue in [repository URL] about [problem or proposed change]. Read the contribution guide and relevant source passages, check for an existing issue, and use the appropriate issue template. Include the affected files, passages or control IDs, supporting evidence, and proposed outcome. Keep proposed requirements distinct from the current framework. Show me the title and body for review before submitting. After I approve, submit the issue and return its URL. Leave assignees, labels, projects, and milestones unset.
+
+Review the draft for accuracy and sensitive information before authorizing submission. The agent needs access to a GitHub account with permission to open the issue. If it cannot submit, use its reviewed title and body to create the issue yourself through the steps above.
 
 ### Open a pull request
 
